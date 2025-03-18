@@ -1216,3 +1216,45 @@ Computer:
 		Memory peak:         11.18 MiB
 
 Inventoried assets: Computer #8
+2025-03-18 14:02:48 [@SRVSN024]
+Computer:
+	prepare:
+		Execution time:      0.0006 sekunder
+		Memory usage:        3.01 MiB
+		Memory usage (real): 6 MiB
+		Memory peak:         3.7 MiB
+
+	handle:
+		Execution time:      0.12319 sekunder
+		Memory usage:        4 MiB
+		Memory usage (real): 6 MiB
+		Memory peak:         4.38 MiB
+
+	full:
+		Execution time:      0.22176 sekunder
+		Memory usage:        4 MiB
+		Memory usage (real): 6 MiB
+		Memory peak:         4.38 MiB
+
+Inventoried assets: Computer #9
+2025-03-18 14:15:09 [@SRVSN024]
+Computer:
+	prepare:
+		Execution time:      0.00258 sekunder
+		Memory usage:        3.34 MiB
+		Memory usage (real): 8 MiB
+		Memory peak:         7.61 MiB
+
+	handle:
+		Execution time:      0.25837 sekunder
+		Memory usage:        4.96 MiB
+		Memory usage (real): 8 MiB
+		Memory peak:         7.61 MiB
+
+	full:
+		Execution time:      0.39987 sekunder
+		Memory usage:        4.94 MiB
+		Memory usage (real): 8 MiB
+		Memory peak:         7.61 MiB
+
+Inventoried assets: Computer #11
