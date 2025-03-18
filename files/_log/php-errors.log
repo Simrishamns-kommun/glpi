@@ -1,0 +1,1728 @@
+[2024-11-18 13:50:10] glpiphplog.WARNING: Test logger  
+[2024-11-18 13:52:06] glpiphplog.WARNING: Test logger  
+[2024-11-18 13:53:06] glpiphplog.WARNING: Test logger  
+[2024-11-18 13:53:26] glpiphplog.WARNING: Test logger  
+[2024-11-18 13:53:57] glpiphplog.WARNING: Test logger  
+[2024-11-18 13:59:13] glpiphplog.WARNING: Test logger  
+[2024-11-18 14:00:52] glpiphplog.WARNING: Test logger  
+[2024-11-18 14:03:32] glpiphplog.WARNING: Test logger  
+[2024-11-18 14:04:25] glpiphplog.WARNING: Test logger  
+[2024-11-18 14:07:04] glpiphplog.WARNING: Test logger  
+[2024-11-18 14:08:30] glpiphplog.WARNING: Test logger  
+[2024-11-18 14:10:49] glpiphplog.WARNING: Test logger  
+[2024-11-18 14:12:00] glpiphplog.WARNING:   *** PHP User Warning (512): Cache directory "C:\glpi/files/_cache/templates" is not writeable. in C:\glpi\src\Application\View\TemplateRenderer.php at line 92
+  Backtrace :
+  src\Application\View\TemplateRenderer.php:92       trigger_error()
+  src\Application\View\TemplateRenderer.php:135      Glpi\Application\View\TemplateRenderer->__construct()
+  install\install.php:163                            Glpi\Application\View\TemplateRenderer::getInstance()
+  install\install.php:606                            step2()
+  public\index.php:82                                require()
+  
+[2024-11-18 14:14:58] glpiphplog.WARNING: Test logger  
+[2024-11-18 14:15:02] glpiphplog.WARNING:   *** PHP User Warning (512): Cache directory "C:\glpi/files/_cache/templates" is not writeable. in C:\glpi\src\Application\View\TemplateRenderer.php at line 92
+  Backtrace :
+  src\Application\View\TemplateRenderer.php:92       trigger_error()
+  src\Application\View\TemplateRenderer.php:135      Glpi\Application\View\TemplateRenderer->__construct()
+  install\install.php:163                            Glpi\Application\View\TemplateRenderer::getInstance()
+  install\install.php:606                            step2()
+  public\index.php:82                                require()
+  
+[2024-11-18 14:18:19] glpiphplog.WARNING: Test logger  
+[2024-11-27 15:22:37] glpiphplog.WARNING: Failed to save key "{key}" of type int: rename(C:\glpi\files\_cache\core\ddf208929d94,C:\glpi\files\_cache\core\T\U\thaNuagapfR53tvWIAyA): Access is denied (code: 5) {"key":"bec9df3446ee24068c694e035294bb9e72f6435d","exception":"[object] (ErrorException(code: 0): rename(C:\\glpi\\files\\_cache\\core\\ddf208929d94,C:\\glpi\\files\\_cache\\core\\T\\U\\thaNuagapfR53tvWIAyA): Access is denied (code: 5) at C:\\glpi\\vendor\\symfony\\cache\\Traits\\FilesystemCommonTrait.php:117)","cache-adapter":"Symfony\\Component\\Cache\\Adapter\\FilesystemAdapter"} 
+[2025-02-17 13:00:32] glpiphplog.WARNING: Test logger  
+[2025-02-17 13:00:45] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\Toolbox.php:1456                               Toolbox::callCurl()
+  src\Toolbox.php:1173                               Toolbox::getURLContent()
+  front\config.form.php:46                           Toolbox::checkNewVersionAvailable()
+  public\index.php:82                                require()
+  
+[2025-02-17 13:00:49] glpiphplog.WARNING: Test logger  
+[2025-02-17 13:01:14] glpiphplog.WARNING: Test logger  
+[2025-02-17 14:10:14] glpiphplog.WARNING: Test logger  
+[2025-02-17 14:36:29] glpiphplog.WARNING: Test logger  
+[2025-02-17 14:36:33] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\GLPINetwork.php:81                             GLPINetwork::isServicesAvailable()
+  src\GLPINetwork.php:50                             GLPINetwork::showForConfig()
+  src\CommonGLPI.php:694                             GLPINetwork::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-02-17 14:38:47] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:219                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:124                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-02-17 14:39:25] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:219                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:124                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-02-17 14:39:30] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:277                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:128                       Glpi\Marketplace\View::discover()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-02-17 14:40:37] glpiphplog.WARNING: Test logger  
+[2025-03-10 09:12:38] glpiphplog.CRITICAL:   *** PHP Error (1): Maximum execution time of 30 seconds exceeded in C:\glpi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php at line 45  
+[2025-03-10 09:46:05] glpiphplog.WARNING: Test logger  
+[2025-03-10 09:47:16] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\GLPINetwork.php:81                             GLPINetwork::isServicesAvailable()
+  src\GLPINetwork.php:50                             GLPINetwork::showForConfig()
+  src\CommonGLPI.php:694                             GLPINetwork::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-10 14:03:22] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\GLPINetwork.php:81                             GLPINetwork::isServicesAvailable()
+  src\GLPINetwork.php:50                             GLPINetwork::showForConfig()
+  src\CommonGLPI.php:694                             GLPINetwork::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 08:00:54] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:07:17] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:09:27] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:11:37] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:15:20] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:15:50] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:19:44] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:20:30] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:20:43] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:22:33] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:22:59] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:23:49] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:23:54] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:24:02] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:24:57] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:26:52] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:26:59] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:28:20] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\Toolbox.php:1456                               Toolbox::callCurl()
+  src\Toolbox.php:1173                               Toolbox::getURLContent()
+  front\config.form.php:46                           Toolbox::checkNewVersionAvailable()
+  public\index.php:82                                require()
+  
+[2025-03-11 10:28:23] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:28:39] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:29:15] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\GLPINetwork.php:81                             GLPINetwork::isServicesAvailable()
+  src\GLPINetwork.php:50                             GLPINetwork::showForConfig()
+  src\CommonGLPI.php:694                             GLPINetwork::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 10:30:26] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:219                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:124                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 10:31:22] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\GLPINetwork.php:81                             GLPINetwork::isServicesAvailable()
+  src\GLPINetwork.php:50                             GLPINetwork::showForConfig()
+  src\CommonGLPI.php:694                             GLPINetwork::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 10:31:24] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:32:15] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:32:19] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:32:26] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:35:31] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:35:36] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:36:07] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:36:15] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:36:38] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:37:48] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:39:01] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:39:07] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:39:31] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:40:57] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:42:48] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:43:03] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:44:15] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:45:50] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:50:55] glpiphplog.WARNING: Test logger  
+[2025-03-11 10:53:49] glpiphplog.WARNING: Test logger  
+[2025-03-11 11:30:13] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:219                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:124                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:32:47] glpiphplog.WARNING: Test logger  
+[2025-03-11 11:32:50] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\GLPINetwork.php:81                             GLPINetwork::isServicesAvailable()
+  src\GLPINetwork.php:50                             GLPINetwork::showForConfig()
+  src\CommonGLPI.php:694                             GLPINetwork::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:33:59] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\Toolbox.php:1456                               Toolbox::callCurl()
+  src\Toolbox.php:1173                               Toolbox::getURLContent()
+  front\config.form.php:46                           Toolbox::checkNewVersionAvailable()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:34:03] glpiphplog.WARNING: Test logger  
+[2025-03-11 11:40:40] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:219                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:124                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:49:29] glpiphplog.WARNING: Test logger  
+[2025-03-11 11:49:36] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\GLPINetwork.php:81                             GLPINetwork::isServicesAvailable()
+  src\GLPINetwork.php:50                             GLPINetwork::showForConfig()
+  src\CommonGLPI.php:694                             GLPINetwork::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:56:23] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `^(sys|information_schema|pg_.*|mysql|performance_schema|master|tempdb|msdb|model).*`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1696                                  Rule->checkCriteria()
+  src\Rule.php:2212                                  Rule->testCriterias()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:56:23] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `^(sys|information_schema|pg_.*|mysql|performance_schema|master|tempdb|msdb|model).*`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1651                                  Rule->checkCriteria()
+  src\Rule.php:1534                                  Rule->checkCriterias()
+  src\Rule.php:2214                                  Rule->process()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:56:41] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `^(sys|information_schema|pg_.*|mysql|performance_schema|master|tempdb|msdb|model).*`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1696                                  Rule->checkCriteria()
+  src\Rule.php:2212                                  Rule->testCriterias()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:56:41] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `^(sys|information_schema|pg_.*|mysql|performance_schema|master|tempdb|msdb|model).*`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1651                                  Rule->checkCriteria()
+  src\Rule.php:1534                                  Rule->checkCriterias()
+  src\Rule.php:2214                                  Rule->process()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:57:03] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `^(sys|information_schema|pg_.*|mysql|performance_schema|master|tempdb|msdb|model).*`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1696                                  Rule->checkCriteria()
+  src\Rule.php:2212                                  Rule->testCriterias()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:57:03] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `^(sys|information_schema|pg_.*|mysql|performance_schema|master|tempdb|msdb|model).*`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1651                                  Rule->checkCriteria()
+  src\Rule.php:1534                                  Rule->checkCriterias()
+  src\Rule.php:2214                                  Rule->process()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:57:28] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `^(sys|information_schema|pg_.*|mysql|performance_schema|master|tempdb|msdb|model).*`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1696                                  Rule->checkCriteria()
+  src\Rule.php:2212                                  Rule->testCriterias()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:57:28] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `^(sys|information_schema|pg_.*|mysql|performance_schema|master|tempdb|msdb|model).*`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1651                                  Rule->checkCriteria()
+  src\Rule.php:1534                                  Rule->checkCriterias()
+  src\Rule.php:2214                                  Rule->process()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-11 11:59:31] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\GLPINetwork.php:81                             GLPINetwork::isServicesAvailable()
+  src\GLPINetwork.php:50                             GLPINetwork::showForConfig()
+  src\CommonGLPI.php:694                             GLPINetwork::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 12:00:49] glpiphplog.WARNING: Test logger  
+[2025-03-11 14:30:44] glpiphplog.WARNING:   *** PHP User Warning (512): Anslutning misslyckades. Om du använder en proxy, konfigurera den. (SSL certificate problem: unable to get local issuer certificate) in C:\glpi\src\Toolbox.php at line 1566
+  Backtrace :
+  src\Toolbox.php:1566                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:219                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:124                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2025-03-11 14:35:39] glpiphplog.WARNING: Test logger  
+[2025-03-11 14:38:05] glpiphplog.WARNING: Test logger  
+[2025-03-11 14:38:08] glpiphplog.WARNING: Test logger  
+[2025-03-12 08:53:35] glpiphplog.WARNING: Test logger  
+[2025-03-12 09:26:13] glpiphplog.WARNING: Test logger  
+[2025-03-12 13:53:39] glpiphplog.CRITICAL:   *** PHP Error (1): Maximum execution time of 30 seconds exceeded in C:\glpi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php at line 45  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "DATETIME" fields is discouraged, please use "TIMESTAMP" fields instead. in C:\glpi\src\DBmysql.php at line 2157
+  Backtrace :
+  src\DBmysql.php:2157                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponents`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponents_items`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponents_itemroles`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_profiles`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentstates`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci," charset/collation detected, should be "utf8mb4_unicode_ci," in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponenttypes`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponenttechnics`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentusers`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentslas`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentdbs`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentinstances`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponenttargets`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentlicenses`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_standards`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_configswfieldgroups`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_configswhaligns`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_configswdbfieldtypes`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_configswdatatypes`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_configswlinks`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_configsws`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\archisw\hook.php:34                    DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentstates`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_standards`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:521                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponenttypes`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:521                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponenttechnics`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentinstances`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentdbs`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponenttargets`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentusers`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentlicenses`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\glpi\src\DBmysql.php at line 2131
+  Backtrace :
+  src\DBmysql.php:2131                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:43:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archisw_swcomponentslas`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:348                                DBmysql->doQuery()
+  marketplace\archisw\hook.php:504                   DBmysql->query()
+  marketplace\archisw\hook.php:88                    hook_pre_item_add_archisw_configswlink()
+  src\Plugin.php:955                                 plugin_archisw_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:44:10] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "DATETIME" fields is discouraged, please use "TIMESTAMP" fields instead. in C:\glpi\src\DBmysql.php at line 2157
+  Backtrace :
+  src\DBmysql.php:2157                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\statecheck\hook.php:35                 DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_statecheck_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:44:10] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_statecheck_rules`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\statecheck\hook.php:35                 DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_statecheck_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:44:10] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_statecheck_tables`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\statecheck\hook.php:35                 DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_statecheck_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:44:10] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_statecheck_rulecriterias`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\statecheck\hook.php:35                 DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_statecheck_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:44:10] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_statecheck_ruleactions`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\statecheck\hook.php:35                 DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_statecheck_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-12 15:44:10] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_statecheck_profiles`.`id`. in C:\glpi\src\DBmysql.php at line 2169
+  Backtrace :
+  src\DBmysql.php:2169                               trigger_error()
+  src\DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1076                               DBmysql->doQuery()
+  marketplace\statecheck\hook.php:35                 DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_statecheck_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  public\index.php:82                                require()
+  
+[2025-03-13 11:07:33] glpiphplog.CRITICAL:   *** PHP Error (1): Maximum execution time of 30 seconds exceeded in C:\glpi\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php at line 45  
+[2025-03-17 10:47:52] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\CommonDropdown.php at line 597
+  Backtrace :
+  src\Group.php:1066                                 CommonDropdown->isUsed()
+  src\MassiveAction.php:1503                         Group->isUsed()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2025-03-17 10:48:06] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\CommonDropdown.php at line 597
+  Backtrace :
+  src\Group.php:1066                                 CommonDropdown->isUsed()
+  src\MassiveAction.php:1503                         Group->isUsed()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2025-03-17 10:48:22] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\CommonDropdown.php at line 597
+  Backtrace :
+  src\Group.php:1066                                 CommonDropdown->isUsed()
+  src\MassiveAction.php:1503                         Group->isUsed()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2025-03-17 10:48:37] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\CommonDropdown.php at line 597
+  Backtrace :
+  src\Group.php:1066                                 CommonDropdown->isUsed()
+  src\MassiveAction.php:1503                         Group->isUsed()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2025-03-17 10:48:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\CommonDropdown.php at line 597
+  Backtrace :
+  src\Group.php:1066                                 CommonDropdown->isUsed()
+  src\MassiveAction.php:1503                         Group->isUsed()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2025-03-17 11:45:59] glpiphplog.WARNING: Test logger  
+[2025-03-17 11:57:05] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `#0`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1696                                  Rule->checkCriteria()
+  src\Rule.php:2212                                  Rule->testCriterias()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-17 11:57:05] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `#0`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1651                                  Rule->checkCriteria()
+  src\RuleImportEntity.php:213                       Rule->checkCriterias()
+  src\Rule.php:2214                                  RuleImportEntity->process()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-17 11:57:32] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `Simrishamn`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1696                                  Rule->checkCriteria()
+  src\Rule.php:2212                                  Rule->testCriterias()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-17 11:57:32] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `Simrishamn`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1651                                  Rule->checkCriteria()
+  src\RuleImportEntity.php:213                       Rule->checkCriterias()
+  src\Rule.php:2214                                  RuleImportEntity->process()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-17 12:11:37] glpiphplog.WARNING: Test logger  
+[2025-03-17 12:12:07] glpiphplog.WARNING: Test logger  
+[2025-03-17 12:23:41] glpiphplog.WARNING: Test logger  
+[2025-03-17 12:33:08] glpiphplog.WARNING: Test logger  
+[2025-03-17 12:33:11] glpiphplog.WARNING: Test logger  
+[2025-03-17 13:30:58] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `simrishamn.int`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1696                                  Rule->checkCriteria()
+  src\Rule.php:2212                                  Rule->testCriterias()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:30:58] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid regular expression `simrishamn.int`. in C:\glpi\src\RuleCriteria.php at line 467
+  Backtrace :
+  src\RuleCriteria.php:467                           trigger_error()
+  src\Rule.php:1730                                  RuleCriteria::match()
+  src\Rule.php:1651                                  Rule->checkCriteria()
+  src\RuleImportEntity.php:213                       Rule->checkCriterias()
+  src\Rule.php:2214                                  RuleImportEntity->process()
+  front\rule.test.php:86                             Rule->showRulePreviewResultsForm()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING: Failed to save key "{key}" of type null: rename(C:\glpi\files\_cache\translations-10.0.17\0cee01321f3f,C:\glpi\files\_cache\translations-10.0.17\R\B\mQDA7uQhAGxegfxK661w): Access is denied (code: 5) {"key":"57da9aaa9675259f16a58088753d6e2859effa4d","exception":"[object] (ErrorException(code: 0): rename(C:\\glpi\\files\\_cache\\translations-10.0.17\\0cee01321f3f,C:\\glpi\\files\\_cache\\translations-10.0.17\\R\\B\\mQDA7uQhAGxegfxK661w): Access is denied (code: 5) at C:\\glpi\\vendor\\symfony\\cache\\Traits\\FilesystemCommonTrait.php:117)","cache-adapter":"Symfony\\Component\\Cache\\Adapter\\FilesystemAdapter"} 
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): foreach() argument must be of type array|object, null given in C:\glpi\src\Search.php at line 1636
+  Backtrace :
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_1" in C:\glpi\src\Search.php at line 7574
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7574
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_80" in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_31" in C:\glpi\src\Search.php at line 6949
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 6949
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 6949
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_31" in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_23" in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_5" in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_4" in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_40" in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_45" in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_3" in C:\glpi\src\Search.php at line 6949
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 6949
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 6949
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_3" in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_19" in C:\glpi\src\Search.php at line 7670
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7670
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "Computer_17" in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\Search.php at line 7845
+  Backtrace :
+  src\Search.php:1733                                Search::giveItem()
+  src\Search.php:450                                 Search::constructData()
+  src\Search.php:201                                 Search::getDatas()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("CommonDBTM::isMassiveActionAllowed(): Argument #1 ($items_id) must be of type int, null given")." in template "C:\glpi\templates\components\search\table.html.twig" at line 121
+  Backtrace :
+  vendor\twig\twig\src\Template.php:335              Twig\Template->yield()
+  vendor\twig\twig\src\TemplateWrapper.php:38        Twig\Template->render()
+  ...\twig\twig\src\Extension\CoreExtension.php:1419 Twig\TemplateWrapper->render()
+  ...tes\a9\a98c4837f95c927e06087d5463671335.php:115 Twig\Extension\CoreExtension::include()
+  vendor\twig\twig\src\Template.php:360              __TwigTemplate_0e0cf1ab730594050baa16e08c7c15a8->doDisplay()
+  vendor\twig\twig\src\Template.php:327              Twig\Template->yield()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Search.php:1819                                Glpi\Application\View\TemplateRenderer->display()
+  src\Search.php:214                                 Search::displayData()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:32:47] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in C:\glpi\src\Search.php at line 1855
+  Backtrace :
+  src\Search.php:214                                 Search::displayData()
+  src\Search.php:178                                 Search::showList()
+  front\computer.php:42                              Search::show()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:50:02] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\CommonDropdown.php at line 597
+  Backtrace :
+  src\Group.php:1066                                 CommonDropdown->isUsed()
+  src\MassiveAction.php:1503                         Group->isUsed()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2025-03-17 13:50:13] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in C:\glpi\src\CommonDropdown.php at line 597
+  Backtrace :
+  src\Group.php:1066                                 CommonDropdown->isUsed()
+  src\MassiveAction.php:1503                         Group->isUsed()
+  src\MassiveAction.php:1425                         MassiveAction::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1403                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  

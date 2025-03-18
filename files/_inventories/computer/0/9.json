@@ -1,0 +1,90 @@
+{
+    "action": "inventory",
+    "content": {
+        "accesslog": {
+            "logdate": "2025-03-17 15:41:28"
+        },
+        "bios": {
+            "bdate": "2021-06-25",
+            "bmanufacturer": "VMware, Inc.",
+            "bversion": "VMW71.00V.18227214.B64.2106252220",
+            "mmanufacturer": "Intel Corporation",
+            "mmodel": "440BX Desktop Reference Platform",
+            "smanufacturer": "VMware, Inc.",
+            "smodel": "VMware7,1",
+            "ssn": "VMware-42 34 87 d8 34 fb ee 5e-82 22 22 56 00 70 a1 eb"
+        },
+        "drives": [
+            {
+                "description": "Local Fixed Disk",
+                "filesystem": "NTFS",
+                "free": 58121,
+                "label": "",
+                "letter": "C:",
+                "serial": "4044BA2D",
+                "systemdrive": true,
+                "total": 102280,
+                "type": "Local Disk",
+                "volumn": ""
+            },
+            {
+                "description": "Local Fixed Disk",
+                "filesystem": "NTFS",
+                "free": 98348,
+                "label": "DATA",
+                "letter": "D:",
+                "serial": "B2FAA5E1",
+                "systemdrive": false,
+                "total": 112621,
+                "type": "Local Disk",
+                "volumn": "DATA"
+            },
+            {
+                "description": "CD-ROM Disc",
+                "letter": "X:",
+                "systemdrive": false,
+                "type": "Compact Disc"
+            },
+            {
+                "filesystem": "FAT32",
+                "free": 66,
+                "serial": "E6443BF7",
+                "systemdrive": false,
+                "total": 96,
+                "type": "Local Disk"
+            }
+        ],
+        "hardware": {
+            "chassis_type": "Other",
+            "defaultgateway": "10.180.7.1",
+            "dns": "10.180.1.11",
+            "memory": 8191,
+            "name": "SRVSN165",
+            "uuid": "D8873442-FB34-5EEE-8222-22560070A1EB",
+            "vmsystem": "VMware",
+            "winlang": "1033",
+            "winowner": "Windows User",
+            "winprodid": "00454-20636-41334-AA631",
+            "workgroup": "simrishamn.int"
+        },
+        "versionclient": "GLPI-Agent_v1.12",
+        "versionprovider": {
+            "comments": [
+                "Provided by Teclib Edition",
+                "Installer built on Fri Jan 24 13:45:16 2025 UTC",
+                "Built with Strawberry Perl 5.38.2",
+                "Built on github actions windows image for glpi-project\/glpi-agent repository"
+            ],
+            "etime": 21,
+            "name": "GLPI",
+            "perl_exe": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-agent.exe",
+            "perl_version": "v5.38.2",
+            "program": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-win32-service",
+            "version": "1.12"
+        }
+    },
+    "deviceid": "SRVSN165-2025-03-10-10-40-16",
+    "itemtype": "Computer",
+    "partial": true,
+    "tag": "GLPI-test"
+}
