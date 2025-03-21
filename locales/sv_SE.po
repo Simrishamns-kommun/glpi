@@ -418,7 +418,7 @@ msgid "%s Mio"
 msgstr "%s Mb"
 
 msgid "%s Mio max"
-msgstr "%s Mio max"
+msgstr "Max %s Mb"
 
 msgid "%s adds a comment on knowledge base"
 msgstr "%s lägger till en kommentar i kunskapsbasen"
@@ -823,7 +823,7 @@ msgstr ""
 "misslyckas (för många tabeller). Använd \"Items seen\" kriteriet istället"
 
 msgid "(%1$d authorizations problems, %2$d failures)"
-msgstr "(%1$d autenticeringproblem, %2$d misslyckanden)"
+msgstr "(%1$d autentiseringproblem, %2$d misslyckanden)"
 
 msgid "(%1$d items required no action)"
 msgstr "(%1$d objekten krävde ingen åtgärd)"
@@ -973,7 +973,7 @@ msgid "A new version is available: %s."
 msgstr "En ny version finns tillgänglig: %s."
 
 msgid "A pdu is required"
-msgstr "En pdu krävs"
+msgstr "En PDU krävs"
 
 msgid ""
 "A personal dashboard is not visible by other administrators unless you "
@@ -2100,7 +2100,7 @@ msgid "Authorize reservations"
 msgstr "Auktorisera reservationer"
 
 msgid "Authorized upload"
-msgstr "Auktoriserad uppladdning"
+msgstr "Får laddas upp"
 
 msgid "Authors"
 msgstr "Författare"
@@ -2216,7 +2216,7 @@ msgid "Automatically add a user of an external source"
 msgstr "Lägg automatiskt till ny användare från extern källa"
 
 msgid "Automatically add users from an external authentication source"
-msgstr "Lägg automatiskt till ny användare från extern autenticeringskälla"
+msgstr "Lägg automatiskt till ny användare från extern autentiseringskälla"
 
 msgid "Automatically calculate"
 msgstr "Beräkna automatiskt"
@@ -2326,7 +2326,7 @@ msgstr "Baserat på objekt och kategori"
 msgid "Battery"
 msgid_plural "Batteries"
 msgstr[0] "Batterier"
-msgstr[1] ""
+msgstr[1] "Batterier"
 
 msgid "Battery type"
 msgid_plural "Battery types"
@@ -2561,7 +2561,7 @@ msgstr[0] "Kablage"
 msgstr[1] "Kablage"
 
 msgid "Cable management"
-msgstr "Hantera kablage"
+msgstr "Kablagehantering"
 
 msgid "Cable strand"
 msgid_plural "Cable strands"
@@ -2710,8 +2710,8 @@ msgstr "Rubrik"
 
 msgid "Cartridge"
 msgid_plural "Cartridges"
-msgstr[0] "Skrivarpatron"
-msgstr[1] "Skrivarpatroner"
+msgstr[0] "Skrivarpatrontyp"
+msgstr[1] "Skrivarpatrontyper"
 
 msgid "Cartridge model"
 msgid_plural "Cartridge models"
@@ -2720,8 +2720,8 @@ msgstr[1] "Modeller"
 
 msgid "Cartridge type"
 msgid_plural "Cartridge types"
-msgstr[0] "Typ"
-msgstr[1] "Typer"
+msgstr[0] "Skrivarpatron"
+msgstr[1] "Skrivarpatroner"
 
 msgid "Cartridges alarm"
 msgstr "Larm för skrivarpatroner"
@@ -3316,6 +3316,18 @@ msgid_plural "Connections"
 msgstr[0] "Anslutning"
 msgstr[1] "Anslutningar"
 
+#: src/InterfaceType.php:44
+msgid "Interface type (Hard drive...)"
+msgid_plural "Interface types (Hard drive...)"
+msgstr[0] "Gränssnitt (Hårddisk...)"
+msgstr[1] "Gränssnitt (Hårddisk...)"
+
+#: src/PhonePowerSupply.php:44
+msgid "Phone power supply type"
+msgid_plural "Phone power supply types"
+msgstr[0] "Nätaggregat (Telefoner)"
+msgstr[1] "Nätaggregat (Telefoner)"
+
 msgid "Connection by dial line - Dialup Port"
 msgstr "Anslutning via uppringningslinje - Uppringd port"
 
@@ -3336,12 +3348,12 @@ msgid "Connection options"
 msgstr "Förbindelsealternativ"
 
 msgid "Connection string"
-msgstr "Connection string"
+msgstr "Anslutningssträng"
 
 msgid "Connection to LDAP directory failed"
 msgid_plural "Connection to LDAP directories failed"
-msgstr[0] "Anslutningen till LDAP-katalogen har misslyckats"
-msgstr[1] "Anslutningen till LDAP-kataloger har misslyckats"
+msgstr[0] "Anslutningen till LDAP-katalogen misslyckades"
+msgstr[1] "Anslutningen till LDAP-katalogerna misslyckades"
 
 msgid ""
 "Connection to database failed, verify the connection parameters included in "
@@ -3356,6 +3368,12 @@ msgstr "Anslutningshistorik"
 msgid "Consider filling latitude and longitude on this location."
 msgstr "Överväg att fylla i latitud och longitud på den här platsen."
 
+#: src/DeviceSensorType.php:43
+msgid "Sensor type"
+msgid_plural "Sensor types"
+msgstr[0] "Sensortyp"
+msgstr[1] "Sensortyper"
+
 msgid "Consumable"
 msgid_plural "Consumables"
 msgstr[0] "Förbrukningsvara"
@@ -3368,8 +3386,8 @@ msgstr[1] "Modeller"
 
 msgid "Consumable type"
 msgid_plural "Consumable types"
-msgstr[0] "Typ"
-msgstr[1] "Typer"
+msgstr[0] "Förbrukningsvara"
+msgstr[1] "Förbrukningsvaror"
 
 msgid "Consumables alarm"
 msgstr "Larm för förbrukningsvaror"
@@ -3576,10 +3594,10 @@ msgid "Create a ticket"
 msgstr "Skapa ärende"
 
 msgid "Create a validation request for a request"
-msgstr "Skapa ett godkännande för en beställning"
+msgstr "Skapa ett godkännande för en begäran"
 
 msgid "Create a validation request for an incident"
-msgstr "Skapa ett godkännande för en incident"
+msgstr "Skapa ett godkännande för ett supportärende"
 
 msgid "Create by %1$s on %2$s"
 msgstr "Skapad av %1$s den %2$s"
@@ -3591,7 +3609,7 @@ msgid "Create computer for virtual machines"
 msgstr "Skapa dator för virtuella maskiner"
 
 msgid "Create for incident"
-msgstr "Skapa för incident"
+msgstr "Skapa för supportärende"
 
 msgid "Create for request"
 msgstr "Skapa för begäran"
@@ -4252,38 +4270,38 @@ msgstr[1] "Kameramodeller"
 
 msgid "Device case model"
 msgid_plural "Device case models"
-msgstr[0] "Enhetschassi modell"
-msgstr[1] "Enhetschassi modeller"
+msgstr[0] "Chassimodell"
+msgstr[1] "Chassimodeller"
 
 msgid "Device control model"
 msgid_plural "Device control models"
-msgstr[0] "Modeller för enhetskontroll"
-msgstr[1] "Modeller för enhetskontroller"
+msgstr[0] "Kontrollmodell"
+msgstr[1] "Kontrollmodeller"
 
 msgid "Device drive model"
 msgid_plural "Device drive models"
-msgstr[0] "Enhetens disk-modell"
-msgstr[1] "Enhetens disk-modeller"
+msgstr[0] "Diskmodell"
+msgstr[1] "Diskmodeller"
 
 msgid "Device firmware model"
 msgid_plural "Device firmware models"
-msgstr[0] "Enhetens firmware-modell"
-msgstr[1] "Enhetens firmware-modeller"
+msgstr[0] "Firmware-modell"
+msgstr[1] "Firmware-modeller"
 
 msgid "Device generic model"
 msgid_plural "Device generic models"
-msgstr[0] "Enhetens generiska modell"
-msgstr[1] "Enhetens generiska modeller"
+msgstr[0] "Generisk modell"
+msgstr[1] "Generiska modeller"
 
 msgid "Device graphic card model"
 msgid_plural "Device graphic card models"
-msgstr[0] "Enhetens grafikkortsmodell"
-msgstr[1] "Enhetens grafikkortsmodeller"
+msgstr[0] "Grafikkortsmodell"
+msgstr[1] "Grafikkortsmodeller"
 
 msgid "Device hard drive model"
 msgid_plural "Device hard drive models"
-msgstr[0] "Enhetens hårddiskmodell"
-msgstr[1] "Enhetens hårddiskmodeller"
+msgstr[0] "Hårddiskmodell"
+msgstr[1] "Horddiskmodeller"
 
 msgid "Device id"
 msgstr "Enhets-ID"
@@ -4293,8 +4311,8 @@ msgstr "Materiallista"
 
 msgid "Device memory model"
 msgid_plural "Device memory models"
-msgstr[0] "Enhetens minnestyp"
-msgstr[1] "Enhetens minnestyper"
+msgstr[0] "Minnesmodell"
+msgstr[1] "Minnesmodeller"
 
 msgid "Device model"
 msgid_plural "Device models"
@@ -4306,29 +4324,29 @@ msgstr "Enhetsnamn"
 
 msgid "Device power supply model"
 msgid_plural "Device power supply models"
-msgstr[0] "Enhetens strömförsörjning"
-msgstr[1] "Enhetens strömförsörjning"
+msgstr[0] "Nätaggregatsmodell"
+msgstr[1] "Nätaggregatsmodeller"
 
 msgid "Device processor model"
 msgid_plural "Device processor models"
-msgstr[0] "Enhetens processor-modell"
-msgstr[1] "Enhetens processor-modeller"
+msgstr[0] "Processormodell"
+msgstr[1] "Processormodeller"
 
 msgid "Device reservations expiring today"
-msgstr "Objektets bokningar som tar slut idag"
+msgstr "Enhetsboknngar som förfaller idag"
 
 msgid "Device sensor model"
 msgid_plural "Device sensor models"
-msgstr[0] "Enhetens sensor-modell"
-msgstr[1] "Enhetens sensor-modeller"
+msgstr[0] "Sensormodell"
+msgstr[1] "Sensormodeller"
 
 msgid "Device sound card model"
 msgid_plural "Device sound card models"
-msgstr[0] "Enhetens ljudkort"
-msgstr[1] "Enhetens ljudkort"
+msgstr[0] "Ljudkortmodell"
+msgstr[1] "Ljudkortsmodeller"
 
 msgid "Device temporarily unavailable"
-msgstr "Enhet tillfälligt otillgänglig"
+msgstr "Enheten är inte tillgänglig just nu"
 
 msgid "Device type"
 msgid_plural "Device types"
@@ -4563,7 +4581,7 @@ msgid "Document copy succeeded."
 msgstr "Dokumentet kopierades."
 
 msgid "Document files maximum size (Mio)"
-msgstr "Dokumentfiler maximal storlek (Mio)"
+msgstr "Dokumentfiler maximal storlek (Mb)"
 
 msgid "Document heading"
 msgid_plural "Document headings"
@@ -4703,8 +4721,8 @@ msgstr "Rita en ruta som innehåller de tillgångar du vill gruppera"
 
 msgid "Drive"
 msgid_plural "Drives"
-msgstr[0] "Hårddisk"
-msgstr[1] "Hårddiskar"
+msgstr[0] "Disk"
+msgstr[1] "Diskar"
 
 msgid "Dropdown"
 msgid_plural "Dropdowns"
@@ -4832,8 +4850,8 @@ msgstr "Elementet verkar inte geolokaliserat eller kan inte hittas"
 
 msgid "Email"
 msgid_plural "Emails"
-msgstr[0] "E-postmeddelande"
-msgstr[1] "E-postmeddelanden"
+msgstr[0] "E-post"
+msgstr[1] "E-post"
 
 msgid "Email %s not found. Impossible import."
 msgstr "E-post %s hittades inte. Import ej möjlig."
@@ -4842,19 +4860,19 @@ msgid "Email Followup"
 msgstr "E-postuppföljningar"
 
 msgid "Email HTML body"
-msgstr "E-post HTML innehåll"
+msgstr "Meddelandetext (HTML)"
 
 msgid "Email address"
-msgstr "Emailadress"
+msgstr "E-post"
 
 msgid "Email alarms"
-msgstr "E-post alarm"
+msgstr "E-postalarm"
 
 msgid "Email attribute for x509 authentication"
 msgstr "E-postattribut för x509-autentisering"
 
 msgid "Email body"
-msgstr "Email text"
+msgstr "Meddelandetext"
 
 msgid "Email domain Name (users email will be login@domain)"
 msgstr ""
@@ -4875,32 +4893,32 @@ msgstr "Email saknas. Omöjliggör import"
 
 msgid "Email notification"
 msgid_plural "Email notifications"
-msgstr[0] "E-post notifikation"
-msgstr[1] "E-post notifikationer"
+msgstr[0] "E-postnotis"
+msgstr[1] "E-postnotiser"
 
 msgid "Email notifications are disabled"
-msgstr "E-postnotifieringar är inaktiverade"
+msgstr "E-postnotiser är inaktiverade"
 
 msgid "Email sender"
-msgstr "E-post avsändare"
+msgstr "Avsändare"
 
 msgid "Email sender address"
-msgstr "E-post avsändarens adress"
+msgstr "Avsändarens e-postadress"
 
 msgid "Email sender name"
-msgstr "E-post avsändarens namn"
+msgstr "Avsändarens namn"
 
 msgid "Email server"
-msgstr "Email server"
+msgstr "E-postserver"
 
 msgid "Email server for authentication"
 msgstr "E-postserver för autentisiering"
 
 msgid "Email signature"
-msgstr "E-post signatur"
+msgstr "Signatur"
 
 msgid "Email text body"
-msgstr "E-posttextens brödtext"
+msgstr "Meddelandetext"
 
 msgid "Embed in another application"
 msgstr "Bädda in i annan applikation"
@@ -4995,8 +5013,8 @@ msgstr[1] "Rackskåp"
 
 msgid "Enclosure model"
 msgid_plural "Enclosure models"
-msgstr[0] "Modell"
-msgstr[1] "Modeller"
+msgstr[0] "Rackskåps-modell"
+msgstr[1] "Rackskåps-modeller"
 
 msgid "Encrypted"
 msgstr "Krypterad"
@@ -5352,10 +5370,10 @@ msgid "External"
 msgstr "Extern"
 
 msgid "External authentication sources"
-msgstr "Extern autenticering"
+msgstr "Extern autentisering"
 
 msgid "External authentications"
-msgstr "Extern autenticering"
+msgstr "Extern autentisering"
 
 msgid "External calendar"
 msgstr "Extern kalender"
@@ -6338,10 +6356,11 @@ msgstr "Ignorera (standard)"
 msgid "Ignore warning"
 msgstr "Bortse från varning"
 
+#: src/Fieldblacklist.php:48
 msgid "Ignored value for the unicity"
 msgid_plural "Ignored values for the unicity"
-msgstr[0] "Ignorerat värde för fältindexet
-msgstr[1] "Ignorerade värden för fältindexet"
+msgstr[0] "Ignorerat fältindexvärde"
+msgstr[1] "Ignorerade fältindexvärden"
 
 msgid "Image exceeds maximum height"
 msgstr "Bilden överskrider maxhöjden"
@@ -6462,6 +6481,18 @@ msgstr "Importerar racktyper..."
 msgid "Importing racks..."
 msgstr "Importerar rack..."
 
+#: src/RackType.php:41
+msgid "Rack type"
+msgid_plural "Rack types"
+msgstr[0] "Racktyp"
+msgstr[1] "Racktyper"
+
+#: src/RackModel.php:43
+msgid "Rack model"
+msgid_plural "Rack models"
+msgstr[0] "Rackmodell"
+msgstr[1] "Rackmodeller"
+
 msgid "Importing relations with other itemtypes..."
 msgstr "Importerar relationer med andra objekttyper..."
 
@@ -6472,7 +6503,7 @@ msgid "Impossible to accomplish an update by this way!"
 msgstr "Det går inte att uppdatera på det här sättet!"
 
 msgid "Impossible to use CAS as external source of connection"
-msgstr "Det går ej att använda CAS som extern källa för autenticering"
+msgstr "Det går ej att använda CAS som extern källa för autentisering"
 
 msgid "Impossible to use LDAP as external source of connection"
 msgstr "Kan ej använda LDAP som extern källa för förbindelsen"
@@ -7649,8 +7680,8 @@ msgstr[1] "Bildskärmar"
 
 msgid "Monitor model"
 msgid_plural "Monitor models"
-msgstr[0] "Modell"
-msgstr[1] "Modeller"
+msgstr[0] "Bildskärmsmodell"
+msgstr[1] "Bildskärmsmodeller"
 
 msgid "Monitor type"
 msgid_plural "Monitors types"
@@ -7750,7 +7781,7 @@ msgstr "Nätverket redan definierat bland de synliga entiteterna"
 msgid "Network card"
 msgid_plural "Network cards"
 msgstr[0] "Nätverkskort"
-msgstr[1] "Nätverkskort""
+msgstr[1] "Nätverkskort"
 
 msgid "Network card model"
 msgid_plural "Network card models"
@@ -7846,8 +7877,8 @@ msgstr "Nätverk"
 
 msgid "Networking equipment model"
 msgid_plural "Networking equipment models"
-msgstr[0] "Modell"
-msgstr[1] "Modeller"
+msgstr[0] "Nätverksutrustningsmodell"
+msgstr[1] "Nätverksutrustningsmodeller"
 
 msgid "Networking equipment type"
 msgid_plural "Networking equipment types"
@@ -8572,13 +8603,19 @@ msgid "Other"
 msgstr "Annan"
 
 msgid "Other authentication sent in the HTTP request"
-msgstr "Andra autenticeringar sända i HTTP-request"
+msgstr "Andra autentiseringar sända i HTTP-request"
 
 msgid "Other component"
-msgstr "Annan komponent"
+msgstr "Övrig komponent"
+
+#: src/DevicePciModel.php:44
+msgid "Other component model"
+msgid_plural "Other component models"
+msgstr[0] "Övrig komponentmodell"
+msgstr[1] "Övriga komponentmodeller"
 
 msgid "Other equipments"
-msgstr "Annan utrustning"
+msgstr "Övrig utrustning"
 
 msgid ""
 "Other financial and administrative information (licenses, cartridges, "
@@ -8597,19 +8634,19 @@ msgid "Other kind of items"
 msgstr "Andra typer av objekt"
 
 msgid "Other pictures"
-msgstr "Andra bilder"
+msgstr "Övriga bilder"
 
 msgid "Other..."
-msgstr "Annat..."
+msgstr "Övrigt..."
 
 msgid "Others"
-msgstr "Övrigt"
+msgstr "Övriga"
 
 msgid "Others authentication methods"
-msgstr "Alternativa autenticeringsmetoder"
+msgstr "Övriga autentiseringsmetoder"
 
 msgid "Out of memory restart"
-msgstr "Omstart på grund av brist på minne"
+msgstr "Omstart på grund av minnesbrist"
 
 msgid "Output errors"
 msgstr "Utmatningsfel"
@@ -8639,6 +8676,11 @@ msgid "PDU model"
 msgid_plural "PDU models"
 msgstr[0] "PDU-modell"
 msgstr[1] "PDU-modeller"
+
+#: src/PDUType.php:41
+msgid "PDU type"
+msgid_plural "PDU-typ"
+msgstr[0] "PDU-typer"
 
 msgid "PHP"
 msgstr "PHP"
@@ -8707,8 +8749,8 @@ msgstr[1] "Passiva enheter"
 
 msgid "Passive device model"
 msgid_plural "Passive device models"
-msgstr[0] "Modell"
-msgstr[1] "Modeller"
+msgstr[0] "Passiv enhets-modell"
+msgstr[1] "Passiva enhets-modeller"
 
 msgid "Passive device type"
 msgid_plural "Passive device types"
@@ -8824,8 +8866,8 @@ msgstr[1] "Kringutrustningar"
 
 msgid "Peripheral model"
 msgid_plural "Peripheral models"
-msgstr[0] "Modell"
-msgstr[1] "Modeller"
+msgstr[0] "Kringutrustningsmodell"
+msgstr[1] "Kringutrustningsmodeller"
 
 msgid "Peripheral type"
 msgid_plural "Peripheral types"
@@ -8861,8 +8903,8 @@ msgstr[1] "Telefonmodeller"
 
 msgid "Phone type"
 msgid_plural "Phone types"
-msgstr[0] "Typ"
-msgstr[1] "Typer"
+msgstr[0] "Telefontyp"
+msgstr[1] "Telefontyper"
 
 #: templates/generic_show_form.html.twig templates/dropdown_form.html.twig
 #: templates/components/form/pictures.html.twig src/CommonDropdown.php:166
@@ -9016,8 +9058,8 @@ msgstr "Energihantering"
 
 msgid "Power supply"
 msgid_plural "Power supplies"
-msgstr[0] "Kraftaggregat"
-msgstr[1] "Kraftaggregat"
+msgstr[0] "Nätaggregat"
+msgstr[1] "Nätaggregat"
 
 msgid "Pre-select me as a requester when creating a ticket"
 msgstr "Välj automatiskt mig som ärendeskapare vid nytt ärende"
@@ -10135,8 +10177,8 @@ msgstr[1] "SIM-kort"
 
 msgid "Simcard type"
 msgid_plural "Simcard types"
-msgstr[0] "Typ"
-msgstr[1] "Typer"
+msgstr[0] "SIM-korttyp"
+msgstr[1] "SIM-korttyper"
 
 msgid "Simple mode"
 msgstr "Enkelt läge"
@@ -10235,7 +10277,7 @@ msgstr "Söner till %s"
 msgid "Soundcard"
 msgid_plural "Soundcards"
 msgstr[0] "Ljudkort"
-msgstr[1] ""
+msgstr[1] "Ljudkort"
 
 msgid "Source"
 msgstr "Källa"
@@ -10386,6 +10428,12 @@ msgid "System board"
 msgid_plural "System boards"
 msgstr[0] "Moderkort"
 msgstr[1] "Moderkort"
+
+#: src/DeviceMotherboardModel.php:44
+msgid "System board model"
+msgid_plural "System board models"
+msgstr[0] "Moderkortsmodell"
+msgstr[1] "Moderkortsmodeller"
 
 msgid "System lock"
 msgstr "Systemlås"
@@ -10882,34 +10930,34 @@ msgid "Top of the page"
 msgstr "Till toppen av sidan"
 
 msgid "Top ticket's assignee groups"
-msgstr "Topplistan mest tilldelade grupper"
+msgstr "Topplista mest tilldelade grupper"
 
 msgid "Top ticket's assignees"
-msgstr "Topplistan mest tilldelade tekniker"
+msgstr "Topplista mest tilldelade tekniker"
 
 msgid "Top ticket's categories"
-msgstr "Topplistan kategorier"
+msgstr "Topplista kategorier"
 
 msgid "Top ticket's entities"
-msgstr "Topplistan entiteter"
+msgstr "Topplista entiteter"
 
 msgid "Top ticket's locations"
-msgstr "Topplistan platser"
+msgstr "Topplista platser"
 
 msgid "Top ticket's observer groups"
-msgstr "Topplistan observatörsgrupper"
+msgstr "Topplista observatörsgrupper"
 
 msgid "Top ticket's observers"
-msgstr "Topplistan observatörer"
+msgstr "Topplista observatörer"
 
 msgid "Top ticket's request types"
-msgstr "Topplistan frågetyper"
+msgstr "Topplista frågetyper"
 
 msgid "Top ticket's requester groups"
-msgstr "Topplistan beställande grupper"
+msgstr "Topplista beställande grupper"
 
 msgid "Top ticket's requesters"
-msgstr "Topplistan beställare"
+msgstr "Topplista beställare"
 
 msgid "Total"
 msgstr "Total"
@@ -11459,7 +11507,7 @@ msgid "View graphical representation"
 msgstr "Visa grafisk representation"
 
 msgid "View other actions"
-msgstr "Visa andra åtgärder"
+msgstr "Visa övriga åtgärder"
 
 msgid "View updated users"
 msgstr "Visa uppdaterade användare"
@@ -12550,7 +12598,7 @@ msgid "or"
 msgstr "eller"
 
 msgid "others"
-msgstr "andra"
+msgstr "övriga"
 
 msgid "parameter(s) login, password or user_token are missing"
 msgstr "paramet(rar) för login, lösenord eller användar_token saknas"
@@ -12709,6 +12757,11 @@ msgctxt "quantity"
 msgid "Number of phones"
 msgstr "Antal telefoner"
 
+#: src/LineType.php:40
+msgid "Line type"
+msgid_plural "Telefonlinjetyp"
+msgstr[0] "Telefonlinjetyper"
+
 msgctxt "quantity"
 msgid "Number of printers"
 msgstr "Antal skrivare"
@@ -12760,7 +12813,12 @@ msgid "send me back"
 msgstr "skicka tillbaka mig"
 
 msgid "sensorsize"
-msgstr "sensor storlek"
+msgstr "sensorstorlek"
+
+#: src/DeviceSensor.php:45
+msgid "Sensor"
+msgid_plural "Sensors"
+msgstr[0] "Sensorer"
 
 msgid "serial"
 msgstr "serienummer"
