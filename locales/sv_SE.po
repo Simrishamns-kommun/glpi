@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 13:04+0000\n"
-"PO-Revision-Date: 2025-03-18 11:43+0000\n"
+"PO-Revision-Date: 2025-03-21 10:52+0000\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2024\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -239,7 +239,9 @@ msgid "%1$s satisfaction survey (%2$s)"
 msgstr "%1$s nöjdhetsundersökning (%2$s)"
 
 msgid "%1$s services website seems not available from your network or offline"
-msgstr "%1$s tjänstens webbplats verkar inte vara tillgänglig från ditt nätverk eller så är den offline"
+msgstr ""
+"%1$s tjänstens webbplats verkar inte vara tillgänglig från ditt nätverk "
+"eller så är den offline"
 
 msgid "%1$s starts impersonating user %2$s"
 msgstr "%1$s börjar imitera användare %2$s"
@@ -603,8 +605,12 @@ msgstr "%s installerar en patron"
 msgid "%s installs software"
 msgstr "%s installerar mjukvara"
 
-msgid "%s is not a stable release. Please upgrade manually or add --allow-unstable option."
-msgstr "%s är inte en stabil release. Vänligen uppdatera manuellt eller lägg till --allow-unstable alternativet."
+msgid ""
+"%s is not a stable release. Please upgrade manually or add --allow-unstable "
+"option."
+msgstr ""
+"%s är inte en stabil release. Vänligen uppdatera manuellt eller lägg till --"
+"allow-unstable alternativet."
 
 msgid "%s is not writable"
 msgstr "%s är inte skrivbar"
@@ -2710,8 +2716,8 @@ msgstr "Rubrik"
 
 msgid "Cartridge"
 msgid_plural "Cartridges"
-msgstr[0] "Skrivarpatrontyp"
-msgstr[1] "Skrivarpatrontyper"
+msgstr[0] "Skrivarpatron"
+msgstr[1] "Skrivarpatroner"
 
 msgid "Cartridge model"
 msgid_plural "Cartridge models"
@@ -2720,8 +2726,8 @@ msgstr[1] "Modeller"
 
 msgid "Cartridge type"
 msgid_plural "Cartridge types"
-msgstr[0] "Skrivarpatron"
-msgstr[1] "Skrivarpatroner"
+msgstr[0] "Skrivarpatron-typ"
+msgstr[1] "Skrivarpatron-typer"
 
 msgid "Cartridges alarm"
 msgstr "Larm för skrivarpatroner"
@@ -3249,8 +3255,8 @@ msgstr[1] "Datorer"
 
 msgid "Computer model"
 msgid_plural "Computer models"
-msgstr[0] "Datormodeller"
-msgstr[1] ""
+msgstr[0] "Datormodell"
+msgstr[1] "Datormodeller"
 
 msgid "Computer type"
 msgid_plural "Computer types"
@@ -3319,8 +3325,8 @@ msgstr[1] "Anslutningar"
 #: src/InterfaceType.php:44
 msgid "Interface type (Hard drive...)"
 msgid_plural "Interface types (Hard drive...)"
-msgstr[0] "Gränssnitt (Hårddisk...)"
-msgstr[1] "Gränssnitt (Hårddisk...)"
+msgstr[0] "Lagringsgränssnitt"
+msgstr[1] "Lagringsgränssnitt"
 
 #: src/PhonePowerSupply.php:44
 msgid "Phone power supply type"
@@ -3402,8 +3408,8 @@ msgstr "Kontaktperson för projektteamet"
 
 msgid "Contact type"
 msgid_plural "Contact types"
-msgstr[0] "Typ av kontakt"
-msgstr[1] "Typ av kontakter"
+msgstr[0] "Kontakttyp"
+msgstr[1] "Kontakttyper"
 
 msgid "Contact your GLPI admin!"
 msgstr "Kontakta din GLPI-administratör!"
@@ -4275,8 +4281,8 @@ msgstr[1] "Chassimodeller"
 
 msgid "Device control model"
 msgid_plural "Device control models"
-msgstr[0] "Kontrollmodell"
-msgstr[1] "Kontrollmodeller"
+msgstr[0] "Controller-modell"
+msgstr[1] "Controller-modeller"
 
 msgid "Device drive model"
 msgid_plural "Device drive models"
@@ -4301,7 +4307,7 @@ msgstr[1] "Grafikkortsmodeller"
 msgid "Device hard drive model"
 msgid_plural "Device hard drive models"
 msgstr[0] "Hårddiskmodell"
-msgstr[1] "Horddiskmodeller"
+msgstr[1] "Hårddiskmodeller"
 
 msgid "Device id"
 msgstr "Enhets-ID"
@@ -4491,13 +4497,10 @@ msgstr "Visa detta hjälpmeddelande"
 msgid "Display value labels on points/bars"
 msgstr "Visa värden på etiketter på staplar/poäng"
 
-#: templates/pages/setup/general/general_setup.html.twig
-msgid "Display source dropdown on login page"
-msgstr "Visa inloggningskälla på inloggningssidan"
-
 #: src/Config.php:1136
 msgid "Display the complete name of tree dropdown in search results"
-msgstr "Visa det fullständiga namnet på trädets rullgardinsmeny i sökresultaten"
+msgstr ""
+"Visa det fullständiga namnet på trädets rullgardinsmeny i sökresultaten"
 
 #: src/Config.php:1132
 msgid "Display the tree dropdown complete name in dropdown inputs"
@@ -7499,11 +7502,11 @@ msgstr "Hantera"
 msgid "Management type"
 msgstr "Hanteringstyp"
 
-#: src/Project.php:646 src/Project.php:1172 src/Project.php:1671
-#: src/Project.php:2583 src/Group_User.php:217 src/Group_User.php:257
-#: src/Group_User.php:295 src/Group_User.php:353 src/Group_User.php:518
-#: src/Group_User.php:600 src/Group_User.php:635 src/Group_User.php:775
-#: src/Group.php:535 src/NotificationTargetProject.php:61
+#: src/Project.php:646 src/Project.php:1172 src/Project.php:1671 
+#: src/Project.php:2583 src/Group_User.php:217 src/Group_User.php:257 
+#: src/Group_User.php:295 src/Group_User.php:353 src/Group_User.php:518 
+#: src/Group_User.php:600 src/Group_User.php:635 src/Group_User.php:775 
+#: src/Group.php:535 src/NotificationTargetProject.php:61 
 #: src/NotificationTargetProject.php:657
 msgid "Manager"
 msgid_plural "Managers"
@@ -8680,7 +8683,8 @@ msgstr[1] "PDU-modeller"
 #: src/PDUType.php:41
 msgid "PDU type"
 msgid_plural "PDU-typ"
-msgstr[0] "PDU-typer"
+msgstr[0] "PDU-typ"
+msgstr[1] "PDU-typer"
 
 msgid "PHP"
 msgstr "PHP"
@@ -8906,10 +8910,10 @@ msgid_plural "Phone types"
 msgstr[0] "Telefontyp"
 msgstr[1] "Telefontyper"
 
-#: templates/generic_show_form.html.twig templates/dropdown_form.html.twig
-#: templates/components/form/pictures.html.twig src/CommonDropdown.php:166
-#: src/CommonDropdown.php:189 src/AuthLDAP.php:988 src/AuthLDAP.php:4033
-#: src/User.php:2616 src/User.php:3086 src/User.php:3695 src/User.php:4067
+#: templates/generic_show_form.html.twig templates/dropdown_form.html.twig 
+#: templates/components/form/pictures.html.twig src/CommonDropdown.php:166 
+#: src/CommonDropdown.php:189 src/AuthLDAP.php:988 src/AuthLDAP.php:4033 
+#: src/User.php:2616 src/User.php:3086 src/User.php:3695 src/User.php:4067 
 #: src/User.php:6626
 msgid "Picture"
 msgid_plural "Pictures"
@@ -9657,7 +9661,7 @@ msgstr "Svarsdatum"
 msgid "Response date to the satisfaction survey"
 msgstr "Svarsdatum för kundnöjdhetsundersökning"
 
-#: src/AuthLDAP.php:995 src/AuthLDAP.php:1336 src/User.php:2950
+#: src/AuthLDAP.php:995 src/AuthLDAP.php:1336 src/User.php:2950 
 #: src/User.php:4036 src/ContentTemplates/Parameters/UserParameters.php:83
 msgid "Responsible"
 msgstr "Ansvarig"
@@ -10335,7 +10339,7 @@ msgstr[1] "Tillstånd"
 msgid "State of the virtual machine"
 msgid_plural "States of the virtual machine"
 msgstr[0] "Tillstånd för virtuell maskin"
-msgstr[1] "Tillstånd för virtuell maskin"
+msgstr[1] "Tillstånd för virtuella maskiner"
 
 msgid "Statistics"
 msgstr "Statistik"
@@ -11396,8 +11400,8 @@ msgstr ""
 
 msgid "User title"
 msgid_plural "Users titles"
-msgstr[0] "Användartitel"
-msgstr[1] "Användartitlar"
+msgstr[0] "Titel"
+msgstr[1] "Titlar"
 
 msgid "User with a single profile"
 msgstr "Användare med en enstaka profil"
@@ -12760,7 +12764,8 @@ msgstr "Antal telefoner"
 #: src/LineType.php:40
 msgid "Line type"
 msgid_plural "Telefonlinjetyp"
-msgstr[0] "Telefonlinjetyper"
+msgstr[0] "Telefonlinjetyp"
+msgstr[1] "Telefonlinjetyper"
 
 msgctxt "quantity"
 msgid "Number of printers"
@@ -12819,6 +12824,7 @@ msgstr "sensorstorlek"
 msgid "Sensor"
 msgid_plural "Sensors"
 msgstr[0] "Sensorer"
+msgstr[1] ""
 
 msgid "serial"
 msgstr "serienummer"
