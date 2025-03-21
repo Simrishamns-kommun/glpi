@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 13:04+0000\n"
-"PO-Revision-Date: 2025-03-21 10:52+0000\n"
+"PO-Revision-Date: 2025-03-21 14:41+0000\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2024\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -994,6 +994,18 @@ msgstr "Plats krävs"
 msgid "A project task is mandatory"
 msgstr "En projektuppgift är obligatorisk"
 
+#: src/ProjectTask.php:76
+msgid "Project task"
+msgid_plural "Project tasks"
+msgstr[0] "Projektuppgift"
+msgstr[1] "Projektuppgifter"
+
+#: src/TicketTask.php:43
+msgid "Ticket task"
+msgid_plural "Ticket tasks"
+msgstr[0] "Ärendeuppgift"
+msgstr[1] "Ärendeuppgifter"
+
 msgid "A rack is required"
 msgstr "Ett rack krävs"
 
@@ -1123,7 +1135,7 @@ msgid "Actor"
 msgstr "Aktör"
 
 msgid "Actors"
-msgstr "Aktörer"
+msgstr "Deltagare"
 
 msgid "Ad-hoc"
 msgstr "Ad-hoc"
@@ -1139,6 +1151,10 @@ msgstr "Lägg till API klient"
 
 msgid "Add CC users as observer"
 msgstr "Lägg till CC användare som observatörer"
+
+#: templates/components/itilobject/actors/main.html.twig
+msgid "Observer"
+msgstr "Observatör"
 
 msgid "Add PDU"
 msgstr "Lägg till PDU"
@@ -1633,7 +1649,7 @@ msgid "Allocated memory is unlimited."
 msgstr "Tilldelat minne är obegränsat."
 
 msgid "Allow FAQ anonymous access"
-msgstr "Tillåt anonym access till FAQ"
+msgstr "Tillåt anonym åtkomst till FAQ"
 
 msgid "Allow Over-Quota"
 msgstr "Tillåt överkvot"
@@ -1844,7 +1860,7 @@ msgid "Approval of the solution"
 msgstr "Godkännande av lösning"
 
 msgid "Approval request"
-msgstr "Begäran av godkännande"
+msgstr "Begär godkännande från"
 
 msgid "Approval request sent to %s"
 msgstr "Begäran om godkännande skickades till %s"
@@ -1963,7 +1979,7 @@ msgid "Assign: equipment by name + domain"
 msgstr "Tilldela: utrustningsnamn + domän"
 
 msgid "Assigned"
-msgstr "Tilldelad"
+msgstr "Ärendehandläggare"
 
 msgid "Assigned group"
 msgid_plural "Assigned groups"
@@ -2499,7 +2515,7 @@ msgid "By %s"
 msgstr "Av %s"
 
 msgid "By change"
-msgstr "Genom förändring"
+msgstr "Efter förändring"
 
 msgid "By contract"
 msgstr "Efter avtal"
@@ -2844,8 +2860,8 @@ msgstr "Ändring utförd"
 
 msgid "Change task"
 msgid_plural "Change tasks"
-msgstr[0] "Ändra uppgift"
-msgstr[1] "Ändra uppgifter"
+msgstr[0] "Ändringsuppgift"
+msgstr[1] "Ändringsuppgifter"
 
 msgid "Change template"
 msgid_plural "Change templates"
@@ -3982,19 +3998,35 @@ msgid "Default (from user profile)"
 msgstr "Standard (från användarprofil)"
 
 msgid "Default central tab"
-msgstr "Standard central flik"
+msgstr "Standardflik på startsidan"
+
+#: templates/pages/setup/general/general_setup.html.twig
+msgid "Page size for dropdown (paging using scroll)"
+msgstr "Sidstorlek för nedrullningsmeny (vid scrollning)"
 
 msgid "Default change template"
 msgstr "Standard ändringsmall"
 
+#: templates/pages/setup/general/general_setup.html.twig
+msgid "Translation of dropdowns"
+msgstr "Översätt nedrullningsmenyer"
+
+#: templates/pages/setup/general/general_setup.html.twig
+msgid "Translation of reminders"
+msgstr "Översätt påminnelser"
+
 msgid "Default characters limit (summary text boxes)"
-msgstr "Standardgräns för tecken (sammanfattningstextrutor)"
+msgstr "Antal tecken som standard (sammanfattningstextrutor)"
 
 msgid "Default contract"
 msgstr "Standardavtal"
 
+#: src/Config.php:1266
+msgid "Vertical (menu in sidebar)"
+msgstr "Vertikal (meny i sidopanel)"
+
 msgid "Default decimals limit"
-msgstr "Standardgräns för decimaler"
+msgstr "Antal decimaler som standard"
 
 msgid "Default display"
 msgstr "Standarddisplay"
@@ -4069,7 +4101,7 @@ msgid "Default server"
 msgstr "Standardserver"
 
 msgid "Default state of checkbox"
-msgstr "Standard för kryssrutan"
+msgstr "Kryssrutan markerad som standard"
 
 msgid "Default status"
 msgstr "Standardstatus"
@@ -4713,7 +4745,7 @@ msgid "Download user VCard"
 msgstr "Ladda ner användarens VCard"
 
 msgid "Drag and drop your file here, or"
-msgstr "Drag och släpp din fil här, eller"
+msgstr "Dra och släpp din fil här, eller"
 
 msgid "Draw a line between two assets to add an impact relation"
 msgstr ""
@@ -5958,8 +5990,24 @@ msgstr "Global hantering"
 msgid "Global right"
 msgstr "Global rättighet"
 
+#: templates/pages/setup/general/general_setup.html.twig
+msgid "Use locks"
+msgstr "Använd lås"
+
 msgid "Global search"
-msgstr "Global sökning"
+msgstr "Sök globalt"
+
+#: templates/pages/setup/general/general_setup.html.twig src/Config.php:1508
+msgid "Item locks"
+msgstr "Låsning av objekt"
+
+#: templates/pages/setup/general/general_setup.html.twig
+msgid "List of items to lock"
+msgstr "Objekt som kan låsas"
+
+#: templates/pages/setup/general/general_setup.html.twig
+msgid "Profile to be used when locking items"
+msgstr "Profil att använda då objekt låses"
 
 msgid "Global size"
 msgstr "Total storlek"
@@ -6142,7 +6190,7 @@ msgid "Homepage"
 msgstr "Hemsida"
 
 msgid "Horizontal (menu in header)"
-msgstr "Horisontell (meny i huvud)"
+msgstr "Horisontell (meny i sidhuvud)"
 
 msgid "Horizontal bars"
 msgstr "Horisontella staplar"
@@ -6955,7 +7003,7 @@ msgstr[0] "Kunskapsartikel"
 msgstr[1] "Kunskapsbasartiklar"
 
 msgid "Knowledge base translation"
-msgstr "Kunskapsbasöversättning"
+msgstr "Översätt kunskapsbas"
 
 msgid "Known mail domain"
 msgstr "Känd e-postdomän"
@@ -7736,7 +7784,7 @@ msgid "Multiple numbers"
 msgstr "Flera nummer"
 
 msgid "My devices"
-msgstr "Mina objekt"
+msgstr "Mina enheter"
 
 msgid "My devices and all items"
 msgstr "Mina enheter och alla objekt"
@@ -8114,7 +8162,12 @@ msgid "No group to be imported"
 msgstr "Inga grupper att importera"
 
 msgid "No historical"
-msgstr "Ingen historik funnen"
+msgstr "Ingen historik"
+
+#: templates/pages/setup/general/general_setup.html.twig
+msgid "default criterion"
+msgstr "standardvillkor"
+
 
 msgid "No import"
 msgstr "Ingen import"
@@ -8582,7 +8635,7 @@ msgid "Optional when approved"
 msgstr "Valfri vid godkännande"
 
 msgid "Or complete search"
-msgstr "Komplett sökning"
+msgstr "Eller välj från"
 
 msgid "Order by item type"
 msgstr "Sortera på objektstyp"
@@ -9126,7 +9179,7 @@ msgid "Prints"
 msgstr "Utskrifter"
 
 msgid "Priority"
-msgstr "Prioritet"
+msgstr "Ärendeprioritet"
 
 msgid "Priority colors"
 msgstr "Prioritetsfärger"
@@ -9584,8 +9637,8 @@ msgstr "Begäran skickad till"
 
 msgid "Request source"
 msgid_plural "Request sources"
-msgstr[0] "Ursprung för begäran"
-msgstr[1] "Usrprung för begäranden"
+msgstr[0] "Ärendekälla"
+msgstr[1] "Ärendekällor"
 
 msgid "Request sources by default"
 msgstr "Standardärendekälla"
@@ -9595,8 +9648,8 @@ msgstr "Begärt objekt kunde ej hittas"
 
 msgid "Requester"
 msgid_plural "Requesters"
-msgstr[0] "Beställare"
-msgstr[1] "Beställare"
+msgstr[0] "Rapportör"
+msgstr[1] "Rapportörer"
 
 msgid "Requester group"
 msgid_plural "Requester groups"
@@ -9743,7 +9796,7 @@ msgstr[0] "Regel"
 msgstr[1] "Regler"
 
 msgid "Rule import logs"
-msgstr "Använda regler"
+msgstr "Regler som använts vid importen"
 
 msgid "Rule name"
 msgstr "Regelnamn"
@@ -9965,6 +10018,10 @@ msgstr "Visa alla"
 
 msgid "See all plannings"
 msgstr "Visa all planering"
+
+#: src/Planning.php:975
+msgid "Plannings"
+msgstr "Planeringar"
 
 msgid "See all reservable items"
 msgstr "Visa alla bokningsbara objekt"
@@ -10797,7 +10854,7 @@ msgstr[0] "Tidsomfattning"
 msgstr[1] "Tidsomfattningar"
 
 msgid "Time to allow \"Remember Me\""
-msgstr "Tid för att tillåta \"Kom ihåg mig\""
+msgstr "Varaktighet för \"Kom ihåg mig\""
 
 msgid "Time to close"
 msgstr "Tid till stängning"
@@ -10898,7 +10955,7 @@ msgid "Toggle auto-refresh"
 msgstr "Växla automatisk uppdatering"
 
 msgid "Toggle filters"
-msgstr "Växla filters"
+msgstr "Växla filter"
 
 msgid "Toggle fullscreen"
 msgstr "Växla till fullskärm"
@@ -10913,7 +10970,7 @@ msgid "Toggle search filters"
 msgstr "Växla sökfilter"
 
 msgid "Token"
-msgstr "Tecken"
+msgstr "Token"
 
 msgid "Tomorrow"
 msgstr "Imorgon"
@@ -10928,10 +10985,10 @@ msgid "Tools"
 msgstr "Verktyg"
 
 msgid "Top"
-msgstr "Toppen"
+msgstr "Överst"
 
 msgid "Top of the page"
-msgstr "Till toppen av sidan"
+msgstr "Överst på sidan"
 
 msgid "Top ticket's assignee groups"
 msgstr "Topplista mest tilldelade grupper"
@@ -11006,16 +11063,16 @@ msgid "Total: %1$d, New: %2$d, Used: %3$d"
 msgstr "Totalt: %1$d, Nya: %2$d, Förbrukade: %3$d"
 
 msgid "Town"
-msgstr "Stad"
+msgstr "Ort"
 
 msgid "Transfer"
-msgstr "Överför"
+msgstr "Flytta"
 
 msgid "Transfer mode"
-msgstr "Förflyttningsmetod"
+msgstr "Flyttläge"
 
 msgid "Transform this network port to"
-msgstr "Förvandla denna nätverksport till"
+msgstr "Omvandla denna nätverksport till"
 
 msgid "Translation"
 msgid_plural "Translations"
@@ -12544,7 +12601,7 @@ msgid "last Wednesday"
 msgstr "förra onsdagen"
 
 msgid "last criterion"
-msgstr "senaste kriteriet"
+msgstr "senaste sökvillkoret"
 
 msgid "ldap_start_tls does not exist"
 msgstr "ldap_start_tls saknas"
