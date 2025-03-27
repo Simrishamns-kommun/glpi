@@ -4548,10 +4548,10 @@ msgid "Dissociate a VLAN"
 msgstr "Dissociera ett VLAN"
 
 msgid "Dissociate from a group"
-msgstr "Koppla loss från grupp"
+msgstr "Ta bort koppling till grupp"
 
 msgid "Dissociate from a profile"
-msgstr "Ta bort från en profil"
+msgstr "Ta bort koppling till profil"
 
 msgid "Dissociated devices"
 msgstr "Bortkopplade enheter"
@@ -4924,7 +4924,7 @@ msgid "Email for followup"
 msgstr "E-post adress för uppföljning"
 
 msgid "Email not found. Impossible import"
-msgstr "Email saknas. Omöjliggör import"
+msgstr "E-post saknas. Kan inte importera"
 
 msgid "Email notification"
 msgid_plural "Email notifications"
@@ -4980,7 +4980,7 @@ msgid "Enable email sending using SSL/TLS."
 msgstr "Aktivera e-postsändning med SSL/TLS."
 
 msgid "Enable filtering by date"
-msgstr "Möjliggör filtrering på datum"
+msgstr "Aktivera filtrering efter datum"
 
 msgid "Enable followup"
 msgstr "Aktivera uppföljning"
@@ -5095,13 +5095,13 @@ msgstr ""
 "som stöds)"
 
 msgid "End hour of run period"
-msgstr "Sluttimme av körperiod"
+msgstr "Sluttimme för körperiod"
 
 msgid "End of contract"
-msgstr "Avslutning av kontrakt"
+msgstr "Avtal upphör"
 
 msgid "End of fiscal year"
-msgstr "Slutet av räkenskapsåret"
+msgstr "Räkenskapsåret slutar"
 
 msgid "End of life"
 msgstr "Slut"
@@ -6488,7 +6488,7 @@ msgid "Import information"
 msgstr "Importinformation"
 
 msgid "Import monitor on serial partial match"
-msgstr "Importera monitor baserat på partiell serie matchning"
+msgstr "Importera bildskärm via partiell matchning av serienummer"
 
 msgid "Import new users"
 msgstr "Importera nya användare"
@@ -6673,7 +6673,7 @@ msgid "Installation or update of GLPI"
 msgstr "Installation eller uppdatering av GLPI"
 
 msgid "Installation/uninstallation of software on items"
-msgstr "Installation/avinstallation av mjukvara på objekt"
+msgstr "Installation/avinstallation av mjukvara för objekt"
 
 msgid "Installation/uninstallation versions on software"
 msgstr "Installations-/avinstallationsversioner på programvara"
@@ -7465,7 +7465,7 @@ msgid "Logs in files (SQL, email, automatic action...)"
 msgstr "Logga till fil (SQL, e-post, automatiska händelser...)"
 
 msgid "Logs purge"
-msgstr "Rensa logg"
+msgstr "Loggrensning"
 
 msgid "Longitude"
 msgstr "Longitud"
@@ -7613,7 +7613,7 @@ msgid "Material cost"
 msgstr "Materialkostnad"
 
 msgid "Matrix of calculus for priority"
-msgstr "Matris för beräkning av prioritet"
+msgstr "Matris för beräkning av ärendeprioritet"
 
 msgid "Max number of items"
 msgstr "Max antal objekt"
@@ -9732,19 +9732,19 @@ msgid "Restrict device management"
 msgstr "Begränsa hantering av enheter"
 
 msgid "Restrict monitor management"
-msgstr "Begränsa hantering av bildskärmar"
+msgstr "Begränsa bildskärmshantering"
 
 msgid "Restrict phone management"
 msgstr "Begränsa hantering av telefon"
 
 msgid "Restrict printer management"
-msgstr "Begränsa hantering av skrivare"
+msgstr "Begränsa skrivarhantering"
 
 msgid "Restrict search in defined entity"
-msgstr "Begränsa sökning i definierad enhet"
+msgstr "Begränsa sökning i angiven entitet"
 
 msgid "Result details"
-msgstr "Detaljer i resultat"
+msgstr "Detaljer"
 
 msgid "Result of the regular expression"
 msgstr "Resultat av ett reguljärt uttryck"
@@ -11302,7 +11302,7 @@ msgid "Up to date"
 msgstr "Aktuell"
 
 msgid "Update"
-msgstr "Uppdatera"
+msgstr "Uppdatering"
 
 msgid "Update Source"
 msgid_plural "Update Sources"
@@ -11764,7 +11764,7 @@ msgid "When connecting or updating"
 msgstr "Vid kontakt eller uppdatering"
 
 msgid "When disconnecting"
-msgstr "Vid ut-loggning"
+msgstr "Vid utloggning"
 
 msgid "Widget"
 msgstr "Widget"
@@ -12127,7 +12127,7 @@ msgstr "Lägg till utrustning"
 
 msgctxt "button"
 msgid "Add to transfer list"
-msgstr "Lägg till i flyttlista"
+msgstr "Flytta"
 
 msgctxt "button"
 msgid "Answer"
@@ -12171,7 +12171,7 @@ msgstr "Ändring"
 
 msgctxt "button"
 msgid "Change the authentication method"
-msgstr "Byt autentisieringsmetod"
+msgstr "Ändra autentisieringsmetod"
 
 msgctxt "button"
 msgid "Clean"
@@ -12303,7 +12303,7 @@ msgstr "Skicka"
 
 msgctxt "button"
 msgid "Put in trashbin"
-msgstr "Släng i papperskorgen"
+msgstr "Flytta till papperskorgen"
 
 msgctxt "button"
 msgid "Remove a contract"
@@ -12522,11 +12522,11 @@ msgstr "Alla"
 
 msgctxt "impact"
 msgid "At least high"
-msgstr "Åtminstone högt"
+msgstr "Åtminstone stor"
 
 msgctxt "impact"
 msgid "At least low"
-msgstr "Åtminstone lågt"
+msgstr "Åtminstone låg"
 
 msgctxt "impact"
 msgid "At least medium"
@@ -12534,19 +12534,19 @@ msgstr "Åtminstone medium"
 
 msgctxt "impact"
 msgid "At least very high"
-msgstr "Åtminstone väldigt högt"
+msgstr "Åtminstone mycket stor"
 
 msgctxt "impact"
 msgid "At least very low"
-msgstr "Åtminstone väldigt lågt"
+msgstr "Åtminstone mycket liten"
 
 msgctxt "impact"
 msgid "High"
-msgstr "Hög"
+msgstr "Stor"
 
 msgctxt "impact"
 msgid "Low"
-msgstr "Låg"
+msgstr "Liten"
 
 msgctxt "impact"
 msgid "Medium"
@@ -12554,11 +12554,11 @@ msgstr "Medium"
 
 msgctxt "impact"
 msgid "Very high"
-msgstr "Mycket hög"
+msgstr "Mycket stor"
 
 msgctxt "impact"
 msgid "Very low"
-msgstr "Mycket låg"
+msgstr "Mycket liten"
 
 msgctxt "infocom"
 msgid "Administrative number"
@@ -13262,3 +13262,60 @@ msgstr ""
 #: src/Inventory/Conf.php:887
 msgid "Update agents who have not contacted the server for (in days)"
 msgstr "Uppdatera agenter som inte kontaktat servern sedan (antal dagar)"
+
+#: Saknas i originalfilen
+msgid: "Removable drives volumes"
+msgstr: "Externa hårddiskvolymer"
+
+#: Saknas i originalfilen
+msgid: "Network drives volumes"
+msgstr: "Nätverksvolymer"
+
+#: src/Inventory/Conf.php:526
+msgid "Inventory frequency (in hours)"
+msgstr "Inventeringsintervall (timmar)"
+
+#: templates/components/search/controls.html.twig
+msgid "Toggle browse"
+msgstr "Växla visningstyp"
+
+#: src/Html.php:2736
+msgid "Massive actions"
+msgstr "Åtgärder på flera objekt"
+
+#: src/CommonDBTM.php:4107
+msgctxt "button"
+msgid "Unlock items"
+msgstr "Lås upp objekt"
+
+#: src/GLPINetwork.php:116
+msgid "Subscription"
+msgstr "Prenumeration"
+
+#: templates/pages/setup/dropdowns_list.html.twig
+msgid "Filter dropdowns"
+msgstr "Filtrera alternativ"
+
+#: src/Config.php:927
+msgid "Planning work days"
+msgstr "Arbetsdagar"
+
+#: src/LevelAgreement.php:203 src/LevelAgreement.php:401
+msgid "Maximum time"
+msgstr "Maxtid"
+
+#: src/OLA.php:60
+msgid "The internal time is recalculated when assigning the OLA"
+msgstr "Den interna tiden beräknas på nytt då ett OLA tilldelas"
+
+#: src/Config.php:3225
+msgid "Logs purge configuration"
+msgstr "Inställningar för loggrensning"
+
+#: src/Config.php:3345
+msgid "Update component"
+msgstr "Uppdatera komponent"
+
+#: src/NotificationTargetFieldUnicity.php:49 src/Config.php:3265
+msgid "Update the item"
+msgstr "Uppdatera objekt"
