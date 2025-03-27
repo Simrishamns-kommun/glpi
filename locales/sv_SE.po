@@ -1058,7 +1058,7 @@ msgid "API inline Documentation"
 msgstr "API inline dokumentation"
 
 msgid "API token"
-msgstr "API token"
+msgstr "API-token"
 
 msgid "ATX"
 msgstr "ATX"
@@ -1521,7 +1521,7 @@ msgid "Agent base URL"
 msgstr "Agentens bas-URL"
 
 msgid "Agent cleanup"
-msgstr "Agent städning"
+msgstr "Rensning av inaktiva agenter"
 
 msgid "Agent status"
 msgstr "Status"
@@ -1559,7 +1559,7 @@ msgid "Alarms on expired licenses"
 msgstr "Larm för utgångna licenser"
 
 msgid "Alarms on financial and administrative information"
-msgstr "Larm om ekonomisk och administrativ information"
+msgstr "Larm för finansiell och administrativ information"
 
 msgid "Alarms options"
 msgstr "Larminställningar"
@@ -1854,13 +1854,13 @@ msgid "Approval date"
 msgstr "Godkänt datum"
 
 msgid "Approval granted by %s"
-msgstr "Begäran godkännd av %s"
+msgstr "Begäran godkänd av %s"
 
 msgid "Approval of the solution"
 msgstr "Godkännande av lösning"
 
 msgid "Approval request"
-msgstr "Begär godkännande från"
+msgstr "Begär godkännande av"
 
 msgid "Approval request sent to %s"
 msgstr "Begäran om godkännande skickades till %s"
@@ -2030,10 +2030,10 @@ msgid "Associate myself"
 msgstr "Anslut mig"
 
 msgid "Associate to a group"
-msgstr "Koppla till en grupp"
+msgstr "Koppla till grupp"
 
 msgid "Associate to a profile"
-msgstr "Koppla till en profil"
+msgstr "Koppla till profil"
 
 msgid "Associated contact"
 msgid_plural "Associated contacts"
@@ -2093,7 +2093,7 @@ msgid "Authentication"
 msgstr "Autentisering"
 
 msgid "Authentication on GLPI database"
-msgstr "Inloggning mot GLPIs databas"
+msgstr "GLPI"
 
 msgid "Authentication on a LDAP directory"
 msgstr "Autentisiering i en LDAP katalog "
@@ -2116,7 +2116,7 @@ msgid "Authorization error"
 msgstr "Auktoriseringsfel"
 
 msgid "Authorizations assignment rules"
-msgstr "Tilldelningsregler för auktorisationer"
+msgstr "Regler för tilldelning av auktorisationer"
 
 msgid "Authorize reservations"
 msgstr "Auktorisera reservationer"
@@ -2146,7 +2146,7 @@ msgid "Auto-lock Mode"
 msgstr "Autolåsläge"
 
 msgid "Autofill dates for financial and administrative information"
-msgstr "Autofyll datum för ekonomisk och administrativ information"
+msgstr "Autofyll datum för finansiell och administrativ information"
 
 msgid "Autofilled from template"
 msgstr "Autofylld från mall"
@@ -2310,7 +2310,7 @@ msgid "Back"
 msgstr "Tillbaka"
 
 msgid "Back to planning"
-msgstr "Tillbaka till planering"
+msgstr "Tillbaka till kalender"
 
 msgid "Back to stock"
 msgstr "Tillbaka till lager"
@@ -2500,7 +2500,7 @@ msgstr[0] "Affärskritikalitet"
 msgstr[1] "Affärskritikaliteter"
 
 msgid "Business rules for assets"
-msgstr "Affärsregler för enheter"
+msgstr "Affärsregler för tillgångar"
 
 msgid "Business rules for tickets"
 msgstr "Affärsregler för ärenden"
@@ -3048,7 +3048,7 @@ msgstr[1] ""
 "Rensa %1$d temporära filer som skapats för mer än %2$s sekunder sedan"
 
 msgid "Clean LDAP fields and force synchronisation"
-msgstr "Rensa LDAP fältet och forcera synkronisering"
+msgstr "Rensa LDAP-fält och synkronisera"
 
 msgid "Clean agents"
 msgstr "Rensa agenter"
@@ -3235,7 +3235,7 @@ msgid "Comments"
 msgstr "Kommentarer"
 
 msgid "Comments on financial and administrative information"
-msgstr "Kommentarer om ekonomisk och administrativ information"
+msgstr "Kommentarer till finansiell och administrativ information"
 
 msgid "Comments to the satisfaction survey"
 msgstr "Kommentarer till kundnöjdhetsundersökning"
@@ -4029,7 +4029,7 @@ msgid "Default decimals limit"
 msgstr "Antal decimaler som standard"
 
 msgid "Default display"
-msgstr "Standarddisplay"
+msgstr "Standardvisning"
 
 msgid "Default email"
 msgstr "Standard e-post"
@@ -4536,7 +4536,7 @@ msgstr ""
 
 #: src/Config.php:1132
 msgid "Display the tree dropdown complete name in dropdown inputs"
-msgstr "Display the tree dropdown complete name in dropdown inputs"
+msgstr "Visa fullständigt namn i nedrullningsmenyer"
 
 msgid "DisplayPort"
 msgstr "Displayport"
@@ -4765,10 +4765,10 @@ msgstr[0] "Menyalternativ"
 msgstr[1] "Menyalternativ"
 
 msgid "Dropdown with entity management"
-msgstr "Dropdown med enhetshantering"
+msgstr "Dropdown med entitetshantering"
 
 msgid "Dropdowns dictionary"
-msgstr "Dropdown-ordbok"
+msgstr "Menyalternativ"
 
 msgid "Drum"
 msgstr "Trumma"
@@ -4992,7 +4992,7 @@ msgid "Enable followups via email"
 msgstr "Aktivera uppföljningar via e-post"
 
 msgid "Enable high contrast"
-msgstr "Aktivera hög kontrast"
+msgstr "Använd hög kontrast"
 
 msgid "Enable installation of plugins from marketplace."
 msgstr "Aktivera installation av plugins från marknadsplatsen."
@@ -5168,7 +5168,7 @@ msgid "Entity not found"
 msgstr "Entiteten kunde inte hittas"
 
 msgid "Entity right"
-msgstr "Entitetsbehörighet"
+msgstr "Rättighet på entitetsnivå"
 
 msgid "Entry translations list"
 msgstr "Lista över översättningar av poster"
@@ -5184,8 +5184,8 @@ msgstr "Utrustningsnamn"
 
 msgid "Equipment refused by rules log"
 msgid_plural "Equipments refused by rules log"
-msgstr[0] "Utrustning som vägrats av regellogg"
-msgstr[1] "Utrustningar som vägrats av regellogg"
+msgstr[0] "Utrustning som blockerats av regel"
+msgstr[1] "Utrustningar som blockerats av regler"
 
 msgid "Equipment without network card"
 msgstr "Utrustning utan nätverkskort"
@@ -5755,7 +5755,7 @@ msgid ""
 "For this type of item, the financial and administrative information are only "
 "a model for the items which you should add."
 msgstr ""
-"För denna typ av objekt är den ekonomiska och administrativa informationen "
+"För denna typ av objekt är den finansiella och administrativa informationen "
 "endast en modell för de artiklar som du bör lägga till."
 
 msgid "For tickets closed after"
@@ -5798,7 +5798,7 @@ msgstr ""
 "konfigurerad åtgärd\\: \"%s\")"
 
 msgid "Force synchronization"
-msgstr "Tvinga igenom synkronisering"
+msgstr "Synkronisera"
 
 msgid "Force unlock %1s #%2s"
 msgstr "Tvinga upplåsning av %1s #%2s"
@@ -5988,7 +5988,7 @@ msgid "Global management"
 msgstr "Global hantering"
 
 msgid "Global right"
-msgstr "Global rättighet"
+msgstr "Rättighet på global nivå"
 
 #: templates/pages/setup/general/general_setup.html.twig
 msgid "Use locks"
@@ -7230,7 +7230,7 @@ msgid "Lifelong"
 msgstr "Livslång"
 
 msgid "Limit of the schedules for planning"
-msgstr "Tillåtna klockslag för planering"
+msgstr "Tillåtna klockslag för kalender"
 
 msgid "Line"
 msgid_plural "Lines"
@@ -7239,11 +7239,11 @@ msgstr[1] "Telefonlinjer"
 
 msgid "Line operator"
 msgid_plural "Line operators"
-msgstr[0] "Linjeoperatör"
-msgstr[1] "Linjeoperatörer"
+msgstr[0] "Teleoperatör"
+msgstr[1] "Teleoperatörer"
 
 msgid "Linear"
-msgstr "Rak"
+msgstr "Linjär"
 
 msgid "Link"
 msgid_plural "Links"
@@ -8994,7 +8994,7 @@ msgid "Planned tickets"
 msgstr "Planerade ärenden"
 
 msgid "Planning"
-msgstr "Planering"
+msgstr "Kalender"
 
 msgctxt "Planning"
 msgid "Reminder"
@@ -9163,7 +9163,7 @@ msgstr[0] "Skrivare"
 msgstr[1] "Skrivare"
 
 msgid "Printer counter"
-msgstr "Utskriftsräknare"
+msgstr "Antal skrivare"
 
 msgid "Printer model"
 msgid_plural "Printer models"
@@ -9381,13 +9381,13 @@ msgid "Read"
 msgstr "Läs"
 
 msgid "Read notes"
-msgstr "Läs anteckningar"
+msgstr "Läsa anteckningar"
 
 msgid "Read the FAQ"
-msgstr "Läs FAQ"
+msgstr "Läsa FAQ"
 
 msgid "Read the item's notes"
-msgstr "Läs anteckningar för objektet"
+msgstr "Läsa anteckningar för objektet"
 
 msgid "Readme"
 msgstr "Readme"
@@ -9424,8 +9424,8 @@ msgstr "Återkallad den %s"
 
 msgid "Receiver"
 msgid_plural "Receivers"
-msgstr[0] "Mottagare"
-msgstr[1] "Mottagare"
+msgstr[0] "Ärendeinsamlare"
+msgstr[1] "Ärendeinsamlare"
 
 msgid "Recent entries"
 msgstr "De senaste bidragen"
@@ -9544,7 +9544,7 @@ msgid "Remote access keys"
 msgstr "Nycklar för fjärråtkomst"
 
 msgid "Removable drives"
-msgstr "Borttagningsbara diskar"
+msgstr "Externa hårddiskar"
 
 msgid "Remove all at once"
 msgstr "Radera alla samtidigt"
@@ -9814,25 +9814,30 @@ msgid "Rules applied: %s"
 msgstr "Regel tillämpad: %s"
 
 msgid "Rules for assigning a category to a software"
-msgstr "Regler för att tilldela programvara till en kategori"
+msgstr "Regler för tilldelning av programvara till kategori"
 
 msgid "Rules for assigning a category to software"
-msgstr "Regler för tilldelning av kategori för mjukvara"
+msgstr "Regler för tilldelning av kategori till mjukvara"
 
 msgid "Rules for assigning a computer to a location"
-msgstr "Regler för att tilldela en dator till en plats"
+msgstr "Regler för tilldelning av dator till plats"
 
 msgid "Rules for assigning a computer to an entity"
 msgstr "Regler för tilldelning av dator till entitet"
 
 msgid "Rules for assigning an item to an entity"
-msgstr "Regler för att tilldela ett objekt till en entitet"
+msgstr "Regler för tilldelning av objekt till entitet"
 
 msgid "Rules for import and link computers"
 msgstr "Regler för import och länkning av datorer"
 
+#: src/RuleMailCollectorCollection.php:47 src/Profile.php:1038
+#: src/Profile.php:2843 src/RuleMailCollector.php:59
+msgid "Rules for assigning a ticket created through a mails receiver"
+msgstr "Regler för tilldelning av ärenden mottagna via e-post"
+
 msgid "Rules list"
-msgstr "Lista regler"
+msgstr "Regler"
 
 msgid "Rules management"
 msgstr "Regelhantering"
@@ -9841,7 +9846,7 @@ msgid "Rules refused"
 msgstr "Regler avvisade"
 
 msgid "Rules using the object have been disabled."
-msgstr "Regler som utnyttjar av-aktiverade objekt"
+msgstr "Regler som använder objektet har inaktiverats."
 
 msgid "Run Racks plugin update (you need version %s files to do this)"
 msgstr ""
@@ -9888,6 +9893,12 @@ msgstr "SMTP+SSL"
 
 msgid "SMTP+TLS"
 msgstr "SMTP+TLS"
+
+#: src/SNMPCredential.php:49
+msgid "SNMP credential"
+msgid_plural "SNMP credentials"
+msgstr[0] "SNMP-behörighet"
+msgstr[1] "SNMP-behörigheter"
 
 msgid "SNMP version"
 msgstr "SNMP-version"
@@ -10017,11 +10028,11 @@ msgid "See all"
 msgstr "Visa alla"
 
 msgid "See all plannings"
-msgstr "Visa all planering"
+msgstr "Visa alla kalendrar"
 
 #: src/Planning.php:975
 msgid "Plannings"
-msgstr "Planeringar"
+msgstr "Kalendrar"
 
 msgid "See all reservable items"
 msgstr "Visa alla bokningsbara objekt"
@@ -10039,22 +10050,22 @@ msgid "See group ticket"
 msgstr "Visa ärenden för grupp"
 
 msgid "See hardware of my groups"
-msgstr "Se hårdvara i mina grupper"
+msgstr "Visa hårdvara i mina grupper"
 
 msgid "See my ticket"
 msgstr "Visa mina ärenden"
 
 msgid "See personnal planning"
-msgstr "Visa personlig planering"
+msgstr "Visa personlig kalender"
 
 msgid "See planning"
-msgstr "Visa planering"
+msgstr "Visa kalender"
 
 msgid "See schedule of people in my groups"
 msgstr "Visa scheman för personer i mina grupper"
 
 msgid "See the catalog of plugins"
-msgstr "Se plugin-katalogen"
+msgstr "Visa plugin-katalogen"
 
 msgid "See tickets created by my groups"
 msgstr "Visa ärenden skapade av min grupp"
@@ -10415,8 +10426,13 @@ msgstr "Status på begäran om godkännande"
 msgid "Status value in database"
 msgstr "Statusvärde i databasen"
 
+#. TRANS: short for : Steal a ticket
+#: src/Ticket.php:6146
+msgid "Steal"
+msgstr "Överta"
+
 msgid "Steal a ticket"
-msgstr "ÖTa över ärenden"
+msgstr "Överta ärende"
 
 msgid "Step %d"
 msgstr "Steg %d"
@@ -10877,7 +10893,7 @@ msgstr "Timeline Week"
 
 #: src/Config.php:1420
 msgid "Timeline date display"
-msgstr "Timeline Date Display"
+msgstr "Visning av datum i tidslinje"
 
 #: templates/components/itilobject/timeline/filter_timeline.html.twig
 msgid "Timeline filter"
@@ -11363,7 +11379,7 @@ msgid "Use DN in the search"
 msgstr "Använd DN i sökningen"
 
 msgid "Use GLPI"
-msgstr "Starta GLPI"
+msgstr "Använd GLPI"
 
 msgid "Use GLPI in mode"
 msgstr "GPLI läge"
@@ -11972,7 +11988,7 @@ msgid "Your password will expire on %s."
 msgstr "Ditt lösenord kommer utgå den %s."
 
 msgid "Your planning"
-msgstr "Din planering"
+msgstr "Din kalender"
 
 msgid "Your plugin here ? Contact us."
 msgstr "Vill du visa ditt tillägg här? Kontakta oss."
@@ -12111,7 +12127,7 @@ msgstr "Lägg till utrustning"
 
 msgctxt "button"
 msgid "Add to transfer list"
-msgstr "Lägg till transferlista"
+msgstr "Lägg till i flyttlista"
 
 msgctxt "button"
 msgid "Answer"
@@ -13105,3 +13121,144 @@ msgstr "du kanske måste lägga till ett nätverk"
 
 msgid "⌥ (option) + ⌘ (command) + E"
 msgstr "⌥ (option) + ⌘ (command) + E"
+
+
+#: src/Session.php:482 src/Session.php:487
+msgid "full structure"
+msgstr "hela trädet"
+
+#: src/Config.php:1408
+msgid "Action button layout"
+msgstr "Layout för åtgärdsknapp"
+
+#: src/Config.php:1343
+msgid "Natural order (old items on top, recent on bottom)"
+msgstr "Naturlig ordning (äldsta objekt överst, senaste underst)"
+
+#: src/Config.php:1344
+msgid "Reverse order (old items on bottom, recent on top)"
+msgstr "Omvänd ordning (äldsta objekt underst, senaste överst)"
+
+#: src/Config.php:1382
+msgid "Tasks state by default"
+msgstr "Standard för uppgifter"
+
+#: install/migrations/update_9.4.x_to_9.5.0/dashboards.php:345
+msgid "Mini tickets dashboard"
+msgstr "Förenklad ärendeöversikt"
+
+#: src/ITILTemplateMandatoryField.php:252 src/Profile.php:786
+#: src/Profile.php:2059
+msgid "Profile's interface"
+msgstr "Användargränssnitt"
+
+#: src/Profile.php:798 src/Profile.php:3484
+msgid "Update own password"
+msgstr "Kan uppdatera eget lösenord"
+
+#: templates/components/checkbox_matrix.html.twig src/Profile.php:4216
+msgid "Select/unselect all"
+msgstr "Markera/Avmarkera allt"
+
+#: src/Profile.php:933 src/Profile.php:2242
+msgid "Simcard PIN/PUK"
+msgstr "SIM-kort PIN/PUK"
+
+#: src/TicketTask.php:271 src/ITILFollowup.php:840
+msgid "See public ones"
+msgstr "Visa publika"
+
+#: src/TicketTask.php:268 src/ITILFollowup.php:826
+msgid "See private ones"
+msgstr "Visa privata"
+
+#: src/Profile.php:1213 src/Profile.php:1594 src/Profile.php:3265
+msgid "Associable items to tickets, changes and problems"
+msgstr "Objekt som kan kopplas till ärenden, ändringar och problem"
+
+#: src/PlanningExternalEvent.php:386
+msgid "manage background events"
+msgstr "Hantera bakgrundshändelser"
+
+#: src/Project.php:143 src/ProjectTask.php:185
+msgid "See (actor)"
+msgstr "Visa (aktör)"
+
+#: src/Change.php:685 src/Problem.php:1514
+msgid "See (author)"
+msgstr "Visa (författare)"
+
+#: src/NetworkPort.php:1245
+msgid "Testing"
+msgstr "Testning"
+
+#: src/Change.php:591
+msgctxt "change"
+msgid "Testing"
+msgstr "Testning"
+
+
+#: src/Reminder.php:1072 src/RSSFeed.php:1121
+msgid "Manage personal"
+msgstr "Hantera egna"
+
+#: src/ProjectTask.php:186
+msgid "Update (actor)"
+msgstr "Uppdatera (aktör)"
+
+#: src/Profile.php:969 src/Profile.php:3054
+msgid "System logs"
+msgstr "Systemloggar"
+
+#. TRANS: short for : Read method for user authentication and synchronization
+#: src/User.php:6089
+msgid "Read auth"
+msgstr "Visa autentiseringsmetod"
+
+#. TRANS: short for : Update method for user authentication and
+#. synchronization
+#: src/User.php:6093
+msgid "Update auth and sync"
+msgstr "Uppdatera autentiseringsmetod och synkronisera"
+
+#: src/Entity.php:3914
+msgid "Read parameters"
+msgstr "Läsa parametrar"
+
+#: src/Profile.php:1066
+msgid "Printers dictionary"
+msgstr "Skrivarkatalog"
+
+#: src/RuleTicket.php:1048 src/RuleAsset.php:211
+msgid "Parent business"
+msgstr "Parent Business"
+
+#. TRANS: short for : Search result user display
+#: src/DisplayPreference.php:805
+msgid "User display"
+msgstr "Användaranpassad visning"
+
+#: templates/components/pager.html.twig
+#, php-format
+msgid "Showing %s to %s of %s rows"
+msgstr "Visar rad %s till %s av %s rader"
+
+#: src/Inventory/Conf.php:383
+msgid "Enable inventory"
+msgstr "Aktivera inventering"
+
+#: src/RuleImportAssetCollection.php:78
+msgid "Rules for import and link equipments"
+msgstr "Regler för import och länkning av utrustning"
+
+#: src/Inventory/Conf.php:673
+msgid ""
+"Will attempt to create components from VM information sent from host, do not"
+" use if you plan to inventory any VM directly!"
+msgstr ""
+"Kommer att försöka skapa komponenter från VM-information som extraherats från värddatorn."
+" Använd inte detta om du planerar att inventera en VM-instans!"
+
+#: src/Inventory/Conf.php:887
+msgid "Update agents who have not contacted the server for (in days)"
+msgstr "Uppdatera agenter som inte kontaktat servern sedan (antal dagar)"
