@@ -5210,7 +5210,7 @@ msgstr "Fel vid skapandet av databasen!"
 
 msgid ""
 "Error in entering dates. The starting date is later than the ending date"
-msgstr "Fel vid datum. Start datum är efter slut datum."
+msgstr "Fel vid datum. Startdatum är efter slutdatum."
 
 msgid "Error in sending the email"
 msgstr "Fel vid sändning av meddelande"
@@ -6291,7 +6291,7 @@ msgid "Id"
 msgstr "Id"
 
 msgid "If approval is denied, specify a reason."
-msgstr "Om en begäran om godkännande avslås, specificera orsak."
+msgstr "Om en begäran om godkännande avslås, ange orsak."
 
 msgid "If certificates are no longer used"
 msgstr "Om certifikat inte längre används"
@@ -8114,7 +8114,7 @@ msgid "No consumable found"
 msgstr "Ingen förbrukningsvara funnen"
 
 msgid "No contract specified"
-msgstr "Inget avtal specificerat"
+msgstr "Inget avtal angivet"
 
 msgid "No data available on the web site"
 msgstr "Ingen information tillgänglig på webb-platsen"
@@ -9393,19 +9393,19 @@ msgid "Readme"
 msgstr "Readme"
 
 msgid "Real capacity (mWh)"
-msgstr "Äkta kapacitet (mWh)"
+msgstr "Faktisk effekt (mWh)"
 
 msgid "Real duration"
-msgstr "Verklig åtgärdstid"
+msgstr "Faktisk varaktighet"
 
 msgid "Real duration of treatment of the ticket"
 msgstr "Verklig åtgärdstid för ärende"
 
 msgid "Real end date"
-msgstr "Riktigt slutdatum"
+msgstr "Faktiskt slutdatum"
 
 msgid "Real start date"
-msgstr "Riktigt startdatum"
+msgstr "Faktiskt startdatum"
 
 msgid "Rear"
 msgstr "Baksida"
@@ -9572,7 +9572,7 @@ msgid "Reopen"
 msgstr "Återöppna"
 
 msgid "Repeat"
-msgstr "Repetera"
+msgstr "Upprepa"
 
 msgid "Repeater"
 msgstr "Repeater"
@@ -10312,13 +10312,13 @@ msgid "Software category deleted by the dictionary rules"
 msgstr "Mjukvarukategorier raderas efter ordboks-reglerna"
 
 msgid "Software deleted after merging"
-msgstr "Programvaror raderade efter sammanfogning"
+msgstr "Mjukvaror raderade efter sammanfogning"
 
 msgid "Software deleted by GLPI dictionary rules"
 msgstr "Mjukvara borttagen av GLPI-regel"
 
 msgid "Software dictionary"
-msgstr "Programkatalog"
+msgstr "Mjukvarukatalog"
 
 msgid "Solution"
 msgid_plural "Solutions"
@@ -10374,7 +10374,7 @@ msgid "Specify a date"
 msgstr "Ange datum"
 
 msgid "Specify an end date"
-msgstr "Specificera tid för terminering"
+msgstr "Klicka för slutdatum"
 
 msgid "Speed"
 msgstr "Hastighet"
@@ -10401,7 +10401,7 @@ msgid "Start typing to find a menu"
 msgstr "Börja skriva för att söka"
 
 msgid "Startup date"
-msgstr "Startdatum"
+msgstr "Startar"
 
 msgid "State"
 msgid_plural "States"
@@ -10442,7 +10442,7 @@ msgid "Step %d"
 msgstr "Steg %d"
 
 msgid "Step for the hours (minutes)"
-msgstr "Stegräkning för timmar (i minuter)"
+msgstr "Stegstorlek för timmar (i minuter)"
 
 msgid "Sub-D"
 msgstr "D-Sub"
@@ -10729,7 +10729,7 @@ msgid ""
 "The plugin has an available update but its local directory contains source "
 "versioning."
 msgstr ""
-"Insticksprogrammet har en tillgänglig uppdatering men dess lokala katalog "
+"Pluginmodulen har en tillgänglig uppdatering men dess lokala katalog "
 "innehåller källversioner."
 
 msgid "The registration key is invalid."
@@ -13399,3 +13399,11 @@ msgstr "Inställningar för ärenden"
 #: ajax/ticketsatisfaction.php:95
 msgid "Unspecified"
 msgstr "Ej angivet"
+
+#: src/Config.php:3444
+msgid "Security setup"
+msgstr "Säkerhetsinställningar"
+
+#: src/Planning.php:1707
+msgid "Period"
+msgstr "Längd/slutdatum"
