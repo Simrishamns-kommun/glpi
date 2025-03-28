@@ -10392,7 +10392,7 @@ msgid "Start at %s"
 msgstr "Starta vid %s"
 
 msgid "Start date"
-msgstr "Start datum"
+msgstr "Startdatum"
 
 msgid "Start date of warranty"
 msgstr "Garanti börjar gälla"
@@ -11827,10 +11827,10 @@ msgid "Y-m-d"
 msgstr "Y-m-d"
 
 msgid "Y-m-d H:i:s"
-msgstr "Y-m-d T:m:s"
+msgstr "Y-m-d H:i:s"
 
 msgid "YYYY-MM-DD"
-msgstr "ÅÅÅÅ-MM-DD"
+msgstr "YYYY-MM-DD"
 
 msgid "Yellow"
 msgstr "Gul"
