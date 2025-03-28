@@ -536,19 +536,19 @@ msgid "%s days ago"
 msgstr "%s dagar sedan"
 
 msgid "%s deletes a database instance"
-msgstr "%s raderar en databasinstans"
+msgstr "%s tog bort en databasinstans"
 
 msgid "%s deletes an actor"
-msgstr "%s tar bort en aktör"
+msgstr "%s tog bort bort en aktör"
 
 msgid "%s deletes an item"
-msgstr "%s tar bort ett objekt"
+msgstr "%s tog bort ett objekt"
 
 msgid "%s deletes several network ports"
-msgstr "%s tar bort flera nätverksportar"
+msgstr "%s tog bort flera nätverksportar"
 
 msgid "%s deletes users from a group"
-msgstr "%s tar bort användare från en grupp"
+msgstr "%s tog bort användare från en grupp"
 
 msgid "%s disconnects an item"
 msgstr "%s kopplar ifrån ett objekt"
@@ -1114,7 +1114,7 @@ msgid "Action type"
 msgstr "Åtgärdstyp"
 
 msgid "Action when a user is deleted from the LDAP directory"
-msgstr "Händelse när en användare raderas från LDAP-katalogen"
+msgstr "Händelse när en användare tas bort från LDAP-katalogen"
 
 msgid "Action when a user is restored in the LDAP directory"
 msgstr "Åtgärd när en användare återställs i LDAP-katalogen"
@@ -1144,7 +1144,7 @@ msgid "Ad-hoc (without access point)"
 msgstr "Ad-hoc (utan accesspunkt)"
 
 msgid "Add"
-msgstr "Skapa"
+msgstr "Lägg till"
 
 msgid "Add API client"
 msgstr "Lägg till API klient"
@@ -1904,10 +1904,10 @@ msgstr[0] "Arkitektur"
 msgstr[1] "Arkitekturer"
 
 msgid "Archives log files and deletes aging ones"
-msgstr "Arkiverar loggfiler och raderar föråldrade loggfiler"
+msgstr "Arkiverar loggfiler och tar bort förfallna loggfiler"
 
 msgid "Archiving log file: %1$s to %2$s"
-msgstr "ARkiverar loggfil: %1$s till %2$s"
+msgstr "Arkiverar loggfil: %1$s till %2$s"
 
 msgid "Are you sure you want to add this item to transfer list?"
 msgid_plural "Are you sure you want to add these items to transfer list?"
@@ -3310,7 +3310,7 @@ msgid "Confirm the final deletion?"
 msgstr "Bekräfta den slutgiltiga raderingen?"
 
 msgid "Confirm the merge? This ticket will be deleted!"
-msgstr "Bekräfta ihopslagningen? Det här ärendet kommer att raderas!"
+msgstr "Bekräfta ihopslagningen? Det här ärendet kommer att tas bort!"
 
 msgid "Connect a component"
 msgstr "Koppla en komponent"
@@ -4143,28 +4143,28 @@ msgid "Delegatee"
 msgstr "Är delegerad"
 
 msgid "Delete"
-msgstr "Radera"
+msgstr "Ta bort"
 
 msgid "Delete a component"
-msgstr "Radera en komponent"
+msgstr "Ta bort komponent"
 
 msgid "Delete a global rule"
-msgstr "Ta bort en global regel"
+msgstr "Ta bort global regel"
 
 msgid "Delete a link with an item"
-msgstr "Radera koppling till ett objekt"
+msgstr "Ta bort koppling till ett objekt"
 
 msgid "Delete a rule"
-msgstr "Radera en regel"
+msgstr "Ta bort regel"
 
 msgid "Delete all"
-msgstr "Radera alla"
+msgstr "Ta bort alla"
 
 msgid "Delete all repetition"
 msgstr "Ta bort alla upprepningar"
 
 msgid "Delete an item"
-msgstr "Radera ett objekt"
+msgstr "Ta bort objekt"
 
 msgid "Delete component"
 msgstr "Ta bort komponent"
@@ -4181,19 +4181,19 @@ msgstr[0] "Ta bort om äldre än %s månad"
 msgstr[1] "Ta bort om äldre än %s månader"
 
 msgid "Delete instance"
-msgstr "Radera en instans"
+msgstr "Ta bort instans"
 
 msgid "Delete permanently"
-msgstr "Radera permanent"
+msgstr "Ta bort permanent"
 
 msgid "Delete relation between items"
 msgstr "Ta bort koppling mellan objekt"
 
 msgid "Delete serie"
-msgstr "Radera serie"
+msgstr "Ta bort serie"
 
 msgid "Delete the item"
-msgstr "Radera objektet"
+msgstr "Ta bort objektet"
 
 msgid "Delete the whole serie of the recurrent event"
 msgstr "Ta bort hela serien av återkommande händelser"
@@ -4205,7 +4205,7 @@ msgid "Delete this dashboard"
 msgstr "Ta bort denna instrumentpanel"
 
 msgid "Deleted"
-msgstr "Raderad"
+msgstr "Borttagen"
 
 msgid "Deleted from LDAP"
 msgstr "Borttagen från LDAP"
@@ -4214,13 +4214,13 @@ msgid "Deleted user in LDAP directory"
 msgstr "Användare borttagen i LDAP-katalog"
 
 msgid "Deleting a change"
-msgstr "Raderar en ändring"
+msgstr "Tar bort en ändring"
 
 msgid "Deleting a problem"
-msgstr "Borttag av ett problemärende"
+msgstr "Tar bort ett problemärende"
 
 msgid "Deletion of a followup"
-msgstr "Borttag av uppföljning"
+msgstr "Borttagning av en uppföljning"
 
 msgid "Deletion of a project"
 msgstr "Borttagning av ett projekt"
@@ -4232,13 +4232,13 @@ msgid "Deletion of a reservation"
 msgstr "Borttagning av en reservation"
 
 msgid "Deletion of a task"
-msgstr "Borttag av en uppgift"
+msgstr "Borttagning av en uppgift"
 
 msgid "Deletion of a ticket"
 msgstr "Borttag av ett ärende"
 
 msgid "Deletion of archived log file: %s"
-msgstr "Radering av arkiverad loggfil: %s"
+msgstr "Borttagning av arkiverad loggfil: %s"
 
 msgid "Deletion refused"
 msgstr "Borttagning nekad"
@@ -6900,13 +6900,13 @@ msgid "Item successfully added but duplicate record on %s"
 msgstr "Objekt tillagt men duplicerad registrering på %s"
 
 msgid "Item successfully deleted"
-msgstr "Objektet raderades"
+msgstr "Objektet togs bort"
 
 msgid "Item successfully purged"
 msgstr "Objektet rensades bort"
 
 msgid "Item successfully restored"
-msgstr "Objektet återeställdes"
+msgstr "Objektet återställdes"
 
 msgid "Item successfully updated"
 msgstr "Objektet uppdaterades"
@@ -6965,7 +6965,7 @@ msgid "Keep status"
 msgstr "Behåll status"
 
 msgid "Keep the devices while deleting this item"
-msgstr "Behåll enheterna när du raderar detta objekt"
+msgstr "Behåll enheterna när du tar bort detta objekt"
 
 msgid "Keep tickets when purging hardware in the inventory"
 msgstr "Behåll ärenden när hårdvaruobjekt rensas bort"
@@ -9547,7 +9547,7 @@ msgid "Removable drives"
 msgstr "Externa hårddiskar"
 
 msgid "Remove all at once"
-msgstr "Radera alla samtidigt"
+msgstr "Ta bort alla samtidigt"
 
 msgid "Remove from group"
 msgstr "Ta bort från grupp"
@@ -10309,10 +10309,10 @@ msgstr[0] "Kategori"
 msgstr[1] "Kategorier"
 
 msgid "Software category deleted by the dictionary rules"
-msgstr "Mjukvarukategorier raderas efter ordboks-reglerna"
+msgstr "Mjukvarukategorier tas bort efter ordboks-reglerna"
 
 msgid "Software deleted after merging"
-msgstr "Mjukvaror raderade efter sammanfogning"
+msgstr "Mjukvaror tas bort efter sammanslagning"
 
 msgid "Software deleted by GLPI dictionary rules"
 msgstr "Mjukvara borttagen av GLPI-regel"
@@ -10653,7 +10653,7 @@ msgid "Thank you for using our automatic helpdesk system."
 msgstr "Tack för du använder vårt ärendehanteringssystem."
 
 msgid "That will remove all the reservations in progress."
-msgstr "Denna åtgärd kommer radera alla pågående reservationer!"
+msgstr "Denna åtgärd kommer ta bort alla pågående reservationer!"
 
 msgid "The CURL extension for your PHP parser isn't installed"
 msgstr "CURL tillägget i PHP är ej installerad"
@@ -11179,7 +11179,7 @@ msgid "Unable to create default room."
 msgstr "Kunde inte skapa standardrummet."
 
 msgid "Unable to delete archived log file: %s"
-msgstr "Lyckades inte radera arkiverad loggfil: %s"
+msgstr "Lyckades inte ta bort arkiverad loggfil: %s"
 
 msgid "Unable to get item"
 msgstr "Lyckades inte hitta objekt"
@@ -11885,13 +11885,13 @@ msgstr ""
 "listade objekt"
 
 msgid "You can delete or modify these accounts as well as the initial data."
-msgstr "Du kan radera eller förändra dessa konton och den initiala datan."
+msgstr "Du kan ta bort eller förändra dessa konton såväl som den ursprungliga informationen."
 
 msgid "You can delete this migration error"
-msgstr "Du kan ta bort detta migrations felet"
+msgstr "Du kan ta bort detta migrationfel"
 
 msgid "You can't delete that item, because it has sub-items"
-msgstr "Du kan ej radera denna plats då den har döttrar under sig"
+msgstr "Du kan inte ta bort denna plats då den har döttrar under sig"
 
 msgid "You can't impersonate yourself."
 msgstr "Du kan inte imitera dig själv."
@@ -12059,7 +12059,7 @@ msgstr "före"
 
 msgctxt "button"
 msgid "Add"
-msgstr "Skapa"
+msgstr "Lägg till"
 
 msgctxt "button"
 msgid "Add a contact"
@@ -12203,19 +12203,19 @@ msgstr "Anslut"
 
 msgctxt "button"
 msgid "Create a task"
-msgstr "Skapa en uppgift"
+msgstr "Skapa uppgift"
 
 msgctxt "button"
 msgid "Delete"
-msgstr "Radera"
+msgstr "Ta bort"
 
 msgctxt "button"
 msgid "Delete permanently"
-msgstr "Radera permanent"
+msgstr "Ta bort permanent"
 
 msgctxt "button"
 msgid "Delete permanently and remove devices"
-msgstr "Ta bort permanent och radera enheter"
+msgstr "Ta bort permanent och ta även bort enheter"
 
 msgctxt "button"
 msgid "Delete permanently but keep devices"
@@ -12239,11 +12239,11 @@ msgstr "Koppla från"
 
 msgctxt "button"
 msgid "Dissociate"
-msgstr "Åtskilja"
+msgstr "Ta bort association"
 
 msgctxt "button"
 msgid "Dissociate certificate"
-msgstr "Dissociera certifikat"
+msgstr "Ta bort association med certifikat"
 
 msgctxt "button"
 msgid "Document"
@@ -12315,7 +12315,7 @@ msgstr "Ta bort ett avtal"
 
 msgctxt "button"
 msgid "Remove a document"
-msgstr "Radera ett dokument"
+msgstr "Ta bort dokument"
 
 msgctxt "button"
 msgid "Remove a user"
