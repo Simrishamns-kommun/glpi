@@ -6025,10 +6025,10 @@ msgid "Go to menu"
 msgstr "Gå till meny"
 
 msgid "Granted"
-msgstr "Accepterad"
+msgstr "Beviljat"
 
 msgid "Granted + Not subject to approval"
-msgstr "Godkänd - Behöver ej godkännas"
+msgstr "Beviljat - Behöver ej godkännas"
 
 msgid "Graphics card"
 msgid_plural "Graphics cards"
@@ -8890,7 +8890,7 @@ msgid "Path"
 msgstr "Path"
 
 msgid "Pending"
-msgstr "Väntande"
+msgstr "Väntar"
 
 msgid "Pending reason"
 msgid_plural "Pending reasons"
@@ -11220,7 +11220,7 @@ msgid "Undefined interface"
 msgstr "Oidentifierat gränssnitt"
 
 msgid "Under observation"
-msgstr "Under observation"
+msgstr "Bevakas"
 
 msgid "Undo"
 msgstr "Ångra"
@@ -12935,23 +12935,23 @@ msgstr "states_id"
 
 msgctxt "status"
 msgid "Accepted"
-msgstr "Accepterad"
+msgstr "Accepterat"
 
 msgctxt "status"
 msgid "Cancelled"
-msgstr "Avbruten"
+msgstr "Avbrutet"
 
 msgctxt "status"
 msgid "Closed"
-msgstr "Stängd"
+msgstr "Stängt"
 
 msgctxt "status"
 msgid "New"
-msgstr "Ny"
+msgstr "Nytt"
 
 msgctxt "status"
 msgid "Not closed"
-msgstr "Inte stängd"
+msgstr "Inte stängt"
 
 msgctxt "status"
 msgid "Not solved"
@@ -12959,15 +12959,15 @@ msgstr "Inte löst"
 
 msgctxt "status"
 msgid "Processing (assigned)"
-msgstr "Pågående  (tilldelat)"
+msgstr "Pågår  (tilldelat)"
 
 msgctxt "status"
 msgid "Processing (planned)"
-msgstr "Pågående (planerad)"
+msgstr "Pågår (planerat)"
 
 msgctxt "status"
 msgid "Refused"
-msgstr "Avvisad"
+msgstr "Avvisat"
 
 msgctxt "status"
 msgid "Solved"
@@ -13009,7 +13009,7 @@ msgstr "denna port"
 
 msgctxt "ticket"
 msgid "New"
-msgstr "Ny"
+msgstr "Nytt"
 
 msgctxt "ticket"
 msgid "Opened"
