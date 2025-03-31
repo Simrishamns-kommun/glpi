@@ -59,10 +59,13 @@ msgstr[0] "%1$d dag %2$dh%3$s"
 msgstr[1] "%1$d dagar %2$dh%3$s"
 
 msgid "%1$d on %2$d"
-msgstr "%1$d på %2$d"
+msgstr "%1$d den %2$d"
 
+#. TRANS: %1$d the number of hours, %2$s the number of minutes : display 3h15
+#: src/Dropdown.php:2014
+#, php-format
 msgid "%1$dh%2$s"
-msgstr "%1$dh%2$s"
+msgstr "%1$dt%2$s"
 
 msgid "%1$s"
 msgstr "%1$s"
@@ -999,6 +1002,11 @@ msgid "Project task"
 msgid_plural "Project tasks"
 msgstr[0] "Projektuppgift"
 msgstr[1] "Projektuppgifter"
+
+#: templates/components/form/link_existing_or_new.html.twig
+#, php-format
+msgid "Add a %s"
+msgstr "Lägg till %s"
 
 #: src/TicketTask.php:43
 msgid "Ticket task"
@@ -3600,6 +3608,11 @@ msgstr "Land"
 msgid "Create"
 msgstr "Skapa"
 
+#: templates/components/form/link_existing_or_new.html.twig
+#, php-format
+msgid "Create a %1$s from this %2$s"
+msgstr "Skapa %1$s från detta %2$s"
+
 msgid "Create a new database or use an existing one:"
 msgstr "Ny databas, eller använd en existerande:"
 
@@ -5653,7 +5666,7 @@ msgid "Find menu"
 msgstr "Sök"
 
 msgid "Finished state"
-msgstr "Färdigt tillstånd"
+msgstr "Klart"
 
 msgid "Firmware"
 msgid_plural "Firmware"
@@ -10405,8 +10418,8 @@ msgstr "Startar"
 
 msgid "State"
 msgid_plural "States"
-msgstr[0] "Tillstånd"
-msgstr[1] "Tillstånd"
+msgstr[0] "Status"
+msgstr[1] "Statusar"
 
 msgid "State of the virtual machine"
 msgid_plural "States of the virtual machine"
@@ -10541,10 +10554,10 @@ msgid "Tagged"
 msgstr "Taggad"
 
 msgid "Take into account"
-msgstr "Ta med i beräkning"
+msgstr "Analyserar"
 
 msgid "Take into account time"
-msgstr "Ta med i beräkning tid"
+msgstr "Tid för analys"
 
 msgid "Target"
 msgid_plural "Targets"
@@ -12925,7 +12938,7 @@ msgstr "Fråga källa"
 
 msgctxt "solution"
 msgid "Refused"
-msgstr "Avvisad"
+msgstr "Avvisat"
 
 msgid "starting with"
 msgstr "som börjar med"
