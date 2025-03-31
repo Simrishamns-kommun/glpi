@@ -205,10 +205,10 @@ msgid "%1$s of item \"%2$s\""
 msgstr "%1$s av objekt \"%2$s\""
 
 msgid "%1$s on %2$s"
-msgstr "%1$s på %2$s"
+msgstr "%1$s den %2$s"
 
 msgid "%1$s on %2$s by %3$s"
-msgstr "%1$s på %2$s av %3$s"
+msgstr "%1$s den %2$s av %3$s"
 
 msgid "%1$s position is not available"
 msgstr "Platsen %1$s är inte tillgänglig"
@@ -236,7 +236,7 @@ msgid "%1$s reverts item to revision %2$s"
 msgstr "%1$s ändrar objekt till revision %2$s"
 
 msgid "%1$s reverts item translation to revision %2$s"
-msgstr "%1$s återtar objektets översättning till revision %2$s"
+msgstr "%1$s återställde objektets översättning till version %2$s"
 
 msgid "%1$s satisfaction survey (%2$s)"
 msgstr "%1$s nöjdhetsundersökning (%2$s)"
@@ -13104,7 +13104,7 @@ msgstr "Administrativt nummer"
 
 msgctxt "validation"
 msgid "Refused"
-msgstr "Avvisad"
+msgstr "Avvisat"
 
 msgid "version"
 msgstr "version"
