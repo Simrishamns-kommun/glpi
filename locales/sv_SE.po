@@ -2489,7 +2489,7 @@ msgid "Bulk import users from a LDAP directory"
 msgstr "Importera flera användare från en LDAP-katalog"
 
 msgid "Bulk modification"
-msgstr "Massiv ändring"
+msgstr "Massändring"
 
 msgid "Bulk modification error"
 msgstr "Fel vid massändring"
