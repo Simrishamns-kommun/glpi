@@ -2823,8 +2823,8 @@ msgstr "Certifikatlista (utfasad; innehåller bara ett element)"
 
 msgid "Change"
 msgid_plural "Changes"
-msgstr[0] "Ändring"
-msgstr[1] "Ändringar"
+msgstr[0] "Förändring"
+msgstr[1] "Förändringar"
 
 msgid "Change %1$s to %2$s"
 msgstr "Ändrade %1$s till %2$s"
@@ -2860,8 +2860,8 @@ msgstr "Ändring utförd"
 
 msgid "Change task"
 msgid_plural "Change tasks"
-msgstr[0] "Ändringsuppgift"
-msgstr[1] "Ändringsuppgifter"
+msgstr[0] "Förändringsuppgift"
+msgstr[1] "Förändringsuppgifter"
 
 msgid "Change template"
 msgid_plural "Change templates"
@@ -2875,7 +2875,7 @@ msgid "Change the status"
 msgstr "Ändra status"
 
 msgid "Change visibility"
-msgstr "Ändra visning"
+msgstr "Ändra synlighet"
 
 msgid "Change visibility in child entities."
 msgstr "Tillgänglig i underliggande entiteter"
@@ -2884,16 +2884,16 @@ msgid "Changelog"
 msgstr "Ändringslogg"
 
 msgid "Changes"
-msgstr "Ändringar"
+msgstr "Förändringar"
 
 msgid "Changes on linked items"
-msgstr "Förändringar på länkade objekt"
+msgstr "Förändringar hos länkade objekt"
 
 msgid "Changes on pending status"
-msgstr "Ändringar väntande status"
+msgstr "Förändringar - väntande status"
 
 msgid "Changes to be processed"
-msgstr "Ändringar som skall behandlas"
+msgstr "Förändringar som ska bearbetas"
 
 msgid "Characteristics"
 msgstr "Egenskaper"
@@ -2999,7 +2999,7 @@ msgid "Checksum"
 msgstr "Kontrollsumma"
 
 msgid "Child entities"
-msgstr "Underentiteter"
+msgstr "Visa i underentiteter"
 
 msgid "Child groups"
 msgstr "Undergrupper"
@@ -5666,7 +5666,7 @@ msgstr[0] "Firmwaretyp"
 msgstr[1] "Firmwaretyper"
 
 msgid "First"
-msgstr "Först"
+msgstr "Första"
 
 msgid "First Item"
 msgstr "Första objektet"
@@ -7070,7 +7070,7 @@ msgid "Language"
 msgstr "Visningsspråk"
 
 msgid "Last"
-msgstr "Sist"
+msgstr "Sista"
 
 msgid "Last %d change"
 msgid_plural "Last %d changes"
@@ -9458,7 +9458,7 @@ msgid "Recurrent"
 msgstr "Återkommande"
 
 msgid "Recurrent changes"
-msgstr "Återkommande ändringar"
+msgstr "Återkommande förändringar"
 
 msgid "Recurrent tickets"
 msgstr "Återkommande ärenden"
@@ -11963,7 +11963,7 @@ msgid "You will find it on the GLPI-PROJECT.org site."
 msgstr "Du hittar det på siten glpi-project.org."
 
 msgid "Your changes in progress"
-msgstr "Din pågående ändringar"
+msgstr "Din pågående förändringar"
 
 msgid "Your comment has been added"
 msgstr "Din kommentar har lagts till"
@@ -13178,7 +13178,7 @@ msgstr "Visa privata"
 
 #: src/Profile.php:1213 src/Profile.php:1594 src/Profile.php:3265
 msgid "Associable items to tickets, changes and problems"
-msgstr "Objekt som kan kopplas till ärenden, ändringar och problem"
+msgstr "Objekt som kan kopplas till ärenden, förändringar och problem"
 
 #: src/PlanningExternalEvent.php:386
 msgid "manage background events"
