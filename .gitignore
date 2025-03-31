@@ -7,3 +7,4 @@ config/
 /files/_sessions
 /files
 marketplace 
+!marketplace/archisw/locales

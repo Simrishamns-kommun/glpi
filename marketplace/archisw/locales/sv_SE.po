@@ -1,0 +1,520 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Archisw 2.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-21 12:03+0200\n"
+"PO-Revision-Date: 2025-03-21 11:18+0000\n"
+"Last-Translator: Eric Feron <ericferon@scarlet.be>\n"
+"Language-Team: Swedish (Sweden)\n"
+"Language: sv-SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: sv_SE\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. #users
+#: inc/swcomponent.class.php:327 inc/swcomponentuser.class.php:38 
+#: inc/swcomponent.class.php:538 inc/swcomponent.class.php:433
+msgid "# users"
+msgid_plural "# users"
+msgstr[0] "# användare"
+msgstr[1] "# användare"
+
+#. TRANS : %1$s is the itemtype name,
+#. %2$s is the name of the item (used for headings of a list)
+#: inc/swcomponent_item.class.php:547 inc/swcomponent_item.class.php:545 
+#: inc/swcomponent_item.class.php:576
+#, php-format
+msgid "%1$s = %2$s"
+msgstr "%1$s = %2$s"
+
+#: inc/swcomponent_item.class.php:234
+msgid "Add an item"
+msgstr "Lägg till objekt"
+
+#: inc/swcomponent.class.php:556 inc/swcomponent.class.php:767
+msgid "App structure associated"
+msgid_plural "App structures associated"
+msgstr[0] "Associerat system"
+msgstr[1] "Associerade system"
+
+#: inc/configsw.class.php:39
+msgid "Apps Config"
+msgstr "Systemkonfigurationer"
+
+#: inc/swcomponent.class.php:41 inc/swcomponent.class.php:190 
+#: inc/swcomponent.class.php:63 inc/swcomponent.class.php:219 
+#: inc/swcomponent.class.php:391 inc/swcomponent.class.php:271 
+#: inc/swcomponent.class.php:355 inc/swcomponent.class.php:356 
+#: inc/swcomponent.class.php:359
+msgid "Apps Structure"
+msgid_plural "Apps Structures"
+msgstr[0] "System"
+msgstr[1] "System"
+
+#: setup.php:88 inc/menu.class.php:31 inc/profile.class.php:140 
+#: inc/profile.class.php:146
+msgid "Apps structure"
+msgid_plural "Apps structures"
+msgstr[0] "System"
+msgstr[1] "System"
+
+#. completename of swcomponent
+#. Parent of swcomponent
+#: inc/swcomponent.class.php:252 inc/swcomponent.class.php:458 
+#: inc/swcomponent.class.php:349 inc/swcomponent.class.php:459 
+#: inc/swcomponent.class.php:465
+msgid "As child of"
+msgstr "Som barn till"
+
+#: inc/configswlink.class.php:63 inc/configswlink.class.php:99
+msgid "As view on table"
+msgstr "Som tabellvy"
+
+#: inc/profile.class.php:125 inc/profile.class.php:153 
+#: inc/profile.class.php:158 inc/profile.class.php:157
+msgid "Associable items to a ticket"
+msgstr "Associera objekt till ärende"
+
+#. is_helpdesk_visible
+#: inc/swcomponent.class.php:225 inc/swcomponent.class.php:524
+msgid "Associable to a ticket"
+msgstr "Kan associeras med ärende"
+
+#: inc/swcomponent_item.class.php:506 inc/swcomponent_item.class.php:500
+msgctxt "button"
+msgid "Associate an "
+msgstr "Associera"
+
+#: hook.php:346 hook.php:361 hook.php:401 hook.php:405
+msgid "Associate to the Apps Structure"
+msgstr "Associera med system"
+
+#: hook.php:344
+msgid "Associate to the Functional Area"
+msgstr "Associera med funktionella området"
+
+#. comment about swcomponent
+#: inc/swcomponent.class.php:533 inc/swcomponent_item.class.php:292 
+#: inc/swcomponent_item.class.php:537 inc/swcomponent_item.class.php:535 
+#: inc/swcomponent_item.class.php:566
+msgid "Comment"
+msgstr "Kommentar"
+
+#: inc/swcomponent.class.php:711 inc/swcomponent.class.php:1133 
+#: inc/swcomponent.class.php:1135 inc/swcomponent.class.php:963
+msgid "Comments"
+msgstr "Kommentarer"
+
+#. users
+#: inc/swcomponent.class.php:148 inc/swcomponent.class.php:351 
+#: inc/swcomponent.class.php:172 inc/swcomponent.class.php:326 
+#: inc/swcomponent.class.php:562 inc/swcomponent.class.php:206 
+#: inc/swcomponent.class.php:462
+msgid "Component Maintainer"
+msgstr "Komponentadministratör"
+
+#. groups
+#: inc/swcomponent.class.php:155 inc/swcomponent.class.php:339 
+#: inc/swcomponent_item.class.php:532 inc/swcomponent.class.php:179 
+#: inc/swcomponent.class.php:336 inc/swcomponent.class.php:550 
+#: inc/swcomponent_item.class.php:526 inc/swcomponent.class.php:216 
+#: inc/swcomponent.class.php:445 inc/swcomponent_item.class.php:533 
+#: inc/swcomponent_item.class.php:531 inc/swcomponent_item.class.php:562
+msgid "Component Owner"
+msgstr "Komponentägare"
+
+#: inc/config.class.php:39 inc/configsw.class.php:39
+msgid "Config"
+msgstr "Konfig"
+
+#: inc/profile.class.php:151
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: inc/profile.class.php:149
+msgid "Create"
+msgstr "Skapa"
+
+#. db field type
+#: inc/config.class.php:198 inc/configsw.class.php:214
+msgid "DB Field Type"
+msgstr "DB-kolumntyp"
+
+#: inc/swcomponentdb.class.php:38
+msgid "DataBase"
+msgid_plural "DataBases"
+msgstr[0] "Databas"
+msgstr[1] "Databaser"
+
+#: inc/swcomponent.class.php:315 inc/swcomponent.class.php:526
+msgid "DataBases"
+msgstr "Databaser"
+
+#: inc/swcomponent.class.php:127 inc/swcomponent.class.php:151
+msgid "Database"
+msgstr "Databas"
+
+#. db
+#: inc/swcomponent.class.php:421
+msgid "Databases"
+msgstr "Databaser"
+
+#: inc/profile.class.php:149
+msgid "Delete permanently"
+msgstr "Radera permanent"
+
+#. name
+#: inc/swcomponent.class.php:157 inc/swcomponent.class.php:369 
+#: inc/config.class.php:99 inc/config.class.php:172 inc/configsw.class.php:99 
+#: inc/configsw.class.php:188 inc/configsw.class.php:91
+msgid "Description"
+msgstr "Beskrivning"
+
+#: inc/swcomponenttechnic.class.php:37
+msgid "Development Langage"
+msgid_plural "Development Langages"
+msgstr[0] "Programmeringsspråk"
+msgstr[1] "Programmeringsspråk"
+
+#. Language of swcomponent
+#: inc/swcomponent.class.php:302 inc/swcomponent.class.php:513 
+#: inc/swcomponent.class.php:408
+msgid "Development Language"
+msgstr "Programmeringsspråk"
+
+#: inc/swcomponent.class.php:122 inc/swcomponent.class.php:146
+msgid "Development language"
+msgstr "Programmeringsspråk"
+
+#. manufacturer of swcomponent
+#: inc/swcomponent.class.php:142 inc/swcomponent.class.php:355 
+#: inc/swcomponent.class.php:166 inc/swcomponent.class.php:566 
+#: inc/swcomponent.class.php:467
+msgid "Editor"
+msgstr "Redigerare"
+
+#: inc/swcomponent.class.php:279 inc/swcomponent.class.php:708 
+#: inc/swcomponent_item.class.php:294 inc/swcomponent_item.class.php:531 
+#: inc/swcomponent.class.php:363 inc/swcomponent.class.php:1130 
+#: inc/swcomponent_item.class.php:529 inc/swcomponent.class.php:364 
+#: inc/swcomponent.class.php:1132 inc/swcomponent.class.php:367 
+#: inc/swcomponent.class.php:960 inc/swcomponent_item.class.php:560
+msgid "Entity"
+msgstr "Entitet"
+
+#. field group
+#: inc/config.class.php:180 inc/configsw.class.php:196
+msgid "Field group"
+msgstr "Fältgrupp"
+
+#. forcegroupby
+#: inc/config.class.php:226 inc/configsw.class.php:147 
+#: inc/configsw.class.php:242
+msgid "Force group by ?"
+msgstr "Tvinga gruppera efter?"
+
+#: inc/profile.class.php:118
+msgid "General"
+msgstr "Allmänt"
+
+#: inc/configlink.class.php:45 inc/configlink.class.php:62 
+#: inc/configswlink.class.php:45 inc/configswlink.class.php:81
+msgid "Has own dropdown"
+msgstr "Har egen nedrullningsmeny"
+
+#: inc/profile.class.php:121
+msgid "Helpdesk"
+msgstr "Support"
+
+#. horizontal alignment
+#: inc/config.class.php:190 inc/configsw.class.php:206
+msgid "Hor.alignment"
+msgstr "Horisontell orientering"
+
+#: inc/swcomponent.class.php:263 inc/swcomponent.class.php:279 
+#: inc/config.class.php:139 inc/swcomponent.class.php:347 
+#: inc/swcomponent.class.php:363 inc/configsw.class.php:155 
+#: inc/swcomponent.class.php:348 inc/swcomponent.class.php:364 
+#: inc/swcomponent.class.php:351 inc/swcomponent.class.php:367
+msgid "ID"
+msgstr "ID"
+
+#. Use startdate of the swcomponent
+#: inc/swcomponent.class.php:244 inc/swcomponent.class.php:450 
+#: inc/swcomponent.class.php:340
+msgid "In use since year"
+msgstr "Används sedan (år)"
+
+#: inc/swcomponentinstance.class.php:38
+msgid "Instance"
+msgid_plural "Instances"
+msgstr[0] "Instans"
+msgstr[1] "Instanser"
+
+#. instances of swcomponent
+#: inc/swcomponent.class.php:310 inc/swcomponent.class.php:521 
+#: inc/swcomponent.class.php:416
+msgid "Instances"
+msgstr "Instanser"
+
+#: inc/configswlink.class.php:57 inc/configswlink.class.php:93
+msgid "Is hierarchical dropdown"
+msgstr "Hierarkisk meny"
+
+#: inc/configlink.class.php:51 inc/configlink.class.php:67 
+#: inc/configswlink.class.php:51 inc/configswlink.class.php:87
+msgid "Is limited by entity"
+msgstr "Begränsas av entitet"
+
+#: inc/config.class.php:123 inc/configsw.class.php:123 
+#: inc/configsw.class.php:115
+msgid "Is linked to another class"
+msgstr "Länkad med annan klass"
+
+#. islinked
+#: inc/config.class.php:234 inc/configsw.class.php:250
+msgid "Is linked to another class ?"
+msgstr "Länkad med annan klass?"
+
+#. readonly
+#: inc/config.class.php:208 inc/configsw.class.php:224
+msgid "Is read-only ?"
+msgstr "Endast läsrättighet?"
+
+#: inc/configfieldgroup.class.php:52 inc/configfieldgroup.class.php:69 
+#: inc/configswfieldgroup.class.php:52 inc/configswfieldgroup.class.php:71
+msgid "Is visible on opening"
+msgstr "Visas vid öppning"
+
+#. join parameters
+#: inc/config.class.php:252 inc/configsw.class.php:268
+msgid "Join parameters"
+msgstr "Join-parametrar"
+
+#: inc/swcomponent.class.php:234 inc/swcomponent.class.php:131 
+#: inc/swcomponent.class.php:330
+msgid "Last update"
+msgstr "Senast uppdaterad"
+
+#. level of swcomponent
+#: inc/swcomponent.class.php:107 inc/swcomponent.class.php:257 
+#: inc/swcomponent.class.php:131 inc/swcomponent.class.php:261 
+#: inc/swcomponent.class.php:463 inc/swcomponent.class.php:141 
+#: inc/swcomponent.class.php:355
+msgid "Level"
+msgstr "Nivå"
+
+#: inc/swcomponent.class.php:331 inc/swcomponentlicense.class.php:38 
+#: inc/swcomponent.class.php:542 inc/swcomponent.class.php:437
+msgid "License metric"
+msgid_plural "License metrics"
+msgstr[0] "Licensmått"
+msgstr[1] "Licensmått"
+
+#: inc/swcomponent_itemrole.class.php:38
+msgid "Link role"
+msgid_plural "Link roles"
+msgstr[0] "Länk-roll"
+msgstr[1] "Länk-roller"
+
+#. link field
+#: inc/config.class.php:244 inc/configsw.class.php:260
+msgid "Linked by field"
+msgstr "Länkad via fält"
+
+#. linked table
+#: inc/config.class.php:239 inc/configsw.class.php:255
+msgid "Linked class"
+msgstr "Länkad klass"
+
+#. location of swcomponent
+#: inc/swcomponent.class.php:518
+msgid "Location"
+msgstr "Plats"
+
+#. massiveaction
+#: inc/config.class.php:221 inc/configsw.class.php:139 
+#: inc/configsw.class.php:237
+msgid "Massive action allowed ?"
+msgstr "Tillåt bulkåtgärd?"
+
+#. Name of SwComponent
+#. name
+#. echo "<th rowspan=3></th>";
+#. Name of SwComponent
+#. name
+#. echo "<th rowspan=3></th>";
+#. Name of SwComponent
+#. name
+#. Name of SwComponent
+#: inc/swcomponent.class.php:557 inc/swcomponent.class.php:768 hook.php:231 
+#: inc/swcomponent.class.php:124 inc/swcomponent.class.php:328 
+#: inc/swcomponent.class.php:706 inc/swcomponent_item.class.php:290 
+#: inc/swcomponent_item.class.php:529 hook.php:246 inc/config.class.php:65 
+#: inc/config.class.php:163 inc/swcomponent.class.php:121 
+#: inc/swcomponent.class.php:370 inc/swcomponent.class.php:389 
+#: inc/swcomponent.class.php:452 inc/swcomponent.class.php:1128 
+#: inc/swcomponent_item.class.php:527 hook.php:284 inc/configsw.class.php:65 
+#: inc/configsw.class.php:179 inc/swcomponent.class.php:371 
+#: inc/swcomponent.class.php:390 inc/swcomponent.class.php:453 
+#: inc/swcomponent.class.php:1130 hook.php:288 inc/configsw.class.php:57 
+#: inc/swcomponent.class.php:374 inc/swcomponent.class.php:393 
+#: inc/swcomponent.class.php:459 inc/swcomponent.class.php:958 
+#: inc/swcomponent_item.class.php:558
+msgid "Name"
+msgstr "Namn"
+
+#: inc/profile.class.php:149
+msgid "Put in trashbin"
+msgstr "Flytta till papperskorg"
+
+#: inc/profile.class.php:149
+msgid "Read"
+msgstr "Läs"
+
+#: inc/swcomponent_item.class.php:282 inc/swcomponent_item.class.php:535 
+#: inc/swcomponent_item.class.php:284 inc/swcomponent_item.class.php:529 
+#: inc/swcomponent_item.class.php:291 inc/swcomponent_item.class.php:536 
+#: inc/swcomponent_item.class.php:534 inc/swcomponent_item.class.php:565
+msgid "Role"
+msgstr "Roll"
+
+#. row
+#: inc/config.class.php:107 inc/config.class.php:185 
+#: inc/configsw.class.php:107 inc/configsw.class.php:201 
+#: inc/configsw.class.php:99
+msgid "Row"
+msgstr "Rad"
+
+#. search datatype
+#: inc/config.class.php:203 inc/configsw.class.php:219
+msgid "Search Data Type"
+msgstr "Sökdatatyp"
+
+#. nosearch
+#: inc/config.class.php:216 inc/configsw.class.php:232
+msgid "Search allowed ?"
+msgstr "Tillåt sökning?"
+
+#. nosearch
+#: inc/configsw.class.php:131 inc/configsw.class.php:232
+msgid "Search disabled ?"
+msgstr "Sökning inaktiverad?"
+
+#: inc/swcomponent_item.class.php:295
+msgid "Serial number"
+msgstr "Serienummer"
+
+#. service level agreement
+#: inc/swcomponent.class.php:367 inc/swcomponentsla.class.php:38 
+#: inc/swcomponent.class.php:578 inc/swcomponent.class.php:473
+msgid "Service level"
+msgid_plural "Service levels"
+msgstr[0] "Servicenivå"
+msgstr[1] "Servicenivåer"
+
+#. shortname of swcomponent
+#: inc/swcomponent.class.php:262 inc/swcomponent.class.php:468 
+#: inc/swcomponent.class.php:361
+msgid "Short code"
+msgstr "Kortkod"
+
+#: inc/configfieldgroup.class.php:46 inc/configfieldgroup.class.php:64 
+#: inc/configswfieldgroup.class.php:46 inc/configswfieldgroup.class.php:65
+msgid "Sort order"
+msgstr "Sorteringsordning"
+
+#: inc/swcomponent.class.php:505
+msgid "Source Repository"
+msgstr "Källkodsrepository"
+
+#. status of swcomponent
+#: inc/swcomponent.class.php:209 inc/swcomponent.class.php:499 
+#: inc/swcomponent.class.php:393
+msgid "Standardization Status"
+msgstr "Standardiseringsstatus"
+
+#. status of swcomponent
+#: inc/swcomponent.class.php:381 inc/swcomponent_item.class.php:535 
+#: inc/swcomponent_item.class.php:533 inc/swcomponent_item.class.php:564
+msgid "Status"
+msgstr "Status"
+
+#. status date of swcomponent
+#: inc/swcomponent.class.php:288 inc/swcomponent.class.php:494 
+#: inc/swcomponent.class.php:387
+msgid "Status Startdate"
+msgstr "Startdatum för status"
+
+#. supplier of swcomponent
+#: inc/swcomponent.class.php:343 inc/swcomponent.class.php:554 
+#: inc/swcomponent.class.php:454 inc/swcomponent_item.class.php:538 
+#: inc/swcomponent_item.class.php:536 inc/swcomponent_item.class.php:567
+msgid "Supplier"
+msgstr "Leverantör"
+
+#: inc/swcomponenttarget.class.php:38
+msgid "Target"
+msgid_plural "Targets"
+msgstr[0] "Mål"
+msgstr[1] "Mål"
+
+#. target
+#: inc/swcomponent.class.php:322 inc/swcomponent.class.php:533 
+#: inc/swcomponent.class.php:428
+msgid "Targets"
+msgstr "Mål"
+
+#: setup.php:101
+msgid "This plugin requires GLPI >= 9.2 and < 9.3"
+msgstr ""
+
+#: inc/swcomponent.class.php:756 inc/swcomponent.class.php:1178 
+#: inc/swcomponent.class.php:1180 inc/swcomponent.class.php:1008
+msgid "Transfer"
+msgstr "Överför"
+
+#. Type of swcomponent
+#: inc/swcomponent_itemrole.class.php:49 inc/swcomponent.class.php:401 
+#: inc/swcomponent.class.php:710 inc/swcomponent_item.class.php:289 
+#: inc/swcomponent_item.class.php:534 inc/swcomponent_itemrole.class.php:60 
+#: inc/swcomponent.class.php:1132 inc/swcomponent_item.class.php:532 
+#: inc/swcomponent.class.php:1134 inc/swcomponent.class.php:962 
+#: inc/swcomponent_item.class.php:563
+msgid "Type"
+msgstr "Typ"
+
+#: inc/swcomponent.class.php:363 inc/swcomponent.class.php:574
+msgid "URL"
+msgstr "URL"
+
+#: inc/swcomponent.class.php:497
+msgid "URL Health Check"
+msgstr "URL-hälsokontroll"
+
+#. url of swcomponent
+#: inc/swcomponent.class.php:482
+msgid "URL Production"
+msgstr "URL (prod)"
+
+#: inc/swcomponent.class.php:490
+msgid "URL QA"
+msgstr "URL QA"
+
+#: inc/profile.class.php:149
+msgid "Update"
+msgstr "Uppdatera"
+
+#. Version
+#: inc/swcomponent.class.php:239 inc/swcomponent.class.php:445 
+#: inc/swcomponent.class.php:334
+msgid "Version"
+msgstr "Version"
+
+#: inc/configswlink.class.php:69
+msgid "View limited by WHERE clause"
+msgstr "Visa begränsad av WHERE-uttryck"
