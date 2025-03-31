@@ -3129,7 +3129,7 @@ msgstr[0] "Stängningstid"
 msgstr[1] "Stängningstider"
 
 msgid "Closed"
-msgstr "Stängd"
+msgstr "Stängda"
 
 msgid "Closed %1$s (%2$s)"
 msgstr "Stängd %1$s (%2$s)"
@@ -5286,7 +5286,7 @@ msgid "Ethernet socket"
 msgstr "Ethernet-uttag"
 
 msgid "Evaluation"
-msgstr "Utvärdering"
+msgstr "Utvärderas"
 
 msgid "Event"
 msgid_plural "Events"
@@ -9228,7 +9228,7 @@ msgid "Problems to be processed"
 msgstr "Problemärenden som ska hanteras"
 
 msgid "Processing"
-msgstr "Pågående"
+msgstr "Pågår"
 
 msgid "Processor"
 msgid_plural "Processors"
@@ -12975,7 +12975,7 @@ msgstr "Löst"
 
 msgctxt "status"
 msgid "Solved + Closed"
-msgstr "Löst + Stängd"
+msgstr "Löst + Stängt"
 
 msgid "support"
 msgstr "support"
