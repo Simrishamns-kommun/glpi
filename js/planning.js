@@ -5,7 +5,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -438,9 +438,17 @@ var GLPIPlanning  = {
                 }).done(function() {
                     // indicate to central page we're done rendering
                     if (!options.full_view) {
-                        setTimeout(function () {
-                            $(document).trigger('masonry_grid:layout');
-                        }, 100);
+                        // Observe changes in the DOM before triggering
+                        const observer = new MutationObserver((mutations, obs) => {
+                            if (document.readyState === 'complete') {
+                                obs.disconnect(); // Stop observation once the DOM is stable
+                                setTimeout(() => {
+                                    $(document).trigger('masonry_grid:layout');
+                                }, 100);
+                            }
+                        });
+
+                        observer.observe(document.body, { childList: true, subtree: true });
                     }
                 });
 

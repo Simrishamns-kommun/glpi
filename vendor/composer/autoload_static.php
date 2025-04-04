@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1f80a762e35386c46439baf4a52d4832
+class ComposerStaticInit7d3ef89fff994fb241798a675b138cd3
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -28,6 +28,7 @@ class ComposerStaticInit1f80a762e35386c46439baf4a52d4832
         'c7baa00073ee9c61edf148c51917cfb4' => __DIR__ . '/..' . '/twig/twig/src/Resources/escaper.php',
         'f844ccf1d25df8663951193c3fc307c8' => __DIR__ . '/..' . '/twig/twig/src/Resources/string_loader.php',
         'da5f6548f070d3d306f90eee42dd5de6' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgentParser.php',
+        '73087aa164ae0ee1334fd9d19596ee7f' => __DIR__ . '/..' . '/glpi-project/inventory_format/lib/php/Schema.php',
         'e1b904afbd54085bf43ec4d5eeb961d5' => __DIR__ . '/..' . '/glpi-project/inventory_format/lib/php/Converter.php',
         '6f00a0b76de6ce056d502806cbb082c7' => __DIR__ . '/..' . '/glpi-project/inventory_format/lib/php/FilesToJSON.php',
         'ef836782e1b8d747e78815386b148139' => __DIR__ . '/..' . '/htmlawed/htmlawed/htmLawed.php',
@@ -350,8 +351,8 @@ class ComposerStaticInit1f80a762e35386c46439baf4a52d4832
         ),
         'League\\OAuth2\\Client\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/oauth2-client/src',
-            1 => __DIR__ . '/..' . '/league/oauth2-google/src',
+            0 => __DIR__ . '/..' . '/league/oauth2-google/src',
+            1 => __DIR__ . '/..' . '/league/oauth2-client/src',
         ),
         'League\\Csv\\' => 
         array (
@@ -2658,10 +2659,10 @@ class ComposerStaticInit1f80a762e35386c46439baf4a52d4832
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1f80a762e35386c46439baf4a52d4832::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1f80a762e35386c46439baf4a52d4832::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit1f80a762e35386c46439baf4a52d4832::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit1f80a762e35386c46439baf4a52d4832::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7d3ef89fff994fb241798a675b138cd3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7d3ef89fff994fb241798a675b138cd3::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit7d3ef89fff994fb241798a675b138cd3::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit7d3ef89fff994fb241798a675b138cd3::$classMap;
 
         }, null, ClassLoader::class);
     }

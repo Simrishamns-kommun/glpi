@@ -17,7 +17,7 @@
     "require": {
         "php": ">=7.4",
         "seld/jsonlint": "^1.11",
-        "swaggest/json-schema": "^0.12.42",
+        "swaggest/json-schema": "^0.12.43",
         "symfony/polyfill-php81": "^1.31",
         "ext-json": "*",
         "ext-libxml": "*",
@@ -26,7 +26,7 @@
         "ext-curl": "*"
     },
     "autoload": {
-        "files": ["lib/php/Converter.php", "lib/php/FilesToJSON.php"]
+        "files": ["lib/php/Schema.php", "lib/php/Converter.php", "lib/php/FilesToJSON.php"]
     },
     "bin": ["bin/convert", "bin/build_hw_jsons", "bin/refresh_hw_sources","bin/validate"],
     "require-dev": {
@@ -34,7 +34,7 @@
         "phpstan/phpstan": "^1.12",
         "phpstan/phpstan-deprecation-rules": "^1.2",
         "phpunit/phpunit": "^9.6",
-        "squizlabs/php_codesniffer": "^3.10"
+        "squizlabs/php_codesniffer": "^3.11"
     },
     "extra": {
         "branch-alias": {

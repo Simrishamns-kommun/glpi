@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -197,7 +197,7 @@ class AuthMail extends CommonDBTM
         echo "<td><input class='form-control' type='text' name='host' value='" . $this->fields["host"] . "'>";
         echo "</td></tr>";
 
-        Toolbox::showMailServerConfig($this->fields["connect_string"]);
+        Toolbox::showMailServerConfig($this->fields["connect_string"], false);
 
         echo "<tr class='tab_bg_1'><td>" . __('Comments') . "</td>";
         echo "<td>";

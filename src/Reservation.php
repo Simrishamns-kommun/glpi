@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -98,7 +98,7 @@ class Reservation extends CommonDBChild
         if (
             isset($this->fields["users_id"])
             && (($this->fields["users_id"] === Session::getLoginUserID())
-              || Session::haveRight("reservation", DELETE))
+              || Session::haveRight("reservation", PURGE))
         ) {
            // Processing Email
             if (!isset($this->input['_disablenotif']) && $CFG_GLPI["use_notifications"]) {

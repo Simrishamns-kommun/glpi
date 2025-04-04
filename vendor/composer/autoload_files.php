@@ -27,6 +27,7 @@ return array(
     'c7baa00073ee9c61edf148c51917cfb4' => $vendorDir . '/twig/twig/src/Resources/escaper.php',
     'f844ccf1d25df8663951193c3fc307c8' => $vendorDir . '/twig/twig/src/Resources/string_loader.php',
     'da5f6548f070d3d306f90eee42dd5de6' => $vendorDir . '/donatj/phpuseragentparser/src/UserAgentParser.php',
+    '73087aa164ae0ee1334fd9d19596ee7f' => $vendorDir . '/glpi-project/inventory_format/lib/php/Schema.php',
     'e1b904afbd54085bf43ec4d5eeb961d5' => $vendorDir . '/glpi-project/inventory_format/lib/php/Converter.php',
     '6f00a0b76de6ce056d502806cbb082c7' => $vendorDir . '/glpi-project/inventory_format/lib/php/FilesToJSON.php',
     'ef836782e1b8d747e78815386b148139' => $vendorDir . '/htmlawed/htmlawed/htmLawed.php',

@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -154,6 +154,7 @@ class Search
     {
 
         $params = self::manageParams($itemtype, $_GET);
+        $params['display_type'] = self::HTML_OUTPUT; //we obviousely are displaying an HTML content
         echo "<div class='search_page row'>";
         TemplateRenderer::getInstance()->display('layout/parts/saved_searches.html.twig', [
             'itemtype' => $itemtype,
@@ -1279,20 +1280,20 @@ class Search
                 if (isset($criterion['link'])) {
                     switch ($criterion['link']) {
                         case "AND":
-                            $LINK       = " OR ";
+                            $LINK       = ($criterion['searchtype'] == 'notcontains') ? ' AND ' : ' OR ';
                             $globallink = " AND ";
                             break;
                         case "AND NOT":
-                            $LINK       = " AND ";
+                            $LINK       = ($criterion['searchtype'] == 'notcontains') ? ' OR ' : ' AND ';
                             $NOT        = 1;
                             $globallink = " AND ";
                             break;
                         case "OR":
-                            $LINK       = " OR ";
+                            $LINK       = ($criterion['searchtype'] == 'notcontains') ? ' AND ' : ' OR ';
                             $globallink = " OR ";
                             break;
                         case "OR NOT":
-                            $LINK       = " AND ";
+                            $LINK       = ($criterion['searchtype'] == 'notcontains') ? ' OR ' : ' AND ';
                             $NOT        = 1;
                             $globallink = " OR ";
                             break;
@@ -1816,6 +1817,8 @@ class Search
 
         Session::initNavigateListItems($data['itemtype'], '', $href);
 
+        $count = $data['data']['totalcount'] ?? 0;
+
         TemplateRenderer::getInstance()->display('components/search/display_data.html.twig', [
             'data'                => $data,
             'union_search_type'   => $CFG_GLPI["union_search_type"],
@@ -1825,7 +1828,7 @@ class Search
             'sort'                => $search['sort'] ?? [],
             'start'               => $search['start'] ?? 0,
             'limit'               => $_SESSION['glpilist_limit'],
-            'count'               => $data['data']['totalcount'] ?? 0,
+            'count'               => $count,
             'item'                => $item,
             'itemtype'            => $itemtype,
             'href'                => $href,
@@ -1837,8 +1840,9 @@ class Search
                                     || count(MassiveAction::getAllMassiveActions($item, $is_deleted))
                                   ),
             'massiveactionparams' => $data['search']['massiveactionparams'] + [
-                'is_deleted' => $is_deleted,
-                'container'  => "massform$itemtype",
+                'num_displayed' => min($_SESSION['glpilist_limit'], $count),
+                'is_deleted'    => $is_deleted,
+                'container'     => "massform$itemtype",
             ],
             'can_config'          => Session::haveRightsOr('search_config', [
                 DisplayPreference::PERSONAL,
@@ -4747,6 +4751,8 @@ JAVASCRIPT;
 
         switch ($searchtype) {
             case "notcontains":
+                $nott = !$nott;
+               //negated, use contains case
             case "contains":
                 // FIXME
                 // `field LIKE '%test%'` condition is not supposed to be relevant, and can sometimes result in SQL performances issues/warnings/errors,
@@ -4788,13 +4794,9 @@ JAVASCRIPT;
 
                     // Potential negation will be handled by the subquery operator
                     $SEARCH = self::makeTextSearch($val, false);
-                    if ($searchtype === 'contains') {
-                        $subquery_operator = $nott ? "NOT IN" : "IN";
-                    } else {
-                        $subquery_operator = $nott ? "IN" : "NOT IN";
-                    }
+                    $subquery_operator = $nott ? "NOT IN" : "IN";
                 } else {
-                    $SEARCH = self::makeTextSearch($val, $searchtype === 'contains' ? $nott : !$nott);
+                    $SEARCH = self::makeTextSearch($val, $nott);
                 }
                 break;
 
@@ -7105,10 +7107,20 @@ JAVASCRIPT;
                     if (in_array($orig_id, [151, 158, 181, 186])) {
                         $out = Html::convDateTime($data[$ID][0]['name']);
 
-                       // No due date in waiting status
-                        if ($data[$ID][0]['status'] == CommonITILObject::WAITING) {
-                             return '';
+                        if (
+                            $data[$ID][0]['status'] == CommonITILObject::WAITING
+                        ) {
+                            // No due date in waiting status for TTRs
+                            if (
+                                $table . '.' . $field == "glpi_tickets.time_to_resolve"
+                                || $table . '.' . $field == "glpi_tickets.internal_time_to_resolve"
+                            ) {
+                                return '';
+                            } else {
+                                $color = '#AAAAAA';
+                            }
                         }
+
                         if (empty($data[$ID][0]['name'])) {
                             return '';
                         }
@@ -7232,11 +7244,13 @@ JAVASCRIPT;
                             $less_crit       = ($totaltime - $currenttime);
                         }
 
-                        $color = $_SESSION['glpiduedateok_color'];
-                        if ($less_crit < $less_crit_limit) {
-                            $color = $_SESSION['glpiduedatecritical_color'];
-                        } else if ($less_warn < $less_warn_limit) {
-                            $color = $_SESSION['glpiduedatewarning_color'];
+                        if (!isset($color)) {
+                            $color = $_SESSION['glpiduedateok_color'];
+                            if ($less_crit < $less_crit_limit) {
+                                $color = $_SESSION['glpiduedatecritical_color'];
+                            } else if ($less_warn < $less_warn_limit) {
+                                $color = $_SESSION['glpiduedatewarning_color'];
+                            }
                         }
 
                         if (!isset($so['datatype'])) {

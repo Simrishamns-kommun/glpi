@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -492,6 +492,8 @@ class Dropdown
     {
         /** @var \DBmysql $DB */
         global $DB;
+
+        $id = (int) $id; // Prevent unexpected value type to be sent in the SQL request
 
         $item = getItemForItemtype(getItemTypeForTable($table));
 
@@ -2178,7 +2180,11 @@ JAVASCRIPT;
                     $to_display[] = $elements[$value];
                 }
             }
-            $output .= '<span class="form-control" readonly style="width: ' . $param["width"] . '">' . implode(', ', $to_display) . '</span>';
+            $output .= '<span class="form-control" readonly style="width: ' . $param["width"] . '"';
+            if ($param['tooltip']) {
+                $output .= ' title="' . htmlspecialchars($param['tooltip'], ENT_QUOTES) . '"';
+            }
+            $output .= '>' . implode(', ', $to_display) . '</span>';
         } else {
             $output  .= "<select name='$field_name' id='$field_id'";
 

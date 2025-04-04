@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -324,6 +324,12 @@ class Provider
                         'field'      => 55,
                         'searchtype' => 'equals',
                         'value'      => CommonITILValidation::WAITING,
+                    ],
+                    [
+                        'link'       => 'AND NOT',
+                        'field'      => 12,
+                        'searchtype' => 'equals',
+                        'value'      => Ticket::CLOSED,
                     ]
                 ];
 
@@ -338,6 +344,7 @@ class Provider
 
                 $where = [
                     'glpi_ticketvalidations.status' => CommonITILValidation::WAITING,
+                    'NOT' => ['glpi_tickets.status' => Ticket::CLOSED],
                 ];
 
                 if ($params['validation_check_user']) {

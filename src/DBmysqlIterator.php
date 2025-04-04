@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -88,7 +88,7 @@ class DBmysqlIterator implements SeekableIterator, Countable
     /**
      * Constructor
      *
-     * @param DBmysql $dbconnexion Database Connnexion (must be a CommonDBTM object)
+     * @param ?DBmysql $dbconnexion Database Connection (must be a CommonDBTM object)
      *
      * @return void
      */

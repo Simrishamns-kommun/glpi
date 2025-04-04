@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -58,7 +58,7 @@ class CommonDBTM extends CommonGLPI
     /**
      * Add/Update fields input. Filled during add/update process.
      *
-     * @var mixed[]
+     * @var mixed[]|false
      */
     public $input = [];
 
@@ -1177,6 +1177,13 @@ class CommonDBTM extends CommonGLPI
         unset($_SESSION['saveInput'][$this->getType()]);
     }
 
+    /**
+     * @return bool true if input data is saved in the session
+     */
+    protected function hasSavedInput(): bool
+    {
+        return isset($_SESSION['saveInput'][static::class]);
+    }
 
     /**
      * Get the data saved in the session
@@ -4682,7 +4689,7 @@ class CommonDBTM extends CommonGLPI
 
         $ok = false;
         if (is_array($crit) && (count($crit) > 0)) {
-            $crit['FIELDS'] = [$this::getTable() => 'id'];
+            $crit['FIELDS'] = [$this::getTable() => $this::getIndexName()];
             $ok = true;
             $iterator = $DB->request($this->getTable(), $crit);
             foreach ($iterator as $row) {
@@ -5750,6 +5757,7 @@ class CommonDBTM extends CommonGLPI
         // Only process itemtype that are assets
         if (in_array($this->getType(), $CFG_GLPI['asset_types'])) {
             $ruleasset          = new RuleAssetCollection();
+            $ruleasset->setEntity($this->input['entities_id'] ?? $this->fields['entities_id']);
             $input              = $this->input;
             $input['_itemtype'] = $this->getType();
 
@@ -5771,17 +5779,6 @@ class CommonDBTM extends CommonGLPI
             // If _auto is not defined : it's a manual process : set it's value to 0
             if (!isset($this->input['_auto'])) {
                 $input['_auto'] = 0;
-            }
-
-            //if agent exist pass the 'tag' to RuleAssetCollection
-            if (
-                Toolbox::hasTrait($this, \Glpi\Features\Inventoriable::class)
-                && method_exists($this, 'getInventoryAgent')
-            ) {
-                $agent = $this->getInventoryAgent();
-                if ($agent !== null) {
-                    $input['_tag'] = $agent->fields['tag'];
-                }
             }
 
             // Set the condition (add or update)

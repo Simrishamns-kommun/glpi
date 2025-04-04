@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -272,7 +272,7 @@ class InstallCommand extends AbstractConfigureCommand implements ConfigurationCo
             OutputInterface::VERBOSITY_VERBOSE
         );
         if (
-            !$mysqli->query('CREATE DATABASE IF NOT EXISTS `' . $db_name . '`')
+            !$mysqli->query('CREATE DATABASE IF NOT EXISTS `' . $mysqli->real_escape_string($db_name) . '`')
             || !$mysqli->select_db($db_name)
         ) {
             $message = sprintf(
@@ -288,7 +288,7 @@ class InstallCommand extends AbstractConfigureCommand implements ConfigurationCo
         $tables_result = $mysqli->query(
             "SELECT COUNT(table_name)
           FROM information_schema.tables
-          WHERE table_schema = '{$db_name}'
+          WHERE table_schema = '" . $mysqli->real_escape_string($db_name) . "'
              AND table_type = 'BASE TABLE'
              AND table_name LIKE 'glpi\_%'"
         );

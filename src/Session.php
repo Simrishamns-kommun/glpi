@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -171,6 +171,11 @@ class Session
                     self::loadLanguage();
 
                     if ($auth->password_expired) {
+                        // Make sure we are not in debug mode, as it could trigger some ajax request that would
+                        // fail the session check (as we use a special partial session here without profiles) and thus
+                        // destroy the session (which would make the "password expired" form impossible to submit as the
+                        // csrf check would fail as the session data would be empty).
+                        $_SESSION["glpi_use_mode"] = self::NORMAL_MODE;
                         $_SESSION['glpi_password_expired'] = 1;
                        // Do not init profiles, as user has to update its password to be able to use GLPI
                         return;
@@ -1568,7 +1573,7 @@ class Session
         if (!isset($_SESSION['glpicsrftokens'])) {
             $_SESSION['glpicsrftokens'] = [];
         }
-        $_SESSION['glpicsrftokens'][$token] = time() + GLPI_CSRF_EXPIRES;
+        $_SESSION['glpicsrftokens'][$token] = time() + (int) GLPI_CSRF_EXPIRES;
 
         if (!$standalone) {
             $CURRENTCSRFTOKEN = $token;
@@ -1596,7 +1601,7 @@ class Session
                         unset($_SESSION['glpicsrftokens'][$token]);
                     }
                 }
-                $overflow = count($_SESSION['glpicsrftokens']) - GLPI_CSRF_MAX_TOKENS;
+                $overflow = count($_SESSION['glpicsrftokens']) - (int) GLPI_CSRF_MAX_TOKENS;
                 if ($overflow > 0) {
                     $_SESSION['glpicsrftokens'] = array_slice(
                         $_SESSION['glpicsrftokens'],
@@ -1713,7 +1718,7 @@ class Session
         }
 
         $_SESSION['glpiidortokens'][$token] = [
-            'expires'  => time() + GLPI_IDOR_EXPIRES
+            'expires'  => time() + (int) GLPI_IDOR_EXPIRES
         ] + ($itemtype !== "" ? ['itemtype' => $itemtype] : [])
         + $add_params;
 

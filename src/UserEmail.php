@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -257,7 +257,12 @@ class UserEmail extends CommonDBChild
         ) {
             return;
         }
-        $canedit = ($user->can($users_id, UPDATE) || ($users_id == Session::getLoginUserID()));
+        $canedit = (
+            (
+                $user->can($users_id, UPDATE)
+                && ($user->currentUserHaveMoreRightThan($users_id)))
+            || ($users_id == Session::getLoginUserID())
+        );
 
         parent::showChildsForItemForm($user, '_useremails', $canedit);
     }
@@ -273,7 +278,12 @@ class UserEmail extends CommonDBChild
         if (!$user->can($users_id, READ) && ($users_id != Session::getLoginUserID())) {
             return false;
         }
-        $canedit = ($user->can($users_id, UPDATE) || ($users_id == Session::getLoginUserID()));
+        $canedit = (
+            (
+                $user->can($users_id, UPDATE)
+                && ($user->currentUserHaveMoreRightThan($users_id)))
+            || ($users_id == Session::getLoginUserID())
+        );
 
         parent::showAddChildButtonForItemForm($user, '_useremails', $canedit);
 

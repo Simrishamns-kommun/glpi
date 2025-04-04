@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -323,6 +323,20 @@ class Config extends CommonDBTM
                 );
                 unset($input['lock_lockprofile_id']);
             }
+        }
+
+        // Check the validity of `pdffont`
+        if (isset($input['pdffont']) && !in_array($input['pdffont'], array_keys(GLPIPDF::getFontList()), true)) {
+            Session::addMessageAfterRedirect(
+                sprintf(
+                    __('The following field has an incorrect value: "%s".'),
+                    __('PDF export font')
+                ),
+                false,
+                ERROR
+            );
+            //__('PDF export font')
+            unset($input['pdffont']);
         }
 
         // Prevent some input values to be saved in DB
@@ -3062,6 +3076,10 @@ HTML;
 
         if (isset($CFG_GLPI['planning_work_days'])) {
             $CFG_GLPI['planning_work_days'] = importArrayFromDB($CFG_GLPI['planning_work_days']);
+        }
+
+        if (isset($CFG_GLPI[Impact::CONF_ENABLED])) {
+            $CFG_GLPI[Impact::CONF_ENABLED] = importArrayFromDB($CFG_GLPI[Impact::CONF_ENABLED]);
         }
 
         return true;

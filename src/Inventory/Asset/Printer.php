@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @copyright 2010-2022 by the FusionInventory Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
@@ -245,6 +245,7 @@ class Printer extends NetworkEquipment
                 if ($data['found_inventories'][0] == 0) {
                    // add printer
                     $val->entities_id = $entities_id;
+                    $val->is_recursive = $this->is_recursive;
                     $val->is_dynamic = 1;
                     $items_id = $printer->add(Sanitizer::sanitize($this->handleInput($val, $printer)));
                 } else {

@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @copyright 2010-2022 by the FusionInventory Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
@@ -60,6 +60,7 @@ class NetworkPort extends InventoryAsset
     private $current_connection;
     private $vlan_stmt;
     private $pvlan_stmt;
+    private Conf $conf;
 
     public function prepare(): array
     {
@@ -804,7 +805,7 @@ class NetworkPort extends InventoryAsset
             foreach ($this->ports as $k => $val) {
                 $matches = [];
                 if (
-                    preg_match('@[\w\s+]+(\d+)/[\w]@', $val->name, $matches)
+                    preg_match('@[\w\s+]*(\d+)/[\w]@', $val->name, $matches)
                 ) {
                     //reset increment when name lenght differ
                     //Gi0/0 then Gi0/0/1, Gi0/0/2, Gi0/0/3
@@ -869,9 +870,13 @@ class NetworkPort extends InventoryAsset
             }
         }
 
-        if (!$hubs_id) {
-           //create direct connection
+        if (!$hubs_id && $this->conf->import_unmanaged) {
+            //create direct connection if import_unmanaged is enabled
             $hubs_id = $link->createHub($netports_id, $this->entities_id);
+        }
+
+        if (!$hubs_id) {
+            return;
         }
 
         $glpi_ports = [];
@@ -888,7 +893,7 @@ class NetworkPort extends InventoryAsset
 
         foreach ($found_macs as $ports_id) {
             if (!isset($glpi_ports[$ports_id])) {
-               // Connect port (port found in GLPI)
+            // Connect port (port found in GLPI)
                 $link->connectToHub($ports_id, $hubs_id);
             }
         }
@@ -896,6 +901,7 @@ class NetworkPort extends InventoryAsset
 
     public function checkConf(Conf $conf): bool
     {
+        $this->conf = $conf;
         return true;
     }
 

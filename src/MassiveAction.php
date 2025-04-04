@@ -7,7 +7,7 @@
  *
  * http://glpi-project.org
  *
- * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2015-2025 Teclib' and contributors.
  * @copyright 2003-2014 by the INDEPNET Development Team.
  * @licence   https://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -34,6 +34,7 @@
  */
 
 use Glpi\Features\Clonable;
+use Glpi\Plugin\Hooks;
 use Glpi\Toolbox\Sanitizer;
 
 /**
@@ -414,8 +415,7 @@ class MassiveAction
             $this->timer->start();
             $this->fields_to_remove_when_reload[] = 'timer';
 
-            /** @var number $max_time */
-            $max_time = get_cfg_var("max_execution_time");
+            $max_time = (int) get_cfg_var("max_execution_time");
             $max_time = ($max_time == 0) ? 60 : $max_time;
 
             $this->timeout_delay                  = ($max_time - 3);
@@ -825,8 +825,8 @@ class MassiveAction
             }
 
            // Plugin Specific actions
-            if (isset($PLUGIN_HOOKS['use_massive_action'])) {
-                foreach (array_keys($PLUGIN_HOOKS['use_massive_action']) as $plugin) {
+            if (isset($PLUGIN_HOOKS[Hooks::USE_MASSIVE_ACTION])) {
+                foreach (array_keys($PLUGIN_HOOKS[Hooks::USE_MASSIVE_ACTION]) as $plugin) {
                     if (!Plugin::isPluginActive($plugin)) {
                         continue;
                     }
