@@ -1,16 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Jan Friberg, 2021
-# DOMBRE Julien <moyo@indepnet.net>, 2023
-# Daniel M, 2024
-# Peter Rundqvist, 2024
-# alexandre delaunay <delaunay.alexandre@gmail.com>, 2025
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -24,8 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv_SE\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Loco-Source-Locale: sv_SE\n"
 "X-Loco-Parser: loco_parse_po\n"
 "X-Generator: Loco https://localise.biz/"
@@ -33,24 +18,12 @@ msgstr ""
 msgid "\"%s\" cache system is used"
 msgstr "\"%s\" cache system används"
 
-#: js/common.js:635 src/Toolbox.php:980
-msgctxt "size"
-msgid "KiB"
-msgstr ""
 msgid "\"-p foo\" will set \"foo\" param value to true"
 msgstr "\"-p foo\" kommer sätta \"foo\" parametervärdet till sant"
 
-#: js/common.js:636 src/Toolbox.php:981
-msgctxt "size"
-msgid "MiB"
-msgstr ""
 msgid "\"-p foo=bar\" will set \"foo\" param value to \"bar\""
 msgstr "\"-p foo=bar\" kommer sätta \"foo\" parametervärdet till \"bar\""
 
-#: js/common.js:637 src/Toolbox.php:982
-msgctxt "size"
-msgid "GiB"
-msgstr ""
 msgid "\"Migration cleaner\" tool"
 msgstr "Verktyget \"Migration cleaner\""
 
