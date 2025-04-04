@@ -131,31 +131,31 @@ msgid "%1$s account net value"
 msgstr "%1$s kontots nettovärde"
 
 msgid "%1$s adds %2$s field"
-msgstr "%1$s adderar %2$s fält"
+msgstr "%1$s lade till %2$s fält"
 
 msgid "%1$s adds an item"
-msgstr "%1$s lägger till ett objekt"
+msgstr "%1$s lade till ett objekt"
 
 msgid "%1$s adds global lock on %2$s"
-msgstr "%1$s lägger till ett globalt lås på %2$s"
+msgstr "%1$s lade till ett globalt lås på %2$s"
 
 msgid "%1$s adds several sockets"
-msgstr "%1$s lägger till flera uttag"
+msgstr "%1$s lade till till uttag"
 
 msgid "%1$s adds the item %2$s"
-msgstr "%1$s lägger till objektet %2$s"
+msgstr "%1$s lade till %2$s"
 
 msgid "%1$s adds the item %2$s (%3$d)"
-msgstr "%1$s lägger till objektet %2$s (%3$d)"
+msgstr "%1$s lade till %2$s (%3$d)"
 
 msgid "%1$s adds the license %2$s"
-msgstr "%1$s lägger till licensen %2$s"
+msgstr "%1$s lade till licensen %2$s"
 
 msgid "%1$s adds the reservation %2$s for item %3$s"
-msgstr "%1$s lägger till reservationen %2$s till objekt %3$s"
+msgstr "%1$s lade till bokningen %2$s till objekt %3$s"
 
 msgid "%1$s adds the version %2$s"
-msgstr "%1$s lägger till version %2$s"
+msgstr "%1$s lade till version %2$s"
 
 msgid "%1$s by %2$s"
 msgstr "%1$s efter %2$s"
@@ -183,8 +183,10 @@ msgid_plural "%1$s items not saved"
 msgstr[0] "%1$s objektet sparades inte"
 msgstr[1] "%1$s objekten sparades inte"
 
+#: src/Auth.php:1062
+#, php-format
 msgid "%1$s log in from IP %2$s"
-msgstr "%1$s är inloggad från ip %2$s"
+msgstr "%1$s loggade in från IP %2$s"
 
 msgid "%1$s memory usage is correct"
 msgstr "%1$s minnesanvändning är korrekt"
@@ -253,7 +255,7 @@ msgid "%1$s stops impersonating user %2$s"
 msgstr "%1$s slutar imitera användare %2$s"
 
 msgid "%1$s table already exists. A backup have been done to %2$s"
-msgstr "%1$s tabellen existerar redan. En backup har gjorts till %2$s"
+msgstr "%1$s tabellen finns redan. En backup har gjorts till %2$s"
 
 msgid "%1$s tables are using the deprecated utf8mb3 storage charset."
 msgstr "%1$s tabellen använder den utfasade utf8mb3 teckenuppsättningen."
@@ -426,109 +428,109 @@ msgid "%s Mio max"
 msgstr "Max %s Mb"
 
 msgid "%s adds a comment on knowledge base"
-msgstr "%s lägger till en kommentar i kunskapsbasen"
+msgstr "%s lade till en kommentar i kunskapsbasen"
 
 msgid "%s adds a cost"
-msgstr "%s lägger till en kostnad"
+msgstr "%s lade till en kostnad"
 
 msgid "%s adds a database instance"
-msgstr "%s lägger till en databasinstans"
+msgstr "%s lade till en databasinstans"
 
 msgid "%s adds a followup"
-msgstr "%s lägger till en uppföljning"
+msgstr "%s lade till en uppföljning"
 
 msgid "%s adds a link with a category"
-msgstr "%s lägger till en länk med en kategori"
+msgstr "%s lade till en koppling till en kategori"
 
 msgid "%s adds a link with a supplier"
-msgstr "%s skapar en länk till en leverantör"
+msgstr "%s lade till en koppling till en leverantör"
 
 msgid "%s adds a link with an item"
-msgstr "%s skapar en länk till ett objekt"
+msgstr "%s lade till en koppling till ett objekt"
 
 msgid "%s adds a link with an knowledge base"
-msgstr "%s lägger till en länk med kunskapsbasen"
+msgstr "%s lade till en koppling till kunskapsbasen"
 
 msgid "%s adds a remote management"
-msgstr "%s lägger till en fjärrhantering"
+msgstr "%s lade till en fjärrhantering"
 
 msgid "%s adds a socket"
-msgstr "%s lägger till en socket"
+msgstr "%s lade till ett nätverksuttag"
 
 msgid "%s adds a target"
-msgstr "%s lägger till ett mål"
+msgstr "%s lade till ett mål"
 
 msgid "%s adds a task"
-msgstr "%s lägger till en uppgift"
+msgstr "%s lade till en uppgift"
 
 msgid "%s adds a team member"
-msgstr "%s lägger till en gruppmedlem"
+msgstr "%s lade till en gruppmedlem"
 
 msgid "%s adds a user to a group"
-msgstr "%s lägger till en användare till en grupp"
+msgstr "%s lade till en användare till en grupp"
 
 msgid "%s adds a user to an entity"
-msgstr "%s lägger till en användare till en enhet"
+msgstr "%s lade till en användare till en entitet"
 
 msgid "%s adds a virtual machine"
-msgstr "%s lägger till en virtuell maskin"
+msgstr "%s lade till en virtuell maskin"
 
 msgid "%s adds a volume"
-msgstr "%s lägger till en volym"
+msgstr "%s lade till en volym"
 
 msgid "%s adds an actor"
-msgstr "%s lägger till en aktör"
+msgstr "%s lade till en deltagare"
 
 msgid "%s adds an alert"
-msgstr "%s lägger till en varning"
+msgstr "%s lade till en varning"
 
 msgid "%s adds an antivirus"
-msgstr "%s lägger till ett antivirus"
+msgstr "%s lade till ett antivirusprogram"
 
 msgid "%s adds an approval"
-msgstr "%s lägger till ett godkännande"
+msgstr "%s lade till ett godkännande"
 
 msgid "%s adds an item"
-msgstr "%s lägger till ett objekt"
+msgstr "%s lade till ett objekt"
 
 msgid "%s adds cartridges"
-msgstr "%s lägger till patroner"
+msgstr "%s lade till skrivarpatroner"
 
 msgid "%s adds consumables"
-msgstr "%s lägger till förbrukningsvara"
+msgstr "%s lade till förbrukningsvaror"
 
 msgid "%s adds several network ports"
-msgstr "%s lägger till flera nätverksportar"
+msgstr "%s lade till flera nätverksportar"
 
 msgid "%s adds the item"
-msgstr "%s lägger till objektet"
+msgstr "%s lade till objektet"
 
 msgid "%s approves or refuses a solution"
-msgstr "%s godkänner eller nekar en lösning"
+msgstr "%s godkände eller förkastade en lösning"
 
 msgid "%s associates a VLAN to a network port"
-msgstr "%s associerar ett VLAN till en nätverksport"
+msgstr "%s associerade ett VLAN med en nätverksport"
 
 msgid "%s associates a network name to an item"
-msgstr "%s kopplar ett nätverksnamn till ett objekt"
+msgstr "%s associerade ett nätverksnamn med ett objekt"
 
 msgid "%s associates a type"
-msgstr "%s associerar en typ"
+msgstr "%s associerade en typ"
 
 msgid "%s associates an item and a license"
-msgstr "%s associerar ett objekt med en licens"
+msgstr "%s associerade ett objekt med en licens"
 
 msgid "%s by %s"
 msgstr "%s efter %s"
 
 msgid "%s connects an item"
-msgstr "%s kopplar in ett objekt"
+msgstr "%s anslöt ett objekt"
 
 msgid "%s creation failed (check mandatory fields)"
-msgstr "%s skapandet misslyckades (kontrollera obligatoriska fält)"
+msgstr "Kunde inte skapa %s – kontrollera att alla obligatoriska fält är ifyllda."
 
 msgid "%s creation failed (no template)"
-msgstr "%s skapandet misslyckades  (ingen mall)"
+msgstr "Kunde inte skapa %s - mall saknas."
 
 msgid "%s day"
 msgid_plural "%s days"
@@ -542,7 +544,7 @@ msgid "%s deletes a database instance"
 msgstr "%s tog bort en databasinstans"
 
 msgid "%s deletes an actor"
-msgstr "%s tog bort bort en aktör"
+msgstr "%s tog bort bort en deltagare"
 
 msgid "%s deletes an item"
 msgstr "%s tog bort ett objekt"
@@ -554,13 +556,13 @@ msgid "%s deletes users from a group"
 msgstr "%s tog bort användare från en grupp"
 
 msgid "%s disconnects an item"
-msgstr "%s kopplar ifrån ett objekt"
+msgstr "%s kopplade från ett objekt"
 
 msgid "%s edit a comment on knowledge base"
-msgstr "%s redigera en kommentar i kunskapsbasen"
+msgstr "%s redigerade en kommentar i kunskapsbasen"
 
 msgid "%s equipments connected to the hub"
-msgstr "%s utrustning ansluten till hubben"
+msgstr "%s utrustningar anslutna till hubben"
 
 msgid "%s error"
 msgid_plural "%s errors"
@@ -603,10 +605,10 @@ msgid "%s hours ago"
 msgstr "%s timmar sedan"
 
 msgid "%s installs a cartridge"
-msgstr "%s installerar en patron"
+msgstr "%s installerade en patron"
 
 msgid "%s installs software"
-msgstr "%s installerar mjukvara"
+msgstr "%s installerade programvara"
 
 msgid ""
 "%s is not a stable release. Please upgrade manually or add --allow-unstable "
@@ -668,61 +670,61 @@ msgid "%s promotes a task from ticket %s"
 msgstr "%s begär en uppgift från ärende %s"
 
 msgid "%s purges a cartridge"
-msgstr "%s rensar bort en tonerkassett"
+msgstr "%s tog bort en tonerkassett"
 
 msgid "%s purges a cost"
-msgstr "%s rensar bort en kostnad"
+msgstr "%s tog bort bort en kostnad"
 
 msgid "%s purges a database instance"
-msgstr "%s rensar en databasinstans"
+msgstr "%s tog bort en databasinstans"
 
 msgid "%s purges a followup"
-msgstr "%s rensar bort en uppföljning"
+msgstr "%s tog bort en uppföljning"
 
 msgid "%s purges a remote management"
-msgstr "%s rensar en fjärrhantering"
+msgstr "%s tog bort en fjärrhantering"
 
 msgid "%s purges a sla level"
-msgstr "%s rensar bort en SLA-nivå"
+msgstr "%s tog bort SLA-nivå"
 
 msgid "%s purges a socket"
-msgstr "%s rensar en socket"
+msgstr "%s tog bort ett nätverksuttag"
 
 msgid "%s purges a task"
-msgstr "%s rensar bort en uppgift"
+msgstr "%s tog bort en uppgift"
 
 msgid "%s purges a virtual machine"
-msgstr "%s rensar bort en virtuell maskin"
+msgstr "%s tog bort en virtuell maskin"
 
 msgid "%s purges a volume"
-msgstr "%s rensar bort en volym"
+msgstr "%s tog bort en volym"
 
 msgid "%s purges an alert"
-msgstr "%s rensar en varning"
+msgstr "%s tog bort en varning"
 
 msgid "%s purges an antivirus"
-msgstr "%s rensar ett antivirus"
+msgstr "%s tog bort ett antivirusprogram"
 
 msgid "%s purges an approval"
-msgstr "%s rensar bort ett godkännande"
+msgstr "%s tog bort ett godkännande"
 
 msgid "%s purges an item"
-msgstr "%s rensar bort ett objekt"
+msgstr "%s tog bort ett objekt"
 
 msgid "%s purges an ola level"
-msgstr "%s rensar en ola-nivå"
+msgstr "%s tog en OLA-nivå"
 
 msgid "%s purges link between tickets"
-msgstr "%s rensar kopplingar mellan ärenden"
+msgstr "%s tog bort länken mellan ärenden"
 
 msgid "%s replaces an item"
-msgstr "%s ersätter ett objekt"
+msgstr "%s ersatte ett objekt"
 
 msgid "%s restores a database instance"
-msgstr "%s återställer en databasinstans"
+msgstr "%s återställde en databasinstans"
 
 msgid "%s restores an item"
-msgstr "%s återställer ett objekt"
+msgstr "%s återställde ett objekt"
 
 msgid "%s rows / page"
 msgstr "%s rader / sida"
@@ -733,7 +735,7 @@ msgstr[0] "%s sekund"
 msgstr[1] "%s sekunder"
 
 msgid "%s sets unitary management"
-msgstr "%s sätter enhetlig styrning"
+msgstr "%s ställde in enhetlig hantering"
 
 msgid "%s start"
 msgid_plural "%s starts"
@@ -787,7 +789,7 @@ msgid "%s updates an alert"
 msgstr "%s uppdaterade en varning"
 
 msgid "%s updates an antivirus"
-msgstr "%s uppdaterade ett antivirus"
+msgstr "%s uppdaterade ett antivirusprogram"
 
 msgid "%s updates an approval"
 msgstr "%s uppdaterade ett godkännande"
@@ -816,13 +818,13 @@ msgid "%s-%s/%s"
 msgstr "%s-%s/%s"
 
 msgid "%s: %s"
-msgstr "%s\\: %s"
+msgstr "%s: %s"
 
 msgid "%s: send cartridge alert failed"
-msgstr "%s\\: skicka kasettvarning misslyckades"
+msgstr "%s: skicka kasettvarning misslyckades"
 
 msgid "%s: send consumable alert failed"
-msgstr "%s\\: skicka förbrukningsvarning misslyckades"
+msgstr "%s: skicka förbrukningsvarning misslyckades"
 
 msgid ""
 "'All' criterion is not usable with this object list, sql query fails (too "
@@ -949,19 +951,19 @@ msgid "4- Notices (add, delete, tracking)"
 msgstr "4 - Information"
 
 msgid "5- Complete (all)"
-msgstr "5 - Total (allt)"
+msgstr "5 - Fullständig (allt)"
 
 msgid "A PHP extension stopped the file upload"
-msgstr "En PHP-modul hindrade filuppladdningen"
+msgstr "En PHP-modul förhindrade filuppladdningen"
 
 msgid "A browser notification to %s was added to queue"
-msgstr "En webbläsarnotifiering för %s lades till kön"
+msgstr "En webbläsarnotis för %s lades till kön"
 
 msgid "A cluster is required"
 msgstr "Ett kluster krävs"
 
 msgid "A device ID is mandatory"
-msgstr "Ett enhets ID är obligatoriskt"
+msgstr "Ett enhets-ID är obligatoriskt"
 
 msgid "A linked project is mandatory"
 msgstr "Ett länkat projekt är obligatoriskt"
@@ -1056,14 +1058,14 @@ msgstr "API-dokumentation"
 
 msgid "API client"
 msgid_plural "API clients"
-msgstr[0] "API klient"
-msgstr[1] "API klienter"
+msgstr[0] "API-klient"
+msgstr[1] "API-klienter"
 
 msgid "API disabled"
 msgstr "API inaktiverat"
 
 msgid "API inline Documentation"
-msgstr "API inline dokumentation"
+msgstr "Inbäddad API-dokumentation"
 
 msgid "API token"
 msgstr "API-token"
@@ -1080,23 +1082,40 @@ msgstr "Om"
 msgid "Accepted"
 msgstr "Accepterad"
 
+#: src/MailCollector.php:283 src/MailCollector.php:537
 msgid "Accepted mail archive folder (optional)"
-msgstr "Godkänd e-postarkivmapp (valfritt)"
+msgstr "Mapp för accepterade meddelanden (valfritt)"
+
+#: src/MailCollector.php:292 src/MailCollector.php:545
+msgid "Refused mail archive folder (optional)"
+msgstr "Mapp för avvisade meddelanden (valfritt)"
+
+#: src/MailCollector.php:303 src/MailCollector.php:512
+msgid "Maximum size of each file imported by the mails receiver"
+msgstr "Max filstorlek per fil som tas emot via e-post"
+
+#: src/MailCollector.php:308
+msgid "Use mail date, instead of collect one"
+msgstr "Använd datumet från e-posten i stället för mottagningsdatumet"
+
+#: src/MailCollector.php:313
+msgid "Use Reply-To as requester (when available)"
+msgstr "Använd Svara-Till som rapportör (om tillgänglig)"
 
 msgid "Access denied"
-msgstr "Anslutning nekad"
+msgstr "Åtkomst nekad"
 
 msgid "Access to timezone database (mysql) is not allowed."
-msgstr "Tillgång till tidszondatabasen (mysql) är inte tillåten."
+msgstr "Åtkomst till tidszondatabasen (mysql) är inte tillåten."
 
 msgid "Access to timezone table (mysql.time_zone_name) is not allowed."
-msgstr "Tillgång till tidzontabellen (mysql.time_zone_name) är inte tillåten."
+msgstr "Åtkomst till tidzontabellen (mysql.time_zone_name) är inte tillåten."
 
 msgid "Account lock date if password is not changed"
-msgstr "Kontots datum för låsning om lösenord inte ändras"
+msgstr "Datum då kontot låses om inte lösenordet ändras"
 
 msgid "Account net value"
-msgstr "Kontots netto värde"
+msgstr "Kontots nettovärde"
 
 msgid "Account number"
 msgstr "Kontonummer"
@@ -1110,7 +1129,7 @@ msgid "Action aborted"
 msgstr "Åtgärd avbruten"
 
 msgid "Action completed, fully processed"
-msgstr "Åtgärd klar, helt behandlad"
+msgstr "Åtgärden genomfördes och behandlades i sin helhet"
 
 msgid "Action completed, no processing required"
 msgstr "Åtgärd klar, ingen behandling krävdes"
@@ -1140,7 +1159,7 @@ msgid "Active Directory"
 msgstr "Active Directory"
 
 msgid "Actor"
-msgstr "Aktör"
+msgstr "Deltagare"
 
 msgid "Actors"
 msgstr "Deltagare"
@@ -1158,7 +1177,7 @@ msgid "Add API client"
 msgstr "Lägg till API klient"
 
 msgid "Add CC users as observer"
-msgstr "Lägg till CC användare som observatörer"
+msgstr "Lägg till CC-mottagare som deltagare"
 
 #: templates/components/itilobject/actors/main.html.twig
 msgid "Observer"
@@ -1321,7 +1340,7 @@ msgid "Add a volume"
 msgstr "Lägg till volym"
 
 msgid "Add an actor"
-msgstr "Lägg till aktör"
+msgstr "Lägg till deltagare"
 
 msgid "Add an alert"
 msgstr "Lägg till notis"
@@ -1330,7 +1349,7 @@ msgid "Add an answer"
 msgstr "Lägg till svar"
 
 msgid "Add an antivirus"
-msgstr "Lägg till antivirus"
+msgstr "Lägg till antivirusprogram"
 
 msgid "Add an authorization to a user"
 msgstr "Lägg till rättighet till användare"
@@ -1441,7 +1460,7 @@ msgid "Add to an appliance"
 msgstr "Lägg till utrustning"
 
 msgid "Add to schedule"
-msgstr "Lägg till i schema"
+msgstr "Lägg till i kalender"
 
 msgid "Add user..."
 msgstr "Ny användare..."
@@ -1450,7 +1469,7 @@ msgid "Add users from an external source"
 msgstr "Lägg till användaren från en extern källa"
 
 msgid "Add/Remove items from software versions"
-msgstr "Lägg till eller ta bort objekt från mjukvaruversioner"
+msgstr "Lägg till eller ta bort objekt från programvaruversioner"
 
 msgid "Add/remove groups to users"
 msgstr "Lägg till eller ta bort grupper för användare"
@@ -1462,7 +1481,7 @@ msgid "Add/update relation between items"
 msgstr "Lägg till/uppdatera relation mellan objekt"
 
 msgid "Added by %s"
-msgstr "Lagt upp av %s"
+msgstr "Tillagt av %s"
 
 msgid "Adding fulltext indices - %s"
 msgstr "Lägger till fulltextindex - %s"
@@ -1805,8 +1824,8 @@ msgstr "Anonymisera ärendehandläggare"
 
 msgid "Antivirus"
 msgid_plural "Antiviruses"
-msgstr[0] "Antivirus"
-msgstr[1] "Antivirus"
+msgstr[0] "Antivirusprogram"
+msgstr[1] "Antivirusprogram"
 
 msgid "Antivirus version"
 msgstr "Version"
@@ -1880,13 +1899,13 @@ msgid "Approval request to technician group manager"
 msgstr "Godkännandeförfrågan till  teknikgruppens ansvariga"
 
 msgid "Approval requester"
-msgstr "Aktör som begär godkännande"
+msgstr "Person som begär godkännande"
 
 msgid "Approval status"
-msgstr "Status för godkännande"
+msgstr "Godkännandestatus"
 
 msgid "Approvals for the ticket"
-msgstr "Godkännande för ärendet"
+msgstr "Godkännanden för ärendet"
 
 msgid "Approve"
 msgstr "Godkänna"
@@ -1966,7 +1985,7 @@ msgid "Assign"
 msgstr "Tilldela"
 
 msgid "Assign a SLA"
-msgstr "Tilldela en SLA"
+msgstr "Tilldela ett SLA"
 
 msgid "Assign a ticket"
 msgstr "Tilldela ärende"
@@ -2127,7 +2146,7 @@ msgid "Authorizations assignment rules"
 msgstr "Regler för tilldelning av auktorisationer"
 
 msgid "Authorize reservations"
-msgstr "Auktorisera reservationer"
+msgstr "Godkänn bokningar"
 
 msgid "Authorized upload"
 msgstr "Får laddas upp"
@@ -2171,7 +2190,7 @@ msgstr[0] "Automatisk åtgärd"
 msgstr[1] "Automatiska åtgärder"
 
 msgid "Automatic actions list"
-msgstr "Lista över automatiska åtgärder"
+msgstr "Automatiska åtgärder"
 
 msgid "Automatic actions of OLA"
 msgstr "Automatiska åtgärder av OLA"
@@ -2294,7 +2313,7 @@ msgid "Average speed"
 msgstr "Genomsnitt hastighet"
 
 msgid "Average time"
-msgstr "Genomsnitt tid"
+msgstr "Genomsnittlig körningstid"
 
 msgid "Average time in stock"
 msgstr "Genomsnittlig tid i lager"
@@ -2373,7 +2392,7 @@ msgid "Before"
 msgstr "före"
 
 msgid "Begin"
-msgstr "Starta"
+msgstr "Börjar"
 
 msgid "Begin date"
 msgstr "Startdatum"
@@ -2488,7 +2507,7 @@ msgid "Building number"
 msgstr "Byggnad nummer"
 
 msgid "Bulk add"
-msgstr "Masstillägg"
+msgstr "Lägg till flera"
 
 msgid "Bulk import groups from a LDAP directory"
 msgstr "Importera flera grupper från en LDAP-katalog"
@@ -2517,10 +2536,10 @@ msgid "Business rules for tickets (entity)"
 msgstr "Affärsregler för ärenden (entitet)"
 
 msgid "By"
-msgstr "Av"
+msgstr "Skapat av"
 
 msgid "By %s"
-msgstr "Av %s"
+msgstr "Skapat av %s"
 
 msgid "By change"
 msgstr "Efter förändring"
@@ -3108,10 +3127,10 @@ msgstr ""
 "dess underenheter."
 
 msgid "Clone"
-msgstr "Klona"
+msgstr "Skapa kopia"
 
 msgid "Clone this dashboard"
-msgstr "Klona instrumentbrädan"
+msgstr "Skapa kopia av instrumentpanelel"
 
 msgid "Close"
 msgstr "Stäng"
@@ -3344,7 +3363,7 @@ msgstr "Ansluten till"
 msgid "Connection"
 msgid_plural "Connections"
 msgstr[0] "Anslutning"
-msgstr[1] "Anslutningar"
+msgstr[1] "Anlustningar"
 
 #: src/InterfaceType.php:44
 msgid "Interface type (Hard drive...)"
@@ -3375,7 +3394,7 @@ msgid "Connection filter"
 msgstr "Anslutningsfilter"
 
 msgid "Connection options"
-msgstr "Förbindelsealternativ"
+msgstr "Anslutningsalternativ"
 
 msgid "Connection string"
 msgstr "Anslutningssträng"
@@ -3587,20 +3606,20 @@ msgid "Could not find mailgate %d"
 msgstr "Kunde inte hitta mailgate %d"
 
 msgid "Count"
-msgstr "Räkna"
+msgstr "Beräkna användning"
 
 msgid "Count for this saved search has been disabled."
-msgstr "Räkning för denna sparade sökning har inaktiverats."
+msgstr "Beräkning av användning för denna sparade sökning har inaktiverats."
 
 msgid "Counter"
 msgstr "Räknare"
 
 msgid "Counter error"
-msgstr "Räknarfel"
+msgstr "Fel vid beräkning av användning"
 
 msgid "Counting this saved search would take too long, it has been skipped."
 msgstr ""
-"Att räkna denna sparade sökning skulle ta för lång tid, den har hoppats över."
+"Att beräkna volymen av användningen av den här sparade sökningen skulle ta för lång tid - den har hoppats över."
 
 msgid "Country"
 msgstr "Land"
@@ -3614,13 +3633,13 @@ msgid "Create a %1$s from this %2$s"
 msgstr "Skapa %1$s från detta %2$s"
 
 msgid "Create a new database or use an existing one:"
-msgstr "Ny databas, eller använd en existerande:"
+msgstr "Skapa ny databas eller använd en befintlig:"
 
 msgid "Create a new network name"
 msgstr "Skapa ett nytt nätverksnamn"
 
 msgid "Create a sub project from this project"
-msgstr "Skapa ett sub-projekt av detta projekt"
+msgstr "Skapa ett delprojekt från det här projektet"
 
 msgid "Create a sub task from this task of project"
 msgstr "Skapa en underliggande uppgift från detta projekt"
@@ -3975,10 +3994,10 @@ msgid "Debug"
 msgstr "Felsökning"
 
 msgid "Debug mode disabled"
-msgstr "Felsökningsläge inaktiverat"
+msgstr "Aktivera felsökning"
 
 msgid "Debug mode enabled"
-msgstr "Felsökningsläge aktiverat"
+msgstr "Inaktivera felsökning"
 
 msgid "Debug mode has been disabled!"
 msgstr "Felsökningsläge har inaktiverats!"
@@ -4887,8 +4906,22 @@ msgid_plural "Editions"
 msgstr[0] "Utgåva"
 msgstr[1] "Utgåvor"
 
+#: src/NotificationTargetProject.php:662
+#: src/NotificationTargetProjectTask.php:569 src/Project.php:681
+#: src/Project.php:1717 src/ProjectTask.php:899 src/ProjectTask.php:995
+#: src/ProjectTaskTemplate.php:95 src/ProjectTaskTemplate.php:197
+#: src/ProjectTask_Ticket.php:383 templates/pages/tools/project_task.html.twig
+msgid "Planned duration"
+msgstr "Planerad varaktighet"
+
+#: src/NotificationTargetProject.php:663
+#: src/NotificationTargetProjectTask.php:570 src/Project.php:708
+#: src/Project.php:1098 src/Project.php:1726 src/ProjectTask.php:912
+#: src/ProjectTask.php:996 src/ProjectTaskTemplate.php:99
+#: src/ProjectTaskTemplate.php:205 src/ProjectTask_Ticket.php:384
+#: templates/pages/tools/project_task.html.twig
 msgid "Effective duration"
-msgstr "Effektiv varaktighet"
+msgstr "Faktisk varaktighet"
 
 msgid "Either --dsn or --use-default options have to be used."
 msgstr "Alternativen --dsn eller --use-default måste användas."
@@ -5089,7 +5122,7 @@ msgid "Encryption type"
 msgstr "Krypteringstyp"
 
 msgid "End"
-msgstr "Slut"
+msgstr "Slutar"
 
 msgid "End + Notice"
 msgstr "Slut + meddelande"
@@ -5197,14 +5230,14 @@ msgstr "Utrustningsnamn"
 
 msgid "Equipment refused by rules log"
 msgid_plural "Equipments refused by rules log"
-msgstr[0] "Utrustning som blockerats av regel"
+msgstr[0] "Utrustning som blockerats av regler"
 msgstr[1] "Utrustningar som blockerats av regler"
 
 msgid "Equipment without network card"
 msgstr "Utrustning utan nätverkskort"
 
 msgid "Equipment's report by year"
-msgstr "Årsrapport för utrustning"
+msgstr "Rapport över utrustning per år"
 
 msgid "Error"
 msgstr "Fel"
@@ -5247,10 +5280,10 @@ msgid "Error replaying rules"
 msgstr "Fel vid omspelning av regler"
 
 msgid "Error retrieving RSS feed"
-msgstr "Fel vid mottagande av RSS-flöde"
+msgstr "Visa eventuella fel vid hämtning"
 
 msgid "Error was: %s"
-msgstr "Felet var\\: %s"
+msgstr "Felet var: %s"
 
 msgid ""
 "Error when parsing HTTP_REFERER. Reload previous page before doing action "
@@ -5657,13 +5690,13 @@ msgid "Financial and administratives information"
 msgstr "Finansiell och administrativ information"
 
 msgid "Find a free item in a specific period"
-msgstr "Hitta ledigt objekt i angiven period"
+msgstr "Hitta ledigt objekt för en angiven"
 
 msgid "Find computers in GLPI having the status"
 msgstr "Hitta datorer i GLPI som har status"
 
 msgid "Find menu"
-msgstr "Sök"
+msgstr "Hitta"
 
 msgid "Finished state"
 msgstr "Klart"
@@ -6087,7 +6120,7 @@ msgid "Group in charge of the license"
 msgstr "Grupp som ansvarar för licensen"
 
 msgid "Group in charge of the software"
-msgstr "Grupp som ansvarar för mjukvaran"
+msgstr "Grupp som ansvarar för programvaran"
 
 msgid "Group in charge of the task"
 msgstr "Grupp som ansvarar för uppgiften"
@@ -6363,7 +6396,7 @@ msgstr ""
 "förväntas bli besvarade."
 
 msgid "If software are no longer used"
-msgstr "Om mjukvaran inte längre används"
+msgstr "Om programvaran inte längre används"
 
 msgid "If suppliers are no longer used"
 msgstr "Om inte leverantörer inte längre används"
@@ -6669,7 +6702,7 @@ msgid "Install"
 msgstr "Installera"
 
 msgid "Install a software"
-msgstr "Installera mjukvara"
+msgstr "Installera programvara"
 
 msgid "Installation"
 msgid_plural "Installations"
@@ -6686,7 +6719,7 @@ msgid "Installation or update of GLPI"
 msgstr "Installation eller uppdatering av GLPI"
 
 msgid "Installation/uninstallation of software on items"
-msgstr "Installation/avinstallation av mjukvara för objekt"
+msgstr "Installation/avinstallation av programvara för objekt"
 
 msgid "Installation/uninstallation versions on software"
 msgstr "Installations-/avinstallationsversioner på programvara"
@@ -7004,8 +7037,8 @@ msgstr "Administrera kunskapsbas"
 
 msgid "Knowledge base category"
 msgid_plural "Knowledge base categories"
-msgstr[0] "Kunskapsbas-kategori"
-msgstr[1] "Kunskapsbas-kategorier"
+msgstr[0] "Kategori"
+msgstr[1] "Kategorier"
 
 msgid "Knowledge base entries"
 msgstr "Kunskapsartiklar"
@@ -7164,7 +7197,7 @@ msgid "Last tickets"
 msgstr "Senaste ärenden"
 
 msgid "Last update"
-msgstr "Senaste uppdatering"
+msgstr "Uppdaterades senast"
 
 msgid "Last update by %1$s on %2$s"
 msgstr "Senast uppdaterad av %1$s den %2$s"
@@ -7297,19 +7330,19 @@ msgid "Link a knowledge base entry"
 msgstr "Referera till kunskapsartikel"
 
 msgid "Link if possible"
-msgstr "Länka om möjligt"
+msgstr "Skapa länk om möjligt"
 
 msgid "Link if possible, otherwise imports declined"
-msgstr "Länka om möjligt, annars avvisas import"
+msgstr "Skapa länk om möjligt, annars nekas importen"
 
 msgid "Link or filename"
-msgstr "Länk eller filnamn"
+msgstr "Länk- eller filnamn"
 
 msgid "Link to a problem"
 msgstr "Länk till ett problem"
 
 msgid "Link type"
-msgstr "Länk typ"
+msgstr "Länktyp"
 
 msgid "Link with items for the creation of tickets"
 msgstr "Länk till objekt vid skapande av ärenden"
@@ -7638,7 +7671,7 @@ msgid "Maximal number of automatic actions (run by CLI)"
 msgstr "Maximalt antal av automatiserade aktiviteter (körda via CLI)"
 
 msgid "Maximal time"
-msgstr "Maximal tid"
+msgstr "Längsta körningstid"
 
 msgid "Maximum emails to send at once"
 msgstr "Max antal e-postmeddelanden att skicka samtidigt"
@@ -7698,7 +7731,7 @@ msgid "Minimal count"
 msgstr "Minsta antal"
 
 msgid "Minimal time"
-msgstr "Kortaste tid"
+msgstr "Kortaste körningstid"
 
 msgid "Minute"
 msgid_plural "Minutes"
@@ -7815,13 +7848,13 @@ msgid "My unpublished articles"
 msgstr "Mina opubliserade artiklar"
 
 msgid "Myself"
-msgstr "Jag själv"
+msgstr "Mig själv"
 
 msgid "NO-TLS"
 msgstr "NO-TLS"
 
 msgid "NOT"
-msgstr "EJ"
+msgstr "INTE"
 
 msgid "Name"
 msgstr "Namn"
@@ -7965,10 +7998,10 @@ msgid "New Note"
 msgstr "Ny anteckning"
 
 msgid "New change"
-msgstr "Ny ändring"
+msgstr "Ny förändring"
 
 msgid "New change for this item..."
-msgstr "Ny ändring för denna enhet..."
+msgstr "Ny förändring för detta objekt..."
 
 msgid "New child heading"
 msgstr "Ny underrubrik"
@@ -8004,7 +8037,7 @@ msgid "New problem"
 msgstr "Nytt problemärende"
 
 msgid "New problem for this item..."
-msgstr "Nytt problem för denna enhet..."
+msgstr "Nytt problem för detta objekt..."
 
 msgid "New project"
 msgstr "Nytt projekt"
@@ -8207,7 +8240,7 @@ msgid "No limit"
 msgstr "Ingen gräns"
 
 msgid "No link defined"
-msgstr "Ingen länk definerad"
+msgstr "Ingen länk"
 
 msgid "No linked items"
 msgstr "Inga kopplade enheter"
@@ -8219,7 +8252,7 @@ msgid "No locked item"
 msgstr "Inga låsta objekt"
 
 msgid "No longer exists in database"
-msgstr "Existerar inte längre i databasen"
+msgstr "Finns inte längre i databasen"
 
 msgid "No migration needed."
 msgstr "Ingen migrering behövs."
@@ -8276,7 +8309,7 @@ msgid "No selected items"
 msgstr "Inget valt objekt"
 
 msgid "No software to process."
-msgstr "Ingen mjukvara att processa"
+msgstr "Ingen programvara att bearbeta."
 
 msgid "No statistics are available"
 msgstr "Det finns ingen tillgänglig statistik"
@@ -8327,7 +8360,7 @@ msgid "No-Reply name"
 msgstr "No-Reply namn"
 
 msgid "Non-existent function"
-msgstr "Icke-existerande funktion"
+msgstr "Funktionen finns inte"
 
 msgid "None"
 msgstr "Inget"
@@ -8391,7 +8424,7 @@ msgid "Notification disabled"
 msgstr "Avisering inaktiverad"
 
 msgid "Notification does not exists!"
-msgstr "Avisering existerar inte!"
+msgstr "Aviseringen finns inte!"
 
 msgid "Notification frequency"
 msgstr "Aviseringsfrekvens"
@@ -8461,7 +8494,7 @@ msgid "Number of cores"
 msgstr "Antal kärnor"
 
 msgid "Number of days this action logs are stored"
-msgstr "Antal dagar som dessa aktions-loggar sparas"
+msgstr "Spara loggposter i (dagar)"
 
 msgid "Number of days to keep archived logs"
 msgstr "Antal dagar som arkiverad logg ska sparas"
@@ -8697,7 +8730,7 @@ msgid "Other item exist"
 msgstr "Annat objekt finns"
 
 msgid "Other items do not exist in GLPI core."
-msgstr "Andra objekt existerar inte i GLPI kärnan"
+msgstr "Deet finns inga andra objekt i GLPI-kärnan."
 
 msgid "Other kind of items"
 msgstr "Andra typer av objekt"
@@ -8956,7 +8989,7 @@ msgstr[0] "Egen påminnelse"
 msgstr[1] "Egna påminnelser"
 
 msgid "Personalization"
-msgstr "Anpassning"
+msgstr "Personliga inställningar"
 
 msgid "Phone"
 msgid_plural "Phones"
@@ -9352,7 +9385,7 @@ msgid "Put on hold on %s"
 msgstr "Satt på väntande den %s"
 
 msgid "Put this item in the FAQ"
-msgstr "Placera detta objekt i DAQ"
+msgstr "Lägg detta objekt i FAQ"
 
 msgid "Qualification"
 msgstr "Kvalificering"
@@ -9391,7 +9424,7 @@ msgid "Rate to trigger survey"
 msgstr "Betygsätt för att komma till undersökningen"
 
 msgid "Read"
-msgstr "Läs"
+msgstr "Läsa"
 
 msgid "Read notes"
 msgstr "Läsa anteckningar"
@@ -9406,13 +9439,13 @@ msgid "Readme"
 msgstr "Readme"
 
 msgid "Real capacity (mWh)"
-msgstr "Faktisk effekt (mWh)"
+msgstr "Faktisk kapacitet (mWh)"
 
 msgid "Real duration"
 msgstr "Faktisk varaktighet"
 
 msgid "Real duration of treatment of the ticket"
-msgstr "Verklig åtgärdstid för ärende"
+msgstr "Faktisk handläggningstid för ärendet"
 
 msgid "Real end date"
 msgstr "Faktiskt slutdatum"
@@ -9460,7 +9493,7 @@ msgstr[0] "Uppgift"
 msgstr[1] "Uppgifter"
 
 msgid "Record into the database denied"
-msgstr "Avvisad registrering i databas"
+msgstr "Neka registrering i databas"
 
 msgid "Record type"
 msgid_plural "Records types"
@@ -9567,7 +9600,7 @@ msgstr "Ta bort från grupp"
 
 msgid ""
 "Remove software versions with no installation and software with no version"
-msgstr "Ta bort mjukvara där det saknas installation och mjukvara utan version"
+msgstr "Ta bort programvaruversioner utan installation samt programvara utan version"
 
 msgid "Remove the domain of logins like login@domain"
 msgstr "Ta bort domänen i inloggningar som login@domän"
@@ -9742,7 +9775,7 @@ msgid "Restrict criteria to same network port"
 msgstr "Begränsa kriterier till samma nätverksport"
 
 msgid "Restrict device management"
-msgstr "Begränsa hantering av enheter"
+msgstr "Begränsa enhetshantering"
 
 msgid "Restrict monitor management"
 msgstr "Begränsa bildskärmshantering"
@@ -9830,7 +9863,7 @@ msgid "Rules for assigning a category to a software"
 msgstr "Regler för tilldelning av programvara till kategori"
 
 msgid "Rules for assigning a category to software"
-msgstr "Regler för tilldelning av kategori till mjukvara"
+msgstr "Regler för tilldelning av kategori till programvara"
 
 msgid "Rules for assigning a computer to a location"
 msgstr "Regler för tilldelning av dator till plats"
@@ -9866,19 +9899,19 @@ msgstr ""
 "Kör Racks plugin-uppdatering (du behöver version %s-filer för att göra detta)"
 
 msgid "Run count"
-msgstr "Kör antal"
+msgstr "Antal körningar"
 
 msgid "Run frequency"
-msgstr "Kör frekvent"
+msgstr "Körningsintervall"
 
 msgid "Run mode"
-msgstr "Körläge"
+msgstr "Körningsläge"
 
 msgid "Run period"
-msgstr "Kör under period"
+msgstr "Körningsperiod"
 
 msgid "Running"
-msgstr "Körning pågår"
+msgstr "Körs"
 
 msgid "SHA1"
 msgstr "SHA1"
@@ -10110,7 +10143,7 @@ msgid "Send"
 msgstr "Skicka"
 
 msgid "Send a notification"
-msgstr "Skicka en avisering"
+msgstr "Avisera"
 
 msgid "Send a test email to the administrator"
 msgstr "Skicka ett testmeddelande till administratören"
@@ -10174,7 +10207,7 @@ msgid "Server"
 msgstr "Server"
 
 msgid "Service"
-msgstr "Tjänst"
+msgstr "Avsnitt"
 
 msgid "Service is down for maintenance. It will be back shortly."
 msgstr ""
@@ -10313,8 +10346,8 @@ msgstr[1] "Uttagstyper"
 
 msgid "Software"
 msgid_plural "Software"
-msgstr[0] "Mjukvara"
-msgstr[1] "Mjukvaror"
+msgstr[0] "Programvara"
+msgstr[1] "Programvaror"
 
 msgid "Software category"
 msgid_plural "Software categories"
@@ -10322,16 +10355,20 @@ msgstr[0] "Kategori"
 msgstr[1] "Kategorier"
 
 msgid "Software category deleted by the dictionary rules"
-msgstr "Mjukvarukategorier tas bort efter ordboks-reglerna"
+msgstr "Programvarukategori tas bort enligt ordlistans regler"
 
 msgid "Software deleted after merging"
-msgstr "Mjukvaror tas bort efter sammanslagning"
+msgstr "Programvaran tas bort efter sammanslagning"
 
 msgid "Software deleted by GLPI dictionary rules"
-msgstr "Mjukvara borttagen av GLPI-regel"
+msgstr "Programvara borttagen av GLPI-regel"
 
 msgid "Software dictionary"
-msgstr "Mjukvarukatalog"
+msgstr "Programvarukatalog"
+
+#: src/Inventory/Conf.php:611
+msgid "Related configurations"
+msgstr "Relaterade inställningar"
 
 msgid "Solution"
 msgid_plural "Solutions"
@@ -10991,7 +11028,7 @@ msgid "Toggle filters"
 msgstr "Växla filter"
 
 msgid "Toggle fullscreen"
-msgstr "Växla till fullskärm"
+msgstr "Växla till helskärm"
 
 msgid "Toggle night mode"
 msgstr "Växla till nattläge"
@@ -11066,7 +11103,7 @@ msgid "Total count"
 msgstr "Totalt antal"
 
 msgid "Total duration"
-msgstr "Total tidsåtgång"
+msgstr "Sammanlagd körningstid"
 
 msgid "Total duration: %s"
 msgstr "Total varaktighet\\: %s"
@@ -11319,7 +11356,7 @@ msgid "Up to date"
 msgstr "Aktuell"
 
 msgid "Update"
-msgstr "Uppdatering"
+msgstr "Uppdatera"
 
 msgid "Update Source"
 msgid_plural "Update Sources"
@@ -11381,7 +11418,7 @@ msgid "Upgrade"
 msgstr "Uppgradera"
 
 msgid "Upload directory doesn't exist"
-msgstr "Katalog för uppladdning existerar inte"
+msgstr "Uppladdningskatalogen finns inte"
 
 msgid "Upload successful"
 msgstr "Uppladdningen slutfördes"
@@ -11634,7 +11671,7 @@ msgstr[0] "Typ"
 msgstr[1] "Typer"
 
 msgid "Visibility"
-msgstr "Synlighet"
+msgstr "Visning"
 
 msgid "Visibility end date"
 msgstr "Slutdatum för synlighet"
@@ -11664,10 +11701,10 @@ msgid "Visible in the simplified interface"
 msgstr "Synlig i det förenklade gränsnittet"
 
 msgid "Visible since"
-msgstr "Syns sedan"
+msgstr "Synlig från"
 
 msgid "Visible until"
-msgstr "Synlig tills"
+msgstr "Synlig till"
 
 msgid "Voltage"
 msgstr "Spänning"
@@ -12160,7 +12197,7 @@ msgstr "Koppla till"
 
 msgctxt "button"
 msgid "Associate an existing document"
-msgstr "Associera ett existerande dokument"
+msgstr "Associera ett befintligt dokument"
 
 msgctxt "button"
 msgid "Associate certificate"
@@ -12196,7 +12233,7 @@ msgstr "Rensa"
 
 msgctxt "button"
 msgid "Clone"
-msgstr "Klona"
+msgstr "Skapa kopia"
 
 msgctxt "button"
 msgid "Close"
@@ -12588,10 +12625,10 @@ msgid "is"
 msgstr "är"
 
 msgid "is already present"
-msgstr "existerar redan"
+msgstr "finns redan"
 
 msgid "is already present in GLPI"
-msgstr "förekommer redan i GLPI"
+msgstr "finns redan i GLPI"
 
 msgid "is empty"
 msgstr "är tom"
@@ -12964,15 +13001,15 @@ msgstr "Nytt"
 
 msgctxt "status"
 msgid "Not closed"
-msgstr "Inte stängt"
+msgstr "Ej stängt"
 
 msgctxt "status"
 msgid "Not solved"
-msgstr "Inte löst"
+msgstr "Ej löst"
 
 msgctxt "status"
 msgid "Processing (assigned)"
-msgstr "Pågår  (tilldelat)"
+msgstr "Pågår (tilldelat)"
 
 msgctxt "status"
 msgid "Processing (planned)"
@@ -13280,13 +13317,18 @@ msgstr ""
 msgid "Update agents who have not contacted the server for (in days)"
 msgstr "Uppdatera agenter som inte kontaktat servern sedan (antal dagar)"
 
-#: Saknas i originalfilen
-msgid: "Removable drives volumes"
-msgstr: "Externa hårddiskvolymer"
+#: src/Inventory/Conf.php:438
+msgid "Removable drives volumes"
+msgstr "Externa hårddiskvolymer"
 
-#: Saknas i originalfilen
-msgid: "Network drives volumes"
-msgstr: "Nätverksvolymer"
+#: src/Inventory/Conf.php:423
+msgid "Network drives volumes"
+msgstr "Nätverksvolymer"
+
+#: src/Dashboard/Grid.php:1208 src/Ticket.php:173 src/Ticket.php:175
+#: src/Ticket.php:5338
+msgid "Tickets waiting for your approval"
+msgstr "Ärenden som väntar på ditt godkännande"
 
 #: src/Inventory/Conf.php:526
 msgid "Inventory frequency (in hours)"
@@ -13298,7 +13340,7 @@ msgstr "Växla visningstyp"
 
 #: src/Html.php:2736
 msgid "Massive actions"
-msgstr "Åtgärder på flera objekt"
+msgstr "Åtgärder för flera objekt"
 
 #: src/CommonDBTM.php:4107
 msgctxt "button"
@@ -13420,3 +13462,118 @@ msgstr "Säkerhetsinställningar"
 #: src/Planning.php:1707
 msgid "Period"
 msgstr "Längd/slutdatum"
+
+#: src/Dashboard/Grid.php:291
+msgid "Toggle edit mode"
+msgstr "Växla redigeringsläge"
+
+#: src/Dashboard/Grid.php:1369
+msgid "Toggle edit mode to edit content"
+msgstr "Växla redigeringsläge för att redigera innehåll"
+
+#: templates/pages/admin/inventory/upload_form.html.twig
+#, php-format
+msgid ""
+"You can use this menu to upload one or several inventory files. Files must "
+"have a known extension (%1$s).\n"
+msgstr ""
+"Du kan använda den här menyn för att ladda upp en eller flera inventeringsfiler. Filerna måste ha en "
+"känd filändelse (%1$s).\n"
+
+#: templates/pages/admin/inventory/upload_form.html.twig
+msgid "Import inventory files"
+msgstr "Impoprtera inventeringsfiler"
+
+#: templates/pages/admin/inventory/upload_form.html.twig
+msgctxt "button"
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: src/Search.php:8540 src/Search.php:8567 src/Search.php:8571
+#: src/Search.php:8602 src/Search.php:8628 src/Search.php:8653
+#: src/Search.php:8677
+msgid "not contains"
+msgstr "inte innehåller"
+
+#: js/modules/Search/Table.js:53
+msgid "Submit current search before saving it"
+msgstr "Utför nuvarande sökning innan du sparar"
+
+#: src/RuleLocation.php:44 src/RuleLocationCollection.php:44
+msgid "Location rules"
+msgstr "Platsregler"
+
+#: src/RuleImportAsset.php:211
+msgid "Inventory link"
+msgstr "Inventarielänk"
+
+#: src/Item_OperatingSystem.php:354 src/Item_OperatingSystem.php:445
+#: templates/pages/assets/operatingsystem.html.twig
+msgid "Product ID"
+msgstr "Produkt-ID"
+
+#: templates/pages/assets/operatingsystem.html.twig
+msgid "Company"
+msgstr "Företag"
+
+#: templates/pages/assets/operatingsystem.html.twig
+msgid "Owner"
+msgstr "Ägare"
+
+#: templates/pages/assets/operatingsystem.html.twig
+msgid "Host ID"
+msgstr "Värd-ID"
+
+#: src/Socket.php:752
+msgid "New socket for this item..."
+msgstr "Lägg till nytt uttag"
+
+#: src/Socket.php:452 src/Socket.php:514 src/Socket.php:800 src/Socket.php:934
+#: src/Socket.php:973 src/Socket.php:1033
+#: templates/pages/assets/socket.html.twig
+msgid "Wiring side"
+msgstr "Anslutningssida"
+
+#: src/Lock.php:327
+msgid "A locked item is a manually deleted item, for example a monitor."
+msgstr "Ett låst objekt är ett objekt som tas bort manuellt, som t.ex. en bildskärm."
+
+#: src/Domain.php:135 templates/generic_show_form.html.twig
+msgid "Registration date"
+msgstr "Registreringsdatum"
+
+#: src/DomainRecord.php:541
+msgid "Link a record"
+msgstr "Länka domänpost"
+
+#: src/Project.php:1718
+msgid "Sum of planned durations of tasks"
+msgstr "Summan av den planerade varaktigheten för uppgifterna i projektet"
+
+#: src/Project.php:1727
+msgid "Sum of total effective durations of tasks"
+msgstr "Summan av den faktiska varaktigheten för uppgifterna i projektet"
+
+#: src/NotificationTargetProject.php:651 src/NotificationTargetProject.php:675
+#: src/NotificationTargetProjectTask.php:560
+#: src/NotificationTargetProjectTask.php:584 src/Project.php:665
+#: src/Project.php:1023 src/Project.php:1697 src/ProjectTask.php:867
+#: src/ProjectTask.php:993 src/ProjectTaskTemplate.php:79
+#: src/ProjectTaskTemplate.php:165 src/ProjectTask_Ticket.php:381
+#: templates/pages/tools/project_task.html.twig
+msgid "Planned start date"
+msgstr "Planerat startdatum"
+
+#: src/NotificationTargetProject.php:652 src/NotificationTargetProject.php:676
+#: src/NotificationTargetProjectTask.php:561
+#: src/NotificationTargetProjectTask.php:585 src/Project.php:673
+#: src/Project.php:1037 src/Project.php:1707 src/ProjectTask.php:875
+#: src/ProjectTask.php:994 src/ProjectTaskTemplate.php:87
+#: src/ProjectTaskTemplate.php:181 src/ProjectTask_Ticket.php:382
+#: templates/pages/tools/project_task.html.twig
+msgid "Planned end date"
+msgstr "Planerat slutdatum"
+
+#: src/SavedSearch.php:234
+msgid "Last duration (ms)"
+msgstr "Senaste varaktighet (ms)"
