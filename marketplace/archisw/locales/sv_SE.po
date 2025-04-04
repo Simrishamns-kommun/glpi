@@ -38,12 +38,12 @@ msgstr "Lägg till objekt"
 #: inc/swcomponent.class.php:556 inc/swcomponent.class.php:767
 msgid "App structure associated"
 msgid_plural "App structures associated"
-msgstr[0] "Associerat system"
-msgstr[1] "Associerade system"
+msgstr[0] "Associerad applikation"
+msgstr[1] "Associerade applikationer"
 
 #: inc/configsw.class.php:39
 msgid "Apps Config"
-msgstr "Systemkonfigurationer"
+msgstr "Applikationskonfigurationer"
 
 #: inc/swcomponent.class.php:41 inc/swcomponent.class.php:190 
 #: inc/swcomponent.class.php:63 inc/swcomponent.class.php:219 
@@ -52,15 +52,15 @@ msgstr "Systemkonfigurationer"
 #: inc/swcomponent.class.php:359
 msgid "Apps Structure"
 msgid_plural "Apps Structures"
-msgstr[0] "System"
-msgstr[1] "System"
+msgstr[0] "Applikation"
+msgstr[1] "Applikationer"
 
 #: setup.php:88 inc/menu.class.php:31 inc/profile.class.php:140 
 #: inc/profile.class.php:146
 msgid "Apps structure"
 msgid_plural "Apps structures"
-msgstr[0] "System"
-msgstr[1] "System"
+msgstr[0] "Applikation"
+msgstr[1] "Applikationer"
 
 #. completename of swcomponent
 #. Parent of swcomponent
@@ -91,7 +91,7 @@ msgstr "Associera"
 
 #: hook.php:346 hook.php:361 hook.php:401 hook.php:405
 msgid "Associate to the Apps Structure"
-msgstr "Associera med system"
+msgstr "Associera med applikation"
 
 #: hook.php:344
 msgid "Associate to the Functional Area"

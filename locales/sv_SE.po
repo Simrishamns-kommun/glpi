@@ -1122,7 +1122,7 @@ msgid "Action type"
 msgstr "Åtgärdstyp"
 
 msgid "Action when a user is deleted from the LDAP directory"
-msgstr "Händelse när en användare tas bort från LDAP-katalogen"
+msgstr "Åtgärd när en användare tas bort från LDAP-katalogen"
 
 msgid "Action when a user is restored in the LDAP directory"
 msgstr "Åtgärd när en användare återställs i LDAP-katalogen"
@@ -5920,7 +5920,7 @@ msgstr ""
 "plugins."
 
 msgid "GLPI server time zone"
-msgstr "GLPI tidszon för server"
+msgstr "GLPI-tidszon"
 
 msgid "GLPI version"
 msgstr "GLPI-version"
@@ -5972,7 +5972,7 @@ msgid "Given to"
 msgstr "Tilldelad till"
 
 msgid "Global"
-msgstr "Alla enheter"
+msgstr "Alla tillgångar"
 
 msgid "Global Kanban"
 msgstr "Global kanban"
@@ -6603,7 +6603,7 @@ msgid "In users"
 msgstr "I användare"
 
 msgid "In users and groups"
-msgstr "Användare och Grupper"
+msgstr "I användare och grupper"
 
 msgid "Inactive"
 msgstr "Inaktiv"
@@ -7050,16 +7050,16 @@ msgid "LDAP directory of an entity"
 msgstr "LDAP-katalog för en entitet"
 
 msgid "LDAP directory time zone"
-msgstr "LDAP katelogens tidszon "
+msgstr "LDAP-katalogens tidszon"
 
 msgid "LDAP filter"
-msgstr "LDAP filter"
+msgstr "LDAP-filter"
 
 msgid "LDAP filter associated to the entity (if necessary)"
 msgstr "LDAP-filter associerat med entiteten (om nödvändigt)"
 
 msgid "LDAP server"
-msgstr "LDAP server"
+msgstr "LDAP-server"
 
 msgid ""
 "LDAP server \"%s\" is inactive, no synchronization will be done against it."
@@ -7071,13 +7071,13 @@ msgid "LDAP server \"%s\" size limit exceeded."
 msgstr "LDAP-serverns storleksgräns \"%s\" har överskridits."
 
 msgid "LDAP servers"
-msgstr "LDAP servrar"
+msgstr "LDAP-servrar"
 
 msgid "Label"
 msgstr "Etikett"
 
 msgid "Lang has been changed!"
-msgstr "Språk har ändrats!"
+msgstr "Språket har ändrats!"
 
 msgid "Language"
 msgstr "Visningsspråk"
@@ -11330,22 +11330,22 @@ msgid "Update all"
 msgstr "Uppdatera alla"
 
 msgid "Update an item"
-msgstr "Uppdatera ett objekt"
+msgstr "Uppdaterade ett objekt"
 
 msgid "Update database schema to new version"
-msgstr "Uppdatera databasschema till ny version"
+msgstr "Uppdaterade databasschema till ny version"
 
 msgid "Update followups (author)"
-msgstr "Uppdatera uppföljningar (författare)"
+msgstr "Uppdaterade uppföljningar (författare)"
 
 msgid "Update my password"
 msgstr "Uppdatera mitt lösenord"
 
 msgid "Update notes"
-msgstr "Uppdatera anteckningar"
+msgstr "Uppdaterade anteckningar"
 
 msgid "Update of a change"
-msgstr "Uppdatera en ändring"
+msgstr "Uppdaterade en ändring"
 
 msgid "Update of a problem"
 msgstr "Uppdatering av ett problemärende"
@@ -11354,25 +11354,25 @@ msgid "Update of a task"
 msgstr "Uppdatera en uppgift"
 
 msgid "Update of the field"
-msgstr "modifiering av fält"
+msgstr "Uppdaterade fält"
 
 msgid "Update parameters"
-msgstr "Uppdatera parametrar"
+msgstr "Uppdaterade parametrar"
 
 msgid "Update password"
-msgstr "Uppdatera lösenord"
+msgstr "Uppdaterade lösenord"
 
 msgid "Update printer counter"
-msgstr "Uppdatera utskriftsräknare"
+msgstr "Uppdaterade utskriftsräknare"
 
 msgid "Update the approval request to %s"
-msgstr "Uppdatera begäran om godkännande till %s"
+msgstr "Uppdaterade begäran om godkännande till %s"
 
 msgid "Update the item's notes"
-msgstr "Uppdatera anteckningar för objektet"
+msgstr "Uppdaterade anteckningar för objektet"
 
 msgid "Update to %s"
-msgstr "Uppdatering till %s"
+msgstr "Uppdaterade till %s"
 
 msgid "Updating profiles..."
 msgstr "Uppdaterar profiler..."
@@ -11384,7 +11384,7 @@ msgid "Upload directory doesn't exist"
 msgstr "Katalog för uppladdning existerar inte"
 
 msgid "Upload successful"
-msgstr "Uppladdning lyckades"
+msgstr "Uppladdningen slutfördes"
 
 msgid "Uppercase"
 msgstr "Versal"
