@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-30 09:32+0200\n"
-"PO-Revision-Date: 2025-04-08 13:32+0000\n"
+"PO-Revision-Date: 2025-04-08 22:52+0000\n"
 "Last-Translator: Thierry Bugier <tbugier@teclib.com>, 2022\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: ajax/question_duplicate.php:43
 msgid "Source question not found"
-msgstr ""
+msgstr "Hittade inte ursprungliga frågan"
 
 #: ajax/question_move.php:73
 msgid "Could not move some questions"
@@ -46,11 +46,11 @@ msgstr "Kunde inte lägga till sektion"
 
 #: ajax/commontree.php:55 entrée standard:128 standard:100
 msgid "Subtree root"
-msgstr ""
+msgstr "Rot för underträd"
 
 #: ajax/commontree.php:59
 msgid "Selectable"
-msgstr ""
+msgstr "Valbart"
 
 #: ajax/commontree.php:74 entrée standard:137 standard:109
 msgid "Limit subtree depth"
@@ -71,7 +71,7 @@ msgstr[1] "Formulär"
 #: ajax/section_delete.php:44 ajax/section_move.php:49 
 #: ajax/section_duplicate.php:44
 msgid "Source section not found"
-msgstr ""
+msgstr "Hittade inte källsektionen"
 
 #: ajax/section_delete.php:56
 msgid "Could not delete the section"
@@ -168,7 +168,7 @@ msgstr[1] "Kategorier"
 
 #: inc/knowbase.class.php:62 inc/form.class.php:661 entrée standard:39
 msgid "See all"
-msgstr ""
+msgstr "Visa alla"
 
 #: inc/knowbase.class.php:83
 msgid "Please, describe your need here"
@@ -209,7 +209,7 @@ msgstr "Ogiltigt värde för"
 #: inc/field/dropdownfield.class.php:475
 #, php-format
 msgid "The itemtype field is required: %s"
-msgstr ""
+msgstr "Fältet objektstyp är obligatoriskt: %s."
 
 #: inc/field/dropdownfield.class.php:491
 #, php-format
@@ -242,7 +242,7 @@ msgstr "LDAP directory not found!"
 #: inc/field/floatfield.class.php:155
 #, php-format
 msgid "Specific format does not match: %s"
-msgstr ""
+msgstr "Specifikt format matchar inte %s"
 
 #: inc/field/textfield.class.php:155
 #, php-format
@@ -296,12 +296,12 @@ msgstr ""
 #: inc/field/integerfield.class.php:85 inc/field/floatfield.class.php:166
 #, php-format
 msgid "The following number must be greater than %d: %s"
-msgstr ""
+msgstr "Följande värde måste vara större än %d: %s."
 
 #: inc/field/integerfield.class.php:91 inc/field/floatfield.class.php:172
 #, php-format
 msgid "The following number must be lower than %d: %s"
-msgstr ""
+msgstr "Följande värde måste vara mindre än %d: %s."
 
 #: inc/field/integerfield.class.php:101
 msgid "Integer"
@@ -353,8 +353,8 @@ msgstr ""
 #: inc/field/tagfield.class.php:197
 msgid "Tag"
 msgid_plural "Tags"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Etikett"
+msgstr[1] "Etiketter"
 
 #: inc/field/glpiselectfield.class.php:82 entrée standard:38
 msgid "GLPI object"
@@ -443,7 +443,7 @@ msgstr "Fält"
 
 #: inc/field/fieldsfield.class.php:253
 msgid "show"
-msgstr ""
+msgstr "visa"
 
 #: inc/field/fieldsfield.class.php:389
 #, php-format
@@ -452,11 +452,11 @@ msgstr "Fälttypen '%1$s' är inte implementerad ännu!"
 
 #: inc/field/fieldsfield.class.php:466
 msgid "Some numeric fields contains non numeric values"
-msgstr ""
+msgstr "Några numeriska fält innehåller icke-numeriska värden"
 
 #: inc/field/fieldsfield.class.php:471
 msgid "Some URL fields contains invalid links"
-msgstr ""
+msgstr "Några URL-fält innehåller ogiltiga länkar"
 
 #: inc/field/fieldsfield.class.php:565
 msgid "Additional fields"
@@ -469,20 +469,20 @@ msgstr "Checkboxes"
 #: inc/field/checkboxesfield.class.php:226
 #, php-format
 msgid "The following question needs at least %d answers: %s"
-msgstr ""
+msgstr "Följande fråga kräver minst %d svar: %s."
 
 #: inc/field/checkboxesfield.class.php:232
 #, php-format
 msgid "The following question does not accept more than %d answers: %s"
-msgstr ""
+msgstr "Följande fråga tillåter inte fler än %d svar: %s."
 
 #: inc/field/checkboxesfield.class.php:304
 msgid "Range min"
-msgstr ""
+msgstr "Omfång min"
 
 #: inc/field/checkboxesfield.class.php:305
 msgid "Range max"
-msgstr ""
+msgstr "Omfång max"
 
 #: inc/field/requesttypefield.class.php:86 inc/targetticket.class.php:1089
 msgid "Request type"
@@ -532,7 +532,7 @@ msgstr "är dolt"
 
 #: inc/condition.class.php:106
 msgid "regular expression matches"
-msgstr ""
+msgstr "RegEx-matchningar"
 
 #: inc/condition.class.php:117
 msgid "Always displayed"
@@ -594,7 +594,7 @@ msgstr "Update issue data from tickets and form answers"
 
 #: inc/issue.class.php:379
 msgid "Satisfaction survey expired"
-msgstr ""
+msgstr "Kundnöjdhetsenkäten förföll"
 
 #: inc/issue.class.php:515 inc/form_language.class.php:229 
 #: inc/form.class.php:156 inc/form.class.php:2221 entrée standard:52 
@@ -619,7 +619,7 @@ msgstr[1] ""
 
 #: inc/issue.class.php:549 inc/formanswer.class.php:301
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: inc/issue.class.php:561
 msgid "Opening date"
@@ -642,8 +642,8 @@ msgstr[1] "Entiteter"
 #: standard:48
 msgid "Requester"
 msgid_plural "Requesters"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rapportör"
+msgstr[1] "Rapportörer"
 
 #: inc/issue.class.php:607 inc/formanswer.class.php:270
 msgid "Form approver"
@@ -661,11 +661,11 @@ msgstr " Ticket approver "
 
 #: inc/issue.class.php:716
 msgid "Technician"
-msgstr ""
+msgstr "Tekniker"
 
 #: inc/issue.class.php:747
 msgid "Technician group"
-msgstr ""
+msgstr "Teknikergrupp"
 
 #: inc/issue.class.php:783 inc/formanswer.class.php:290
 msgid "Form approver group"
@@ -716,7 +716,7 @@ msgstr "To validate"
 
 #: inc/issue.class.php:1371 hook.php:696
 msgid "Solved"
-msgstr ""
+msgstr "Löst"
 
 #: inc/issue.class.php:1377 hook.php:697
 msgid "Closed"
@@ -852,7 +852,7 @@ msgstr "Grupp från objekt"
 
 #: inc/target_actor.class.php:77
 msgid "Tech group from an object"
-msgstr ""
+msgstr "Teknikergrupp från ett objekt"
 
 #: inc/target_actor.class.php:78
 msgid "Specific supplier"
@@ -881,8 +881,8 @@ msgstr "Tilldelat till"
 #: inc/target_actor.class.php:109
 msgid "Target actor"
 msgid_plural "Target actors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Målaktör"
+msgstr[1] "Målaktörer"
 
 #: inc/target_actor.class.php:115 inc/target_actor.class.php:131 
 #: inc/target_actor.class.php:140
@@ -906,7 +906,7 @@ msgstr "Kunde inte hitta leverantören %1$s"
 
 #: inc/formanswer.class.php:79 inc/form_validator.class.php:71
 msgid "Refused"
-msgstr ""
+msgstr "Avfärdad"
 
 #: inc/formanswer.class.php:80 inc/form_validator.class.php:70
 msgid "Accepted"
@@ -932,7 +932,7 @@ msgstr "Form successfully saved."
 
 #: inc/formanswer.class.php:720 inc/formaccesstype.class.php:126
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
 #: inc/formanswer.class.php:732
 msgid "Required if refused"
@@ -1039,7 +1039,7 @@ msgstr "Aktivera captcha"
 
 #: inc/formaccesstype.class.php:112
 msgid "Restricted to"
-msgstr ""
+msgstr "Begränsat till"
 
 #: inc/form_language.class.php:51
 msgid "Form language"
@@ -1055,15 +1055,15 @@ msgstr[1] ""
 
 #: inc/form_language.class.php:119
 msgid "The name cannot be empty."
-msgstr ""
+msgstr "Namnet får inte vara tomt."
 
 #: inc/form_language.class.php:127
 msgid "The language must be associated to a form."
-msgstr ""
+msgstr "Språket måste vara kopplat till ett formulär."
 
 #: inc/form_language.class.php:135
 msgid "The specified language is not available."
-msgstr ""
+msgstr "Det angivna språket finns inte."
 
 #: inc/form_language.class.php:265
 msgid "Add a translation"
@@ -1126,7 +1126,7 @@ msgstr "Nej"
 #: inc/abstractitiltarget.class.php:2073
 msgctxt "button"
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
 #: inc/form_validator.class.php:709 inc/abstractitiltarget.class.php:1298
 msgid "Validation"
@@ -1139,8 +1139,8 @@ msgstr "Choose a validator"
 #: inc/targetproblem.class.php:43 entrée standard:43
 msgid "Target problem"
 msgid_plural "Target problems"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Målproblem"
+msgstr[1] "Målproblem"
 
 #: inc/targetproblem.class.php:109 inc/targetproblem.class.php:579 
 #: inc/targetchange.class.php:105 inc/targetchange.class.php:441 
@@ -1182,7 +1182,7 @@ msgstr "Orsak"
 
 #: inc/targetproblem.class.php:673 entrée standard:58
 msgid "Symptom"
-msgstr ""
+msgstr "Symptom"
 
 #: inc/entityconfig.class.php:92 inc/entityconfig.class.php:101 
 #: inc/entityconfig.class.php:109 inc/entityconfig.class.php:117 
@@ -1249,7 +1249,7 @@ msgstr ""
 
 #: inc/entityconfig.class.php:164
 msgid "Search for assistance"
-msgstr ""
+msgstr "Sök efter support"
 
 #: inc/entityconfig.class.php:165
 msgid "User's assistance requests"
@@ -1270,7 +1270,7 @@ msgstr "Standardläge för listor"
 
 #: inc/entityconfig.class.php:298 inc/entityconfig.class.php:459
 msgid "Sort order"
-msgstr ""
+msgstr "Sorteringsordning"
 
 #: inc/entityconfig.class.php:314 inc/entityconfig.class.php:469
 msgid "Knowledge base"
@@ -1278,7 +1278,7 @@ msgstr "Kunskapsbas"
 
 #: inc/entityconfig.class.php:329
 msgid "Search"
-msgstr ""
+msgstr "Sök"
 
 #: inc/entityconfig.class.php:345 inc/entityconfig.class.php:529
 msgid "Counters dashboard"
@@ -1290,11 +1290,11 @@ msgstr "Rubriktext"
 
 #: inc/entityconfig.class.php:377 inc/entityconfig.class.php:539
 msgid "Search issue"
-msgstr ""
+msgstr "Sök ärende"
 
 #: inc/entityconfig.class.php:393 inc/entityconfig.class.php:509
 msgid "Service catalog home page"
-msgstr ""
+msgstr "Tjänstekatalog hem"
 
 #: inc/entityconfig.class.php:409 inc/entityconfig.class.php:549
 msgid "Tile design"
@@ -1355,7 +1355,7 @@ msgstr "Egenskaper"
 
 #: inc/form.class.php:183
 msgid "Recursive"
-msgstr ""
+msgstr "Rekursiv"
 
 #: inc/form.class.php:204
 msgid "Homepage"
@@ -1401,8 +1401,8 @@ msgstr "Alla språk"
 #: inc/form.class.php:502 inc/form.class.php:572
 msgid "Target"
 msgid_plural "Targets"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mål"
+msgstr[1] "Mål"
 
 #: inc/form.class.php:504
 msgid "Actions"
@@ -1536,7 +1536,7 @@ msgstr "Enable"
 #: inc/form.class.php:1730
 msgctxt "button"
 msgid "Send"
-msgstr ""
+msgstr "Skicka"
 
 #: inc/form.class.php:1749
 msgid "Forms import impossible, the file is empty"
@@ -1555,6 +1555,8 @@ msgid ""
 "The file does not specifies the schema version. It was probably generated "
 "with a version older than 2.10. Giving up."
 msgstr ""
+"Filen anger inte schemaversionen. Den skapades troligen med en version äldre "
+"än 2.10. Avbryter."
 
 #: inc/form.class.php:1796
 #, php-format
@@ -1570,6 +1572,7 @@ msgstr "Forms successfully imported from %s"
 #, php-format
 msgid "The form %1$s already exists and is in an unmodifiable entity."
 msgstr ""
+"Formuläret %1$s finns redan och ligger i en entitet som inte kan ändras."
 
 #: inc/form.class.php:1872
 #, php-format
@@ -1579,7 +1582,7 @@ msgstr ""
 #: inc/form.class.php:1882
 #, php-format
 msgid "The entity %1$s is required for the form %2$s."
-msgstr ""
+msgstr "Enheten %1$s krävs för formuläret %2$s."
 
 #: inc/form.class.php:1964
 msgid "Failed to create JSON document type"
@@ -1617,8 +1620,8 @@ msgstr "plugin_formcreator_load_check"
 #: inc/targetchange.class.php:44 entrée standard:43
 msgid "Target change"
 msgid_plural "Target changes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Målförändring"
+msgstr[1] "Målförändringar"
 
 #: inc/targetchange.class.php:344 entrée standard:48
 msgid "Change title"
@@ -1643,8 +1646,8 @@ msgstr "Checklista"
 #: inc/section.class.php:71 entrée standard:53 standard:44
 msgid "Section"
 msgid_plural "Sections"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sektion"
+msgstr[1] "Sektioner"
 
 #: inc/section.class.php:123 inc/section.class.php:166 
 #: inc/question.class.php:320
@@ -1694,11 +1697,11 @@ msgstr "A parameter is missing for this question type"
 
 #: inc/question.class.php:1190
 msgid "Service levels"
-msgstr ""
+msgstr "Servicenivå"
 
 #: inc/question.class.php:1191 inc/abstractitiltarget.class.php:834
 msgid "SLA"
-msgstr ""
+msgstr "SLA"
 
 #: inc/question.class.php:1192 inc/abstractitiltarget.class.php:907
 msgid "OLA"
@@ -1727,7 +1730,7 @@ msgstr "Anteckningar"
 
 #: inc/question.class.php:1244
 msgid "RSS feed"
-msgstr ""
+msgstr "RSS-flöde"
 
 #: inc/question.class.php:1246
 msgid "Administration"
@@ -1821,7 +1824,7 @@ msgstr "Entity type question"
 
 #: inc/command/cleanticketscommand.class.php:53
 msgid "Searching for invalid items..."
-msgstr ""
+msgstr "Sök efter ogiltiga objekt..."
 
 #: inc/command/cleanticketscommand.class.php:61
 msgid "Done."
@@ -1829,7 +1832,7 @@ msgstr "Klart."
 
 #: inc/command/cleanticketscommand.class.php:135
 msgid "Step 1: double encoded < and > signs."
-msgstr ""
+msgstr "Steg 1: dubbelkodade < och >-tecken."
 
 #: inc/command/cleanticketscommand.class.php:146 
 #: inc/command/cleanticketscommand.class.php:196 
@@ -1839,11 +1842,11 @@ msgstr "Hittade inga ogiltiga objekt."
 
 #: inc/command/cleanticketscommand.class.php:187
 msgid "Step 2: literal BR tag."
-msgstr ""
+msgstr "Steg 2: BR-tagg."
 
 #: inc/command/cleanticketscommand.class.php:251
 msgid "Step 3: litteral > sign."
-msgstr ""
+msgstr "Stwg 3: >-tecken."
 
 #: inc/filter/itilcategoryfilter.class.php:52 
 #: inc/filter/itilcategoryfilter.class.php:54
@@ -1886,12 +1889,12 @@ msgstr[1] "Sammansatta ärenderelationer"
 #: inc/targetticket.class.php:57 entrée standard:43
 msgid "Target ticket"
 msgid_plural "Target tickets"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Målärende"
+msgstr[1] "Målärenden"
 
 #: inc/targetticket.class.php:100
 msgid "Specific asset"
-msgstr ""
+msgstr "Specifik tillgång"
 
 #: inc/targetticket.class.php:101 inc/targetticket.class.php:117 
 #: inc/abstractitiltarget.class.php:198 inc/abstractitiltarget.class.php:206 
@@ -1907,7 +1910,7 @@ msgstr "Senast giltiga svar"
 
 #: inc/targetticket.class.php:108
 msgid "Source from template or user default or GLPI default"
-msgstr ""
+msgstr "Källa från mall, standardvärde för användare eller GLPI-standard"
 
 #: inc/targetticket.class.php:109
 msgid "Formcreator"
@@ -1919,7 +1922,7 @@ msgstr "Standard eller från en mall"
 
 #: inc/targetticket.class.php:116
 msgid "Specific type"
-msgstr ""
+msgstr "Specifik typ"
 
 #: inc/targetticket.class.php:189 entrée standard:48
 msgid "Ticket title"
@@ -2048,11 +2051,11 @@ msgstr "calculated from the answer to the question"
 
 #: inc/abstractitiltarget.class.php:196
 msgid "SLA from template or none"
-msgstr ""
+msgstr "SLA från mall eller inget"
 
 #: inc/abstractitiltarget.class.php:197
 msgid "Specific SLA"
-msgstr ""
+msgstr "Specifikt OLA"
 
 #: inc/abstractitiltarget.class.php:204
 msgid "OLA from template or none"
@@ -2060,7 +2063,7 @@ msgstr "OLA från mall eller inget"
 
 #: inc/abstractitiltarget.class.php:205
 msgid "Specific OLA"
-msgstr ""
+msgstr "Specifikt OLA"
 
 #: inc/abstractitiltarget.class.php:212
 msgid "Urgency from template or Medium"
@@ -2092,7 +2095,7 @@ msgstr "Ingen validering"
 
 #: inc/abstractitiltarget.class.php:239
 msgid "Specific user or group"
-msgstr ""
+msgstr "Specifik användare eller grupp"
 
 #: inc/abstractitiltarget.class.php:240
 msgid "User from question answer"
@@ -2132,7 +2135,7 @@ msgstr[1] "Månader"
 
 #: inc/abstractitiltarget.class.php:857
 msgid "SLA (TTO/TTR)"
-msgstr ""
+msgstr "SLA (TTO/TTR)"
 
 #: inc/abstractitiltarget.class.php:858 inc/abstractitiltarget.class.php:931
 msgid "Question (TTO/TTR)"
@@ -2195,11 +2198,11 @@ msgstr "Grupp från objektet"
 
 #: inc/abstractitiltarget.class.php:2126
 msgid "Tech group from the object"
-msgstr ""
+msgstr "Teknikergrupp från objektet"
 
 #: inc/abstractitiltarget.class.php:2138 inc/abstractitiltarget.class.php:2491
 msgid "Supplier"
-msgstr ""
+msgstr "Leverantör"
 
 #: inc/abstractitiltarget.class.php:2495
 msgid "Yes"
@@ -2216,6 +2219,8 @@ msgid ""
 "The database schema is not consistent with the previous version of "
 "Formcreator %s. To see the logs run the command %s"
 msgstr ""
+"Databasschemat är inte kompatibelt med den tidigare versionen av Formcreator "
+"%s. För att se loggarna, kör kommandot %s."
 
 #: install/install.php:180
 #, php-format
@@ -2235,10 +2240,12 @@ msgid ""
 "The database schema is not consistent with the current version of "
 "Formcreator %s. To see the logs enable the plugin and run the command %s"
 msgstr ""
+"Databasschemat är inte kompatibelt med den aktuella versionen av Formcreator "
+"%s. För att se loggarna, aktivera tillägget och kör kommandot %s."
 
 #: install/install.php:260
 msgid "The tables of the plugin passed the schema integrity check."
-msgstr ""
+msgstr "Tilläggets tabeller klarade integritetskontrollen av schemat."
 
 #: install/install.php:412
 msgid "A form has been created"
@@ -2319,12 +2326,12 @@ msgstr "Misslyckades med att kontrollera riktigheten i tabellerna!"
 #: install/install.php:866
 #, php-format
 msgid "Table schema differs for table \"%s\"."
-msgstr ""
+msgstr "Tabellschemat skiljer sig åt för \"%s\"."
 
 #: install/install.php:869
 #, php-format
 msgid "Table \"%s\" is missing."
-msgstr ""
+msgstr "\"%s\"-tabellen saknas."
 
 #: install/install.php:872
 #, php-format
@@ -2405,7 +2412,7 @@ msgstr "An error occured while querying forms"
 
 #: js/scripts.js:1372 entrée standard:139
 msgid "Send"
-msgstr ""
+msgstr "Skicka"
 
 #: js/scripts.js:1381
 msgid "An internal error occurred. Please report it to administrator."
@@ -2461,7 +2468,7 @@ msgstr ""
 
 #: entrée standard:146 standard:118
 msgid "Selectable root"
-msgstr ""
+msgstr "Valbar rot"
 
 #: entrée standard:63
 msgid "Direct access on homepage"
