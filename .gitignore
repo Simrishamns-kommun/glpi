@@ -8,3 +8,4 @@ config/
 /files
 marketplace 
 !marketplace/archisw/locales
+config/config_db.php
