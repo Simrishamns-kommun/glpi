@@ -11,4 +11,5 @@ marketplace
 !marketplace/sccm/locales
 !marketplace/databaseinventory/locales
 !marketplace/statecheck/locales
+!marketplace/formcreator/locales
 config/config_db.php
