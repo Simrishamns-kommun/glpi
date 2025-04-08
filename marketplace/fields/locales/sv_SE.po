@@ -76,7 +76,7 @@ msgstr "Objekt"
 msgid "Condition to hide block"
 msgid_plural "Conditions to hide block"
 msgstr[0] "Villkor för att dölja block"
-msgstr[1] "Conditions to Hide Block"
+msgstr[1] "Villkor för att dölja block"
 
 #: inc/container.class.php:600
 msgid ""
