@@ -8,4 +8,10 @@ config/
 /files
 marketplace 
 !marketplace/archisw/locales
+!marketplace/fields/locales
+!marketplace/genericobject/locales
+!marketplace/reports/locales
+!marketplace/sccm/locales
+!marketplace/databaseinventory/locales
+!marketplace/statecheck/locales
 config/config_db.php
