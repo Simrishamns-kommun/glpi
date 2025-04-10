@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 13:04+0000\n"
-"PO-Revision-Date: 2025-03-21 14:41+0000\n"
+"PO-Revision-Date: 2025-04-10 07:38+0000\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2024\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -527,7 +527,8 @@ msgid "%s connects an item"
 msgstr "%s anslöt ett objekt"
 
 msgid "%s creation failed (check mandatory fields)"
-msgstr "Kunde inte skapa %s – kontrollera att alla obligatoriska fält är ifyllda."
+msgstr ""
+"Kunde inte skapa %s – kontrollera att alla obligatoriska fält är ifyllda."
 
 msgid "%s creation failed (no template)"
 msgstr "Kunde inte skapa %s - mall saknas."
@@ -3363,7 +3364,7 @@ msgstr "Ansluten till"
 msgid "Connection"
 msgid_plural "Connections"
 msgstr[0] "Anslutning"
-msgstr[1] "Anlustningar"
+msgstr[1] "Anslutningar"
 
 #: src/InterfaceType.php:44
 msgid "Interface type (Hard drive...)"
@@ -3619,7 +3620,8 @@ msgstr "Fel vid beräkning av användning"
 
 msgid "Counting this saved search would take too long, it has been skipped."
 msgstr ""
-"Att beräkna volymen av användningen av den här sparade sökningen skulle ta för lång tid - den har hoppats över."
+"Att beräkna volymen av användningen av den här sparade sökningen skulle ta "
+"för lång tid - den har hoppats över."
 
 msgid "Country"
 msgstr "Land"
@@ -4563,8 +4565,7 @@ msgstr "Visa värden på etiketter på staplar/poäng"
 
 #: src/Config.php:1136
 msgid "Display the complete name of tree dropdown in search results"
-msgstr ""
-"Visa det fullständiga namnet i trädet sökresultaten"
+msgstr "Visa det fullständiga namnet i trädet sökresultaten"
 
 #: src/Config.php:1132
 msgid "Display the tree dropdown complete name in dropdown inputs"
@@ -4906,19 +4907,19 @@ msgid_plural "Editions"
 msgstr[0] "Utgåva"
 msgstr[1] "Utgåvor"
 
-#: src/NotificationTargetProject.php:662
-#: src/NotificationTargetProjectTask.php:569 src/Project.php:681
-#: src/Project.php:1717 src/ProjectTask.php:899 src/ProjectTask.php:995
-#: src/ProjectTaskTemplate.php:95 src/ProjectTaskTemplate.php:197
+#: src/NotificationTargetProject.php:662 
+#: src/NotificationTargetProjectTask.php:569 src/Project.php:681 
+#: src/Project.php:1717 src/ProjectTask.php:899 src/ProjectTask.php:995 
+#: src/ProjectTaskTemplate.php:95 src/ProjectTaskTemplate.php:197 
 #: src/ProjectTask_Ticket.php:383 templates/pages/tools/project_task.html.twig
 msgid "Planned duration"
 msgstr "Planerad varaktighet"
 
-#: src/NotificationTargetProject.php:663
-#: src/NotificationTargetProjectTask.php:570 src/Project.php:708
-#: src/Project.php:1098 src/Project.php:1726 src/ProjectTask.php:912
-#: src/ProjectTask.php:996 src/ProjectTaskTemplate.php:99
-#: src/ProjectTaskTemplate.php:205 src/ProjectTask_Ticket.php:384
+#: src/NotificationTargetProject.php:663 
+#: src/NotificationTargetProjectTask.php:570 src/Project.php:708 
+#: src/Project.php:1098 src/Project.php:1726 src/ProjectTask.php:912 
+#: src/ProjectTask.php:996 src/ProjectTaskTemplate.php:99 
+#: src/ProjectTaskTemplate.php:205 src/ProjectTask_Ticket.php:384 
 #: templates/pages/tools/project_task.html.twig
 msgid "Effective duration"
 msgstr "Faktisk varaktighet"
@@ -6392,8 +6393,8 @@ msgstr "Om skrivare inte längre används"
 
 msgid "If set, it will be used for notifications that doesn't expect a reply."
 msgstr ""
-"Om angiven kommer den att användas för aviseringar som inte "
-"förväntas bli besvarade."
+"Om angiven kommer den att användas för aviseringar som inte förväntas bli "
+"besvarade."
 
 msgid "If software are no longer used"
 msgstr "Om programvaran inte längre används"
@@ -8214,7 +8215,6 @@ msgstr "Ingen historik"
 msgid "default criterion"
 msgstr "standardvillkor"
 
-
 msgid "No import"
 msgstr "Ingen import"
 
@@ -9600,7 +9600,8 @@ msgstr "Ta bort från grupp"
 
 msgid ""
 "Remove software versions with no installation and software with no version"
-msgstr "Ta bort programvaruversioner utan installation samt programvara utan version"
+msgstr ""
+"Ta bort programvaruversioner utan installation samt programvara utan version"
 
 msgid "Remove the domain of logins like login@domain"
 msgstr "Ta bort domänen i inloggningar som login@domän"
@@ -9877,7 +9878,7 @@ msgstr "Regler för tilldelning av objekt till entitet"
 msgid "Rules for import and link computers"
 msgstr "Regler för import och länkning av datorer"
 
-#: src/RuleMailCollectorCollection.php:47 src/Profile.php:1038
+#: src/RuleMailCollectorCollection.php:47 src/Profile.php:1038 
 #: src/Profile.php:2843 src/RuleMailCollector.php:59
 msgid "Rules for assigning a ticket created through a mails receiver"
 msgstr "Regler för tilldelning av ärenden mottagna via e-post"
@@ -11583,8 +11584,7 @@ msgid "Values for the generic rules for assignment to entities"
 msgstr "Värden för generella regler vid tilldelning till objekt"
 
 msgid "Values used in the interface to search users from a LDAP directory"
-msgstr ""
-"Värden som används för att söka efter användare i LDAP"
+msgstr "Värden som används för att söka efter användare i LDAP"
 
 msgid "Variable"
 msgstr "Variabel"
@@ -11935,7 +11935,9 @@ msgstr ""
 "listade objekt"
 
 msgid "You can delete or modify these accounts as well as the initial data."
-msgstr "Du kan ta bort eller förändra dessa konton såväl som den ursprungliga informationen."
+msgstr ""
+"Du kan ta bort eller förändra dessa konton såväl som den ursprungliga "
+"informationen."
 
 msgid "You can delete this migration error"
 msgstr "Du kan ta bort detta migrationfel"
@@ -13176,7 +13178,6 @@ msgstr "du kanske måste lägga till ett nätverk"
 msgid "⌥ (option) + ⌘ (command) + E"
 msgstr "⌥ (option) + ⌘ (command) + E"
 
-
 #: src/Session.php:482 src/Session.php:487
 msgid "full structure"
 msgstr "hela trädet"
@@ -13201,7 +13202,7 @@ msgstr "Standard för uppgifter"
 msgid "Mini tickets dashboard"
 msgstr "Förenklad ärendeöversikt"
 
-#: src/ITILTemplateMandatoryField.php:252 src/Profile.php:786
+#: src/ITILTemplateMandatoryField.php:252 src/Profile.php:786 
 #: src/Profile.php:2059
 msgid "Profile's interface"
 msgstr "Användargränssnitt"
@@ -13250,7 +13251,6 @@ msgstr "Testning"
 msgctxt "change"
 msgid "Testing"
 msgstr "Testning"
-
 
 #: src/Reminder.php:1072 src/RSSFeed.php:1121
 msgid "Manage personal"
@@ -13307,11 +13307,12 @@ msgstr "Regler för import och länkning av utrustning"
 
 #: src/Inventory/Conf.php:673
 msgid ""
-"Will attempt to create components from VM information sent from host, do not"
-" use if you plan to inventory any VM directly!"
+"Will attempt to create components from VM information sent from host, do not "
+"use if you plan to inventory any VM directly!"
 msgstr ""
-"Kommer att försöka skapa komponenter från VM-information som extraherats från värddatorn."
-" Använd inte detta om du planerar att inventera en VM-instans!"
+"Kommer att försöka skapa komponenter från VM-information som extraherats "
+"från värddatorn. Använd inte detta om du planerar att inventera en VM-"
+"instans!"
 
 #: src/Inventory/Conf.php:887
 msgid "Update agents who have not contacted the server for (in days)"
@@ -13325,7 +13326,7 @@ msgstr "Externa hårddiskvolymer"
 msgid "Network drives volumes"
 msgstr "Nätverksvolymer"
 
-#: src/Dashboard/Grid.php:1208 src/Ticket.php:173 src/Ticket.php:175
+#: src/Dashboard/Grid.php:1208 src/Ticket.php:173 src/Ticket.php:175 
 #: src/Ticket.php:5338
 msgid "Tickets waiting for your approval"
 msgstr "Ärenden som väntar på ditt godkännande"
@@ -13381,7 +13382,9 @@ msgstr "Uppdatera objekt"
 
 #: src/Config.php:913
 msgid "Show personnal information in new ticket form (simplified interface)"
-msgstr "Visa personlig information i formuläret för nytt ärende (förenklat gränssnitt)"
+msgstr ""
+"Visa personlig information i formuläret för nytt ärende (förenklat "
+"gränssnitt)"
 
 #: src/Config.php:1411
 msgid "Merged"
@@ -13399,7 +13402,7 @@ msgstr "Relativa datum"
 msgid "Precise"
 msgstr "Exakta datum"
 
-#: src/RuleTicket.php:977 src/CommonITILValidation.php:899
+#: src/RuleTicket.php:977 src/CommonITILValidation.php:899 
 #: src/CommonITILValidation.php:1178
 msgid "Minimum validation required"
 msgstr "Minimumnivå för valideringar"
@@ -13441,7 +13444,8 @@ msgstr "Intervall för påminnelser om larm för förbrukningsvaror"
 #: src/Entity.php:2910
 msgid "Mark followup added by a supplier though an email collector as private"
 msgstr ""
-"Markera uppföljning som lagts till av leverantör via en ärendeinsamlare som privat"
+"Markera uppföljning som lagts till av leverantör via en ärendeinsamlare som "
+"privat"
 
 #: src/Entity.php:2765
 msgid "Templates configuration"
@@ -13459,10 +13463,6 @@ msgstr "Ej angivet"
 msgid "Security setup"
 msgstr "Säkerhetsinställningar"
 
-#: src/Planning.php:1707
-msgid "Period"
-msgstr "Längd/slutdatum"
-
 #: src/Dashboard/Grid.php:291
 msgid "Toggle edit mode"
 msgstr "Växla redigeringsläge"
@@ -13477,8 +13477,8 @@ msgid ""
 "You can use this menu to upload one or several inventory files. Files must "
 "have a known extension (%1$s).\n"
 msgstr ""
-"Du kan använda den här menyn för att ladda upp en eller flera inventeringsfiler. Filerna måste ha en "
-"känd filändelse (%1$s).\n"
+"Du kan använda den här menyn för att ladda upp en eller flera "
+"inventeringsfiler. Filerna måste ha en känd filändelse (%1$s).\n"
 
 #: templates/pages/admin/inventory/upload_form.html.twig
 msgid "Import inventory files"
@@ -13489,8 +13489,8 @@ msgctxt "button"
 msgid "Upload"
 msgstr "Ladda upp"
 
-#: src/Search.php:8540 src/Search.php:8567 src/Search.php:8571
-#: src/Search.php:8602 src/Search.php:8628 src/Search.php:8653
+#: src/Search.php:8540 src/Search.php:8567 src/Search.php:8571 
+#: src/Search.php:8602 src/Search.php:8628 src/Search.php:8653 
 #: src/Search.php:8677
 msgid "not contains"
 msgstr "inte innehåller"
@@ -13507,7 +13507,7 @@ msgstr "Platsregler"
 msgid "Inventory link"
 msgstr "Inventarielänk"
 
-#: src/Item_OperatingSystem.php:354 src/Item_OperatingSystem.php:445
+#: src/Item_OperatingSystem.php:354 src/Item_OperatingSystem.php:445 
 #: templates/pages/assets/operatingsystem.html.twig
 msgid "Product ID"
 msgstr "Produkt-ID"
@@ -13528,15 +13528,16 @@ msgstr "Värd-ID"
 msgid "New socket for this item..."
 msgstr "Lägg till nytt uttag"
 
-#: src/Socket.php:452 src/Socket.php:514 src/Socket.php:800 src/Socket.php:934
-#: src/Socket.php:973 src/Socket.php:1033
+#: src/Socket.php:452 src/Socket.php:514 src/Socket.php:800 src/Socket.php:934 
+#: src/Socket.php:973 src/Socket.php:1033 
 #: templates/pages/assets/socket.html.twig
 msgid "Wiring side"
 msgstr "Anslutningssida"
 
 #: src/Lock.php:327
 msgid "A locked item is a manually deleted item, for example a monitor."
-msgstr "Ett låst objekt är ett objekt som tas bort manuellt, som t.ex. en bildskärm."
+msgstr ""
+"Ett låst objekt är ett objekt som tas bort manuellt, som t.ex. en bildskärm."
 
 #: src/Domain.php:135 templates/generic_show_form.html.twig
 msgid "Registration date"
@@ -13554,22 +13555,22 @@ msgstr "Summan av den planerade varaktigheten för uppgifterna i projektet"
 msgid "Sum of total effective durations of tasks"
 msgstr "Summan av den faktiska varaktigheten för uppgifterna i projektet"
 
-#: src/NotificationTargetProject.php:651 src/NotificationTargetProject.php:675
-#: src/NotificationTargetProjectTask.php:560
-#: src/NotificationTargetProjectTask.php:584 src/Project.php:665
-#: src/Project.php:1023 src/Project.php:1697 src/ProjectTask.php:867
-#: src/ProjectTask.php:993 src/ProjectTaskTemplate.php:79
-#: src/ProjectTaskTemplate.php:165 src/ProjectTask_Ticket.php:381
+#: src/NotificationTargetProject.php:651 src/NotificationTargetProject.php:675 
+#: src/NotificationTargetProjectTask.php:560 
+#: src/NotificationTargetProjectTask.php:584 src/Project.php:665 
+#: src/Project.php:1023 src/Project.php:1697 src/ProjectTask.php:867 
+#: src/ProjectTask.php:993 src/ProjectTaskTemplate.php:79 
+#: src/ProjectTaskTemplate.php:165 src/ProjectTask_Ticket.php:381 
 #: templates/pages/tools/project_task.html.twig
 msgid "Planned start date"
 msgstr "Planerat startdatum"
 
-#: src/NotificationTargetProject.php:652 src/NotificationTargetProject.php:676
-#: src/NotificationTargetProjectTask.php:561
-#: src/NotificationTargetProjectTask.php:585 src/Project.php:673
-#: src/Project.php:1037 src/Project.php:1707 src/ProjectTask.php:875
-#: src/ProjectTask.php:994 src/ProjectTaskTemplate.php:87
-#: src/ProjectTaskTemplate.php:181 src/ProjectTask_Ticket.php:382
+#: src/NotificationTargetProject.php:652 src/NotificationTargetProject.php:676 
+#: src/NotificationTargetProjectTask.php:561 
+#: src/NotificationTargetProjectTask.php:585 src/Project.php:673 
+#: src/Project.php:1037 src/Project.php:1707 src/ProjectTask.php:875 
+#: src/ProjectTask.php:994 src/ProjectTaskTemplate.php:87 
+#: src/ProjectTaskTemplate.php:181 src/ProjectTask_Ticket.php:382 
 #: templates/pages/tools/project_task.html.twig
 msgid "Planned end date"
 msgstr "Planerat slutdatum"
