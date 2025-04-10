@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 13:04+0000\n"
-"PO-Revision-Date: 2025-04-10 07:38+0000\n"
+"PO-Revision-Date: 2025-04-10 08:57+0000\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2024\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -1248,7 +1248,7 @@ msgid "Add a hidden field"
 msgstr "Lägg till dolt fält"
 
 msgid "Add a link with an item"
-msgstr "Lägg till objektlänk"
+msgstr "Lade till koppling med"
 
 msgid "Add a linked item"
 msgstr "Lägg till länkat objekt"
@@ -1446,7 +1446,7 @@ msgid "Add several ports"
 msgstr "Lägg till flera portar"
 
 msgid "Add the item"
-msgstr "Lägg till objektet"
+msgstr "Lade till objekt"
 
 msgid "Add the result of regular expression"
 msgstr "Lägg till resultatet av reguljära uttryck"
@@ -4186,7 +4186,7 @@ msgid "Delete a global rule"
 msgstr "Ta bort global regel"
 
 msgid "Delete a link with an item"
-msgstr "Ta bort koppling till ett objekt"
+msgstr "Tog bort koppling till"
 
 msgid "Delete a rule"
 msgstr "Ta bort regel"
@@ -4198,7 +4198,7 @@ msgid "Delete all repetition"
 msgstr "Ta bort alla upprepningar"
 
 msgid "Delete an item"
-msgstr "Ta bort objekt"
+msgstr "Tog bort objekt"
 
 msgid "Delete component"
 msgstr "Ta bort komponent"
@@ -4227,7 +4227,7 @@ msgid "Delete serie"
 msgstr "Ta bort serie"
 
 msgid "Delete the item"
-msgstr "Ta bort objektet"
+msgstr "Tog bort objekt"
 
 msgid "Delete the whole serie of the recurrent event"
 msgstr "Ta bort hela serien av återkommande händelser"
