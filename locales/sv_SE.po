@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 13:04+0000\n"
-"PO-Revision-Date: 2025-04-10 08:57+0000\n"
+"PO-Revision-Date: 2025-04-10 09:30+0000\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2024\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -574,7 +574,7 @@ msgid "%s extension"
 msgstr "%s tillägg"
 
 msgid "%s extension is installed"
-msgstr "%s tillägg är installerad"
+msgstr "%s tillägget är installerat"
 
 msgid "%s extension is installed but is not using mysqlnd driver."
 msgstr "%s tillägget är installerat men använder inte mysqlnd drivrutinen."
@@ -1175,7 +1175,7 @@ msgid "Add"
 msgstr "Lägg till"
 
 msgid "Add API client"
-msgstr "Lägg till API klient"
+msgstr "Lägg till API-klient"
 
 msgid "Add CC users as observer"
 msgstr "Lägg till CC-mottagare som deltagare"
@@ -2281,7 +2281,7 @@ msgid "Automatically refresh data (tickets list, project kanban) in minutes."
 msgstr "Uppdatera data automatiskt (ärendelista, projekt) på några minuter."
 
 msgid "Automatically update of the elements related to the computers"
-msgstr "Automatisk uppdatering av objekt som är relaterade till datorerna"
+msgstr "Automatisk uppdatering av fält hos datortillgångar"
 
 msgid "Availability"
 msgstr "Tillgänglighet"
@@ -2948,7 +2948,7 @@ msgstr ""
 "installationsfil."
 
 msgid "Check if a new version is available"
-msgstr "Kontrollera om ny version finns tillgänglig"
+msgstr "Sök efter uppdateringar"
 
 msgid "Check permissions to the directory: %s"
 msgstr "Kontrollerar rättigheter för mappen: %s"
@@ -4429,7 +4429,7 @@ msgid "Device_id"
 msgstr "Enhets_id"
 
 msgid "Devices displayed in menu"
-msgstr "Enheter visade i meny"
+msgstr "Visa dessa enhetstyper i menyer"
 
 msgid "Devices own by my groups"
 msgstr "Enheter som ägs av min grupp"
@@ -5048,7 +5048,7 @@ msgid "Enable login with credentials"
 msgstr "Aktivera inloggning med autentiseringsuppgifter"
 
 msgid "Enable login with external token"
-msgstr "Aktivera inloggning med extern token"
+msgstr "Aktivera inloggning med externt token"
 
 msgid "Enable maintenance mode"
 msgstr "Aktivera underhållsläge"
@@ -5086,7 +5086,7 @@ msgid "Enable usage of timezones."
 msgstr "Slå på användning av tidszoner."
 
 msgid "Enabled itemtypes"
-msgstr "Aktiverade objekttyper"
+msgstr "Använd för dessa tillgångar"
 
 msgid "Enclosure"
 msgid_plural "Enclosures"
@@ -6228,7 +6228,7 @@ msgid "Historical"
 msgstr "Historik"
 
 msgid "Hits rate"
-msgstr "Träfffrekvens"
+msgstr "Träffrekvens"
 
 msgid "Home"
 msgstr "Hem"
@@ -6670,7 +6670,7 @@ msgid "Infinite"
 msgstr "Obegränsat"
 
 msgid "Information about system installation and configuration"
-msgstr "Systeminformation om installation och konfigurering"
+msgstr "Information om installation"
 
 msgid "Infrastructure (with access point)"
 msgstr "Infrastruktur ( utan accesspunkt)"
@@ -7669,7 +7669,7 @@ msgid "Maximal count"
 msgstr "Maximalt antal"
 
 msgid "Maximal number of automatic actions (run by CLI)"
-msgstr "Maximalt antal av automatiserade aktiviteter (körda via CLI)"
+msgstr "Maximalt antal automatiserade aktiviteter (körning via CLI)"
 
 msgid "Maximal time"
 msgstr "Längsta körningstid"
@@ -13578,3 +13578,63 @@ msgstr "Planerat slutdatum"
 #: src/SavedSearch.php:234
 msgid "Last duration (ms)"
 msgstr "Senaste varaktighet (ms)"
+
+#: src/Telemetry.php:365
+msgid "See what would be sent..."
+msgstr "Visa vilken användningsinformation som skulle skickas..."
+
+#: ajax/telemetry.php:56
+msgid ""
+"We only collect the following data: plugins usage, performance and "
+"responsiveness statistics about user interface features, memory, and "
+"hardware configuration."
+msgstr ""
+"Vi samlar endast in följande data: användning av tilläggsmoduler, statistik "
+"över prestanda och responsivitet hos användargränssnittsfunktioner, minne "
+"och hårdvarukonfiguration."
+
+#: src/Config.php:2129
+msgid "Proxy configuration for upgrade check"
+msgstr "Proxyinställningar sökning efter uppdateringar"
+
+#: src/Config.php:578
+msgid "When connecting or updating the relevant field"
+msgstr "Vid anslutning eller uppdatering av relevant fält"
+
+#: src/Config.php:1787
+msgid "PHP opcode cache"
+msgstr "PHP opcode-cache"
+
+#: src/Config.php:1791
+#, php-format
+msgid "The \"%s\" extension is installed"
+msgstr "The \"%s\"-tillägget är installerat"
+
+#: src/Config.php:1865
+msgid "User data cache"
+msgstr "Cache för användardata"
+
+#: src/Config.php:1866
+msgid ""
+"You can use \"php bin/console cache:configure\" command to configure cache "
+"system."
+msgstr ""
+"Använd kommandot \"php bin/console cache:configure\" för att konfigurera "
+"cachningen."
+
+#: src/Config.php:1892
+msgid "Translation cache"
+msgstr "Cache för översättningar"
+
+#: src/Config.php:789
+msgid "URL of the API"
+msgstr "Slutpunkt för API"
+
+#: src/GLPINetwork.php:263
+msgid "The registration key is valid."
+msgstr "Registreringsnyckeln är giltig."
+
+msgid "Registered"
+msgstr "Registrerad"
+
+
