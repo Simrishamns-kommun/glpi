@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-30 09:32+0200\n"
-"PO-Revision-Date: 2025-04-09 09:23+0000\n"
+"PO-Revision-Date: 2025-04-10 07:48+0000\n"
 "Last-Translator: Thierry Bugier <tbugier@teclib.com>, 2022\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -87,11 +87,11 @@ msgstr "Kunde inte flytta sektion"
 
 #: ajax/target_actor.php:51
 msgid "Failed to add the actor"
-msgstr "Misslyckades med att lägga till aktören."
+msgstr "Misslyckades med att lägga till användaren."
 
 #: ajax/target_actor.php:62
 msgid "Failed to delete the actor"
-msgstr "Misslyckades med att ta bort aktören."
+msgstr "Misslyckades med att ta bort användaren."
 
 #: ajax/section_duplicate.php:56
 msgid "Could not duplicate the section"
@@ -125,7 +125,7 @@ msgstr "Du har ingen behörighet att uppdatera detta objekt."
 
 #: front/targetticket.form.php:75
 msgid "Bad request while deleting an actor."
-msgstr "Ogiltig begäran vid borttagning av aktör."
+msgstr "Ogiltig begäran vid borttagning av aanvändare."
 
 #: front/targetticket.form.php:95 front/targetchange.form.php:81 
 #: front/formanswer.php:47 front/targetproblem.form.php:81 
@@ -396,8 +396,8 @@ msgstr "Datum & tid"
 #: inc/field/actorfield.class.php:83
 msgid "Actor"
 msgid_plural "Actors"
-msgstr[0] "Aktör"
-msgstr[1] "Aktörer"
+msgstr[0] "Användare"
+msgstr[1] "Användare"
 
 #: inc/field/actorfield.class.php:267
 #, php-format
@@ -868,7 +868,7 @@ msgstr "Leverantör från fråga"
 
 #: inc/target_actor.class.php:80 inc/abstractitiltarget.class.php:2132
 msgid "Actors from the question"
-msgstr "Aktörer från frågan"
+msgstr "Användare från frågan"
 
 #: inc/target_actor.class.php:81 inc/abstractitiltarget.class.php:2147
 msgid "Form author's supervisor"
@@ -891,7 +891,7 @@ msgstr[1] "Målaktörer"
 #: inc/target_actor.class.php:115 inc/target_actor.class.php:131 
 #: inc/target_actor.class.php:140
 msgid "Bad request while adding an actor."
-msgstr "Ogiltig begäran vid tillägg av aktör."
+msgstr "Ogiltig begäran vid då användaren lades till."
 
 #: inc/target_actor.class.php:197
 #, php-format
@@ -1165,7 +1165,7 @@ msgstr ""
 #: inc/targetproblem.class.php:580 inc/targetchange.class.php:106 
 #: inc/targetticket.class.php:136 inc/abstractitiltarget.class.php:1200
 msgid "Actors"
-msgstr "Aktörer"
+msgstr "Användare"
 
 #: inc/targetproblem.class.php:633 entrée standard:48
 msgid "Problem title"
@@ -2436,7 +2436,7 @@ msgstr "Är du säker på att du vill ta bort detta mål?"
 
 #: entrée standard:43 standard:50 standard:44 standard:49 standard:78
 msgid "Required"
-msgstr "Obligatoriskt"
+msgstr "Obligatorisk"
 
 #: entrée standard:57 standard:61 standard:60 standard:59 standard:43 
 #: standard:69 standard:52 standard:76
@@ -2479,7 +2479,7 @@ msgstr "Valbar rot"
 
 #: entrée standard:63
 msgid "Direct access on homepage"
-msgstr "Direkt åtkomst från hemsidan"
+msgstr "Direktåtkomst från hemsida"
 
 #: entrée standard:86
 msgid "Default form in service catalog"
