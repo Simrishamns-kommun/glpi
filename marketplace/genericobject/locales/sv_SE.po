@@ -60,11 +60,11 @@ msgstr "Allmänt"
 
 #: inc/type.class.php:771
 msgid "Icon (impact analysis)"
-msgstr ""
+msgstr "Ikon (påverkansanalys)"
 
 #: inc/type.class.php:617
 msgid "Internal identifier"
-msgstr "Internt namn"
+msgstr "Intern identifierare"
 
 #: inc/field.class.php:80
 msgid "Label"
@@ -94,13 +94,13 @@ msgstr "Tillgångar"
 #: inc/type.class.php:564 inc/profile.class.php:43 setup.php:238
 #: front/type.form.php:69 front/familylist.php:37 front/familylist.php:49
 msgid "Objects management"
-msgstr "Hantera tillgångar"
+msgstr "Anpassade objekt"
 
 #: inc/type.class.php:2025
 msgid "Other"
 msgid_plural "Others"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Övrigt"
+msgstr[1] "Övriga"
 
 #: inc/field.class.php:345
 msgid "Read-only field"
