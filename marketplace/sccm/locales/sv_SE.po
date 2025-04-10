@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-25 13:54+0000\n"
+"PO-Revision-Date: 2025-04-10 08:01+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Swedish (Sweden)\n"
+"Language: sv-SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: sv_SE\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/sccm.class.php:520
+msgid "Collect is disabled by configuration."
+msgstr "Insamling inaktiverad via inställningar."
+
+#: inc/config.class.php:249
+msgid "Database name"
+msgstr "Databasnamn"
+
+#: inc/config.class.php:239
+msgid "Enable SCCM synchronization"
+msgstr "Aktivera SCCM-synkronisering"
+
+#: inc/config.class.php:115 inc/config.class.php:124
+msgid "Error when using glpi_plugin_sccm_configs table."
+msgstr "Fel vid användning av tabellen \"glpi_plugin_sccm_configs\"."
+
+#: inc/config.class.php:57 setup.php:67
+msgid "Interface - SCCM"
+msgstr "SCCM-interface"
+
+#: inc/sccm.class.php:464
+msgid "Interface - SCCMCollect"
+msgstr "SCCMCollect-interface"
+
+#: inc/sccm.class.php:467
+msgid "Interface - SCCMPush"
+msgstr "SCCMPush-interface"
+
+#: inc/config.class.php:266
+msgid "Inventory server base URL"
+msgstr "Bas-URL för GLPI-server"
+
+#: inc/config.class.php:261
+msgid "Password"
+msgstr "Lösenord"
+
+#: inc/sccm.class.php:47
+msgid "Please, read the documentation before using that."
+msgstr "Vänligen läs dokumentationen innan du använder det där."
+
+#: inc/sccm.class.php:671
+msgid "Push is disabled by configuration."
+msgstr "Push inaktiverad via inställningar."
+
+#: inc/sccm.class.php:43
+msgid "SCCM"
+msgstr "SCCM"
+
+#: front/test.php:38
+msgid "SCCM - TEST"
+msgstr "SCCM - TEST"
+
+#: inc/menu.class.php:35 inc/menu.class.php:39
+msgid "SCCM Connector"
+msgstr "SCCM-koppling"
+
+#: inc/config.class.php:291
+msgid "Send credentials to other hosts too"
+msgstr "Skicka inloggningsuppgifter även till andra värdar."
+
+#: inc/config.class.php:244
+msgid "Server hostname (MSSQL)"
+msgstr "Servernamn (MSSQL)"
+
+#: inc/config.class.php:53 front/config.form.php:59
+msgid "Setup - SCCM"
+msgstr "SCCM-inställningar"
+
+#: front/showtable.php:87
+msgid "Synchronization is disabled by configuration."
+msgstr "Synkronisering inaktiverad via inställningar."
+
+#: inc/config.class.php:306
+msgid "Use LastHWScan as GLPI last inventory"
+msgstr "Använd LastHWScan som senaste GLPI-inventering"
+
+#: inc/config.class.php:286
+msgid "Use NLTM authentication"
+msgstr "Använd NLTM -autentisering"
+
+#: inc/config.class.php:296
+msgid "Use specific authentication information"
+msgstr "Använd anpassad autentiseringsinformation"
+
+#: inc/config.class.php:254
+msgid "Username"
+msgstr "Användarnamn"
+
+#: inc/config.class.php:301
+msgid "Value for spécific authentication"
+msgstr "Värde för anpassad autentisering"
+
+#: inc/config.class.php:281
+msgid "Verify SSL certificate"
+msgstr "Verifiera SSL-certifikat"
