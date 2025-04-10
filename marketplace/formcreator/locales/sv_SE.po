@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-30 09:32+0200\n"
-"PO-Revision-Date: 2025-04-10 07:48+0000\n"
+"PO-Revision-Date: 2025-04-10 08:41+0000\n"
 "Last-Translator: Thierry Bugier <tbugier@teclib.com>, 2022\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -919,8 +919,8 @@ msgstr "Accepterat"
 #: inc/formanswer.class.php:226
 msgid "Form answer"
 msgid_plural "Form answers"
-msgstr[0] "Formulärsvar"
-msgstr[1] "Formulärsvar"
+msgstr[0] "Svar"
+msgstr[1] "Svar"
 
 #: inc/formanswer.class.php:623
 msgid "Print this form"
@@ -1048,8 +1048,8 @@ msgstr "Begränsat till"
 #: inc/form_language.class.php:51
 msgid "Form language"
 msgid_plural "Form languages"
-msgstr[0] "Formulärspråk"
-msgstr[1] "Formulärspråk"
+msgstr[0] "Språk"
+msgstr[1] "Språk"
 
 #: inc/form_language.class.php:78 inc/form_language.class.php:364
 msgid "Translation"
@@ -1347,7 +1347,7 @@ msgstr "Begränsad åtkomst"
 
 #: inc/form.class.php:122
 msgid "Answers waiting for validation"
-msgstr "Svar som väntar på validering"
+msgstr "Svar som väntar på godkännande"
 
 #: inc/form.class.php:124 inc/form.class.php:1695 inc/form.class.php:1721
 msgid "Import forms"
@@ -1426,7 +1426,7 @@ msgstr "Förhandsgranskning"
 
 #: inc/form.class.php:576
 msgid "Form answer properties"
-msgstr "Egenskaper för formulärsvar"
+msgstr "Svarsegenskaper"
 
 #: inc/form.class.php:900
 msgid "What are you looking for?"
@@ -2095,7 +2095,7 @@ msgstr "Specifik plats"
 
 #: inc/abstractitiltarget.class.php:238
 msgid "No validation"
-msgstr "Ingen validering"
+msgstr "Inget godkännande"
 
 #: inc/abstractitiltarget.class.php:239
 msgid "Specific user or group"
@@ -2324,7 +2324,7 @@ msgstr ""
 
 #: install/install.php:664
 msgid "Formcreator - Sync service catalog issues"
-msgstr "Formulärskapare - Sync service catalog issues"
+msgstr "Formulärskapare - Problem vid synkronisering med servicekatalog"
 
 #: install/install.php:852
 msgid "Failed to check the sanity of the tables!"
