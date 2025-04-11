@@ -1119,7 +1119,7 @@ msgid "Account net value"
 msgstr "Kontots nettovärde"
 
 msgid "Account number"
-msgstr "Kontonummer"
+msgstr "Bokföringskonto"
 
 msgid "Action"
 msgid_plural "Actions"
@@ -3491,7 +3491,7 @@ msgid "Contract reached the end of a period since the"
 msgstr "Avtalet nådde slutet av en period sedan den"
 
 msgid "Contract renewal period"
-msgstr "Avtalsperiod"
+msgstr "Avtalsperiod vid förlängning"
 
 msgid "Contract type"
 msgid_plural "Contract types"
@@ -8417,7 +8417,7 @@ msgid "Nothing to launch"
 msgstr "Inget att starta"
 
 msgid "Notice"
-msgstr "Meddelande"
+msgstr "Påminnelse om att avtalet upphör"
 
 msgid "Notification"
 msgid_plural "Notifications"
@@ -9617,7 +9617,7 @@ msgid "Renew it on %1$s."
 msgstr "Förnya den på %1$s."
 
 msgid "Renewal"
-msgstr "Förnyelse"
+msgstr "Avtalet förlängs"
 
 msgid "Reopen"
 msgstr "Återöppna"
@@ -10587,7 +10587,7 @@ msgid "TLS"
 msgstr "TLS"
 
 msgid "Tacit"
-msgstr "Tyst överenskommelse"
+msgstr "Om ingen uppsägning"
 
 msgid "Tag"
 msgstr "Etikett"
