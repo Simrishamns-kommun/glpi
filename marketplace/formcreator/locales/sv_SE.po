@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-30 09:32+0200\n"
-"PO-Revision-Date: 2025-04-10 08:41+0000\n"
+"PO-Revision-Date: 2025-04-11 09:13+0000\n"
 "Last-Translator: Thierry Bugier <tbugier@teclib.com>, 2022\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -1143,8 +1143,8 @@ msgstr "Välj godkännare"
 #: inc/targetproblem.class.php:43 entrée standard:43
 msgid "Target problem"
 msgid_plural "Target problems"
-msgstr[0] "Målproblem"
-msgstr[1] "Målproblem"
+msgstr[0] "Problem"
+msgstr[1] "Problem"
 
 #: inc/targetproblem.class.php:109 inc/targetproblem.class.php:579 
 #: inc/targetchange.class.php:105 inc/targetchange.class.php:441 
@@ -1624,8 +1624,8 @@ msgstr "plugin_formcreator_load_check"
 #: inc/targetchange.class.php:44 entrée standard:43
 msgid "Target change"
 msgid_plural "Target changes"
-msgstr[0] "Målförändring"
-msgstr[1] "Målförändringar"
+msgstr[0] "Förändring"
+msgstr[1] "Förändringar"
 
 #: inc/targetchange.class.php:344 entrée standard:48
 msgid "Change title"
@@ -1893,8 +1893,8 @@ msgstr[1] "Sammansatta ärenderelationer"
 #: inc/targetticket.class.php:57 entrée standard:43
 msgid "Target ticket"
 msgid_plural "Target tickets"
-msgstr[0] "Målärende"
-msgstr[1] "Målärenden"
+msgstr[0] "Ärende"
+msgstr[1] "Ärenden"
 
 #: inc/targetticket.class.php:100
 msgid "Specific asset"

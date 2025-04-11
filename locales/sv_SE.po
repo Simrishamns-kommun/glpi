@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 13:04+0000\n"
-"PO-Revision-Date: 2025-04-10 09:30+0000\n"
+"PO-Revision-Date: 2025-04-11 09:37+0000\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2024\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -207,10 +207,10 @@ msgid "%1$s of item \"%2$s\""
 msgstr "%1$s av objekt \"%2$s\""
 
 msgid "%1$s on %2$s"
-msgstr "%1$s den %2$s"
+msgstr "%1$s av %2$s"
 
 msgid "%1$s on %2$s by %3$s"
-msgstr "%1$s den %2$s av %3$s"
+msgstr "%1$s av %2$s av %3$s"
 
 msgid "%1$s position is not available"
 msgstr "Platsen %1$s är inte tillgänglig"
@@ -2075,8 +2075,8 @@ msgstr[1] "Associerade avtal"
 
 msgid "Associated element"
 msgid_plural "Associated elements"
-msgstr[0] "Tillhörande elementet"
-msgstr[1] "Tillhörande element"
+msgstr[0] "Tillgång"
+msgstr[1] "Tillgångar"
 
 msgid "Associated item"
 msgid_plural "Associated items"
@@ -2424,8 +2424,8 @@ msgid ""
 "Besides, if you appreciate GLPI and its community, please take a minute to "
 "reference your organization by filling %1$s"
 msgstr ""
-"Dessutom, om du uppskattar GLPI och dess community, vänligen ägna en minut "
-"till att referera till din organisation genom att fylla i %1$s "
+"Förutom det, om du uppskattar GLPI och dess community, ta gärna en minut och "
+"referera till din organisation genom att fylla i %1$s."
 
 msgid "Best notes"
 msgstr "Bästa anteckningarna"
@@ -4405,7 +4405,7 @@ msgstr[0] "Processormodell"
 msgstr[1] "Processormodeller"
 
 msgid "Device reservations expiring today"
-msgstr "Enhetsboknngar som förfaller idag"
+msgstr "Enhetsbokningar som avslutas idag"
 
 msgid "Device sensor model"
 msgid_plural "Device sensor models"
@@ -7713,8 +7713,12 @@ msgstr "Slå ihop dokument"
 msgid "Merging"
 msgstr "Slår ihop"
 
+#: src/Event.php:317 src/Event.php:392 
+#: src/NotificationTargetFieldUnicity.php:80 
+#: src/NotificationTargetSavedSearch_Alert.php:105 
+#: templates/pages/admin/events_list.html.twig
 msgid "Message"
-msgstr "Meddelande"
+msgstr "Beskrivning"
 
 msgid "Message ID"
 msgstr "Meddelande-ID"
@@ -8443,8 +8447,8 @@ msgstr "Aviseringar"
 
 msgid "Notification template"
 msgid_plural "Notification templates"
-msgstr[0] "Mall för avisering"
-msgstr[1] "Mallar för aviseringar"
+msgstr[0] "Aviseringsmall"
+msgstr[1] "Aviseringsmallar"
 
 msgid "Notification used:"
 msgid_plural "Notifications used:"
@@ -8981,7 +8985,7 @@ msgid "Personal"
 msgstr "Personal"
 
 msgid "Personal View"
-msgstr "Personlig vy"
+msgstr "Min vy"
 
 msgid "Personal reminder"
 msgid_plural "Personal reminders"
@@ -9271,7 +9275,7 @@ msgid "Problems on pending status"
 msgstr "Väntande problemärenden"
 
 msgid "Problems to be processed"
-msgstr "Problemärenden som ska hanteras"
+msgstr "Problemärenden att hantera"
 
 msgid "Processing"
 msgstr "Pågår"
@@ -9978,7 +9982,7 @@ msgid "Save and add to the knowledge base"
 msgstr "Spara och lägg till i kunskapsdatabasen"
 
 msgid "Save as a new search"
-msgstr "Spara som en ny sökning"
+msgstr "Spara som ny sökning"
 
 msgid "Save current search"
 msgstr "Spara aktuellt sökkriterium"
@@ -10021,7 +10025,7 @@ msgid "Search engine"
 msgstr "Sökmotor"
 
 msgid "Search entity"
-msgstr "Sökenhet"
+msgstr "Sök"
 
 msgid "Search filter (if needed)"
 msgstr "Sök-filter (om nödvändigt)"
@@ -10103,7 +10107,7 @@ msgid "See my ticket"
 msgstr "Visa mina ärenden"
 
 msgid "See personnal planning"
-msgstr "Visa personlig kalender"
+msgstr "Visa min kalender"
 
 msgid "See planning"
 msgstr "Visa kalender"
@@ -10909,7 +10913,7 @@ msgid "Tickets status by month"
 msgstr "Ärendestatus per månad"
 
 msgid "Tickets to be processed"
-msgstr "Ärenden som ska behandlas"
+msgstr "Ärenden att behandla"
 
 msgid "Time"
 msgid_plural "Times"
@@ -11446,7 +11450,7 @@ msgid "Use a FTP installed file"
 msgstr "Använd uppladdad FTP fil"
 
 msgid "Use as a solution"
-msgstr "Använd som en lösning"
+msgstr "Använd som lösning"
 
 msgid "Use date"
 msgstr "Använd datum"
@@ -12027,7 +12031,7 @@ msgid "Your database engine version seems too old: %s."
 msgstr "Din databasmotorversion verkar vara för gammal\\: %s."
 
 msgid "Your observed tickets"
-msgstr "Dina ärenden att bevaka"
+msgstr "Mina bevakade ärenden"
 
 msgid "Your password has been successfully updated."
 msgstr "Ditt lösenord har uppdaterats."
@@ -12044,13 +12048,13 @@ msgid "Your password will expire on %s."
 msgstr "Ditt lösenord kommer utgå den %s."
 
 msgid "Your planning"
-msgstr "Din kalender"
+msgstr "Min kalender"
 
 msgid "Your plugin here ? Contact us."
 msgstr "Vill du visa ditt tillägg här? Kontakta oss."
 
 msgid "Your problems in progress"
-msgstr "Dina pågående problemärenden"
+msgstr "Mina pågående problemärenden"
 
 msgid "Your ticket has been registered, its treatment is in progress."
 msgstr "Ditt ärende har registrerats och kommer att behandlas snarast.."
@@ -12059,13 +12063,13 @@ msgid "Your tickets having rejected approval status"
 msgstr "Andel ärenden med nekat godkännande"
 
 msgid "Your tickets in progress"
-msgstr "Dina pågående ärenden"
+msgstr "Mina pågående supportärenden"
 
 msgid "Your tickets to close"
 msgstr "Ärenden att stänga"
 
 msgid "Your tickets to validate"
-msgstr "Dina ärenden att utvärdera"
+msgstr "Ärenden som väntar på att godkännas av mig"
 
 msgid "Zoom in/out"
 msgstr "Zooma in/ut"
@@ -13637,4 +13641,14 @@ msgstr "Registreringsnyckeln är giltig."
 msgid "Registered"
 msgstr "Registrerad"
 
+#: src/CommonITILTask.php:1687
+msgid "Change tasks to do"
+msgstr "Uppgifter (förändringar)"
 
+#: src/CommonITILTask.php:1683
+msgid "Problem tasks to do"
+msgstr "Uppgifter (problem)"
+
+#: src/CommonITILTask.php:1679
+msgid "Ticket tasks to do"
+msgstr "Uppgifter (ärenden)"
