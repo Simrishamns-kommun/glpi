@@ -11039,10 +11039,10 @@ msgid "To email header"
 msgstr "Till e-postheader"
 
 msgid "To empty the list of elements to be transferred"
-msgstr "För att tömma listan på objekt som ska flyttas"
+msgstr "Rensa listan"
 
 msgid "To order"
-msgstr "För att beställa"
+msgstr "Att beställa"
 
 msgid "To update"
 msgstr "Att uppdatera"
