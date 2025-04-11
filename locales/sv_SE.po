@@ -6985,8 +6985,8 @@ msgstr "Typ"
 
 msgid "Itil item"
 msgid_plural "Itil items"
-msgstr[0] "ITIL-artikel"
-msgstr[1] "ITIL-artiklar"
+msgstr[0] "Ärende"
+msgstr[1] "Ärenden"
 
 msgid "January"
 msgstr "januari"
