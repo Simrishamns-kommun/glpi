@@ -28,5 +28,5 @@ global $LANG;
 
 $LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][0]="verksamhetssystem";
 $LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][1]="Systemägare";
-$LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][1]="Systemförvaltare";
-$LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][3]="Systemleverantör";
+$LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][2]="Systemförvaltare";
+$LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][3]="Leverantör";
