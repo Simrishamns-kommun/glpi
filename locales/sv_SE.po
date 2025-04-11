@@ -12650,9 +12650,11 @@ msgctxt "impact"
 msgid "Very low"
 msgstr "Mycket liten"
 
+#: src/Contact.php:413 src/Entity.php:871 src/Entity.php:1569
+#: src/Supplier.php:348 templates/generic_show_form.html.twig
 msgctxt "infocom"
 msgid "Administrative number"
-msgstr "Administrativt nummer"
+msgstr "Organisationsnummer"
 
 msgid "internal"
 msgstr "intern"
@@ -13171,9 +13173,11 @@ msgstr "Mycket låg"
 msgid "usage of initSession resource with credentials is disabled"
 msgstr "användning av initSession resurs med resurser är inaktiverat"
 
+#: src/Auth.php:1750 src/AuthLDAP.php:945 src/User.php:2899 src/User.php:3381
+#: src/User.php:3941 templates/generic_show_form.html.twig
 msgctxt "user"
 msgid "Administrative number"
-msgstr "Administrativt nummer"
+msgstr "Anställningsnummer"
 
 msgctxt "validation"
 msgid "Refused"
