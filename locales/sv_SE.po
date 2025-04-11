@@ -5122,6 +5122,12 @@ msgstr "Krypteringsverktyg"
 msgid "Encryption type"
 msgstr "Krypteringstyp"
 
+#: src/APIClient.php:142 src/CalendarSegment.php:422
+#: src/CalendarSegment.php:450 src/Calendar_Holiday.php:149
+#: src/Contract.php:1661 src/CronTask.php:1473 src/Holiday.php:60
+#: src/Holiday.php:87 src/Html.php:4115 src/Html.php:4332 src/Planning.php:559
+#: src/Reminder.php:678 templates/components/form/support_hours.html.twig
+#: templates/components/pager.html.twig
 msgid "End"
 msgstr "Slutar"
 
@@ -5442,8 +5448,10 @@ msgstr "Exportera"
 msgid "Export to csv"
 msgstr "Exportera till CSV"
 
+#: src/Contract.php:1561 src/Contract.php:1587 src/Contract.php:1608
+#: templates/pages/management/contract.html.twig
 msgid "Express"
-msgstr "Express"
+msgstr "Automatiskt"
 
 msgid "Extension"
 msgstr "Filändelse"
@@ -6873,6 +6881,8 @@ msgstr "Inbjudan att deltaga i undersökningen"
 msgid "Invoice number"
 msgstr "Fakturanummer"
 
+#: src/Contract.php:368 src/Contract.php:632
+#: templates/pages/management/contract.html.twig
 msgid "Invoice period"
 msgstr "Fakturaperiod"
 
@@ -7662,8 +7672,9 @@ msgstr "Materialkostnad"
 msgid "Matrix of calculus for priority"
 msgstr "Matris för beräkning av ärendeprioritet"
 
+#: templates/pages/management/contract.html.twig
 msgid "Max number of items"
-msgstr "Max antal objekt"
+msgstr "Maximalt antal perioder"
 
 msgid "Maximal count"
 msgstr "Maximalt antal"
@@ -8608,8 +8619,21 @@ msgstr ""
 msgid "On time"
 msgstr "I tid"
 
+#: templates/components/form/support_hours.html.twig
+msgid "On Saturday"
+msgstr "Lördagar"
+
+#: templates/components/form/support_hours.html.twig
 msgid "On week"
-msgstr "Under vecka"
+msgstr "Vardagar"
+
+#: templates/components/form/support_hours.html.twig
+msgid "Use Saturday"
+msgstr "Öppet lördagar"
+
+#: templates/components/form/support_hours.html.twig
+msgid "Use Sunday"
+msgstr "Öppet söndagar"
 
 msgid "One item per line"
 msgstr "Ett objekt per rad"
@@ -10440,8 +10464,14 @@ msgstr "Standardvy"
 msgid "Standard interface help link"
 msgstr "Länk till hjälp för standardvy"
 
+#: src/APIClient.php:134 src/CalendarSegment.php:420
+#: src/CalendarSegment.php:449 src/Calendar_Holiday.php:148
+#: src/CronTask.php:1463 src/Holiday.php:56 src/Holiday.php:79
+#: src/Html.php:4091 src/Html.php:4264 src/Planning.php:553
+#: templates/components/form/support_hours.html.twig
+#: templates/components/pager.html.twig
 msgid "Start"
-msgstr "Start"
+msgstr "Startar"
 
 msgid "Start at %s"
 msgstr "Starta vid %s"
@@ -10587,7 +10617,7 @@ msgid "TLS"
 msgstr "TLS"
 
 msgid "Tacit"
-msgstr "Om ingen uppsägning"
+msgstr "Automatiskt (om det inte sägs upp)"
 
 msgid "Tag"
 msgstr "Etikett"
