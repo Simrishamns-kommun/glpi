@@ -13704,3 +13704,9 @@ msgstr "Länka projektuppgift"
 msgctxt "button"
 msgid "Link knowledgebase article"
 msgstr "Länka kunskapsbasartikel"
+
+#: src/ProjectTeam.php:73
+msgid "Project team"
+msgid_plural "Project teams"
+msgstr[0] "Projektteam"
+msgstr[1] "Projektteam"
