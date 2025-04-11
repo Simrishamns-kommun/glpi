@@ -1281,7 +1281,7 @@ msgid "Add a new dashboard"
 msgstr "Lägg till ny instrumentpanel"
 
 msgid "Add a new followup"
-msgstr "Ny uppföljning"
+msgstr "Lägg till ny uppföljning"
 
 msgid "Add a new item"
 msgstr "Lägg till nytt objekt"
@@ -13686,3 +13686,21 @@ msgstr "Uppgifter (problem)"
 #: src/CommonITILTask.php:1679
 msgid "Ticket tasks to do"
 msgstr "Uppgifter (ärenden)"
+
+#: src/Change.php:217 src/Problem.php:423 src/Ticket.php:2658
+msgid "Set notifications for all actors"
+msgstr "Ställ in aviseringar för alla aktörer"
+
+#: src/Ticket.php:2618
+msgid "Merge as Followup"
+msgstr "Slå ihop som en uppföljning"
+
+#: src/Ticket.php:2665
+msgctxt "button"
+msgid "Link project task"
+msgstr "Länka projektuppgift"
+
+#: src/KnowbaseItem_Item.php:368 src/KnowbaseItem_KnowbaseItemCategory.php:296
+msgctxt "button"
+msgid "Link knowledgebase article"
+msgstr "Länka kunskapsbasartikel"
