@@ -58,8 +58,10 @@ msgid_plural "%1$d days %2$dh%3$s"
 msgstr[0] "%1$d dag %2$dh%3$s"
 msgstr[1] "%1$d dagar %2$dh%3$s"
 
+#: src/Html.php:4397
+#, php-format
 msgid "%1$d on %2$d"
-msgstr "%1$d den %2$d"
+msgstr "%1$d av %2$d"
 
 #. TRANS: %1$d the number of hours, %2$s the number of minutes : display 3h15
 #: src/Dropdown.php:2014
@@ -235,7 +237,7 @@ msgid "%1$s restart rate is too high"
 msgstr "%1$s omstartsfrekvens är för hög"
 
 msgid "%1$s reverts item to revision %2$s"
-msgstr "%1$s ändrar objekt till revision %2$s"
+msgstr "%1$s återställde objekt till version %2$s"
 
 msgid "%1$s reverts item translation to revision %2$s"
 msgstr "%1$s återställde objektets översättning till version %2$s"
@@ -1940,18 +1942,18 @@ msgstr "Arkiverar loggfil: %1$s till %2$s"
 msgid "Are you sure you want to add this item to transfer list?"
 msgid_plural "Are you sure you want to add these items to transfer list?"
 msgstr[0] ""
-"Är du säker på att du vill lägga till detta objekt i överföringslistan?"
+"Är du säker på att du vill flytta detta objekt?"
 msgstr[1] ""
-"Är du säker på att du vill lägga till dessa objekt i överföringslistan?"
+"Är du säker på att du vill flytta dessa objekt?"
 
 msgid "Are you sure you want to delete the dashboard %s ?"
 msgstr "Är du säker på att du vill ta bort instrumentpanelen %s?"
 
 msgid "Are you sure you want to return this non-reservable item?"
-msgstr "Är du säker på att du vill returnera denna icke-reserveringsbara vara?"
+msgstr "Är du säker på att du vill återlämna denna ej bokningsbara enhet?"
 
 msgid "Area"
-msgstr "Area"
+msgstr "Område"
 
 msgid "As child of"
 msgstr "Barn till"
@@ -2073,6 +2075,21 @@ msgid_plural "Associated contracts"
 msgstr[0] "Associerat avtal"
 msgstr[1] "Associerade avtal"
 
+#: front/item_ticket.form.php:56 phpunit/functional/RuleTest.php:333
+#: src/Change.php:474 src/CommonITILObject.php:6745 src/Item_Devices.php:174
+#: src/Item_SoftwareLicense.php:98 src/Item_SoftwareVersion.php:79
+#: src/Item_Ticket.php:1175 src/KnowbaseItem.php:1960
+#: src/KnowbaseItem_Item.php:71 src/Lockedfield.php:166
+#: src/NetworkName.php:110 src/NotificationTargetTicket.php:649
+#: src/NotificationTargetTicket.php:654 src/NotificationTargetTicket.php:659
+#: src/NotificationTargetTicket.php:664 src/NotificationTargetTicket.php:669
+#: src/NotificationTargetTicket.php:674 src/NotificationTargetTicket.php:679
+#: src/NotificationTargetTicket.php:684 src/NotificationTargetTicket.php:689
+#: src/NotificationTargetTicket.php:694 src/NotificationTargetTicket.php:699
+#: src/NotificationTargetTicket.php:704 src/Problem.php:454
+#: src/RuleTicket.php:945 src/RuleTicket.php:951 src/Stat.php:1671
+#: src/Ticket.php:3212 src/Ticket.php:5102
+#: templates/components/itilobject/selfservice.html.twig
 msgid "Associated element"
 msgid_plural "Associated elements"
 msgstr[0] "Tillgång"
@@ -7861,7 +7878,7 @@ msgid "My tasks"
 msgstr "Mina uppgifter"
 
 msgid "My unpublished articles"
-msgstr "Mina opubliserade artiklar"
+msgstr "Mina opublicerade artiklar"
 
 msgid "Myself"
 msgstr "Mig själv"
@@ -8308,8 +8325,15 @@ msgstr "Inga resultat funna"
 msgid "No results"
 msgstr "Inga resultat"
 
+#: src/KnowbaseItem_Revision.php:44 src/KnowbaseItem_Revision.php:142
+msgid "Revision"
+msgid_plural "Revisions"
+msgstr[0] "Version"
+msgstr[1] "Versioner"
+
+#: src/KnowbaseItem_Revision.php:128
 msgid "No revisions"
-msgstr "Inga revisioner"
+msgstr "Inga ändringar"
 
 msgid "No room found or selected"
 msgstr "Inget rum funnet eller valt"
@@ -11902,7 +11926,7 @@ msgid "Write"
 msgstr "Skriv"
 
 msgid "Writer"
-msgstr "Skrivare"
+msgstr "Författare"
 
 msgid "Writing ability"
 msgstr "Skrivbar"
@@ -12277,7 +12301,7 @@ msgstr "Stäng"
 
 msgctxt "button"
 msgid "Compare selected revisions"
-msgstr "Jämför valda revisioner"
+msgstr "Jämför valda versioner"
 
 msgctxt "button"
 msgid "Confirm"
