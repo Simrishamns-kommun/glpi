@@ -12,4 +12,5 @@ marketplace
 !marketplace/databaseinventory/locales
 !marketplace/statecheck/locales
 !marketplace/formcreator/locales
+!marketplace/oauthimap/locales
 config/config_db.php
