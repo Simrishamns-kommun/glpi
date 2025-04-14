@@ -5681,7 +5681,7 @@ msgid "Filter list"
 msgstr "Filtrera lista"
 
 msgid "Filter plugin list"
-msgstr "Filtrera pluginlista"
+msgstr "Filtrera tillägg"
 
 msgid "Filter to apply on LDAP search"
 msgstr "Filtrera för att tillämpa på LDAP-sökning"
@@ -6734,7 +6734,7 @@ msgid "Installation/uninstallation versions on software"
 msgstr "Installations-/avinstallationsversioner på programvara"
 
 msgid "Installed"
-msgstr "Installerad"
+msgstr "Installerade"
 
 msgid "Installed software"
 msgstr "Installerade programvaror"
