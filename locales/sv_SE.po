@@ -2504,7 +2504,7 @@ msgid "Browser"
 msgstr "Webbläsare"
 
 msgid "Browser followups configuration"
-msgstr "Konfiguration av webbläsaruppföljning"
+msgstr "Konfigurera aviseringar i webbläsare"
 
 msgid "Browser notification"
 msgid_plural "Browser notifications"
@@ -4982,7 +4982,7 @@ msgid "Email followup"
 msgstr "E-post uppföljningar"
 
 msgid "Email followups configuration"
-msgstr "Konfigurering av uppföljningar via email"
+msgstr "Konfigurera aviseringar via e-Post"
 
 msgid "Email for followup"
 msgstr "E-post adress för uppföljning"
@@ -5047,13 +5047,13 @@ msgid "Enable filtering by date"
 msgstr "Aktivera filtrering efter datum"
 
 msgid "Enable followup"
-msgstr "Aktivera uppföljning"
+msgstr "Använd aviseringar"
 
 msgid "Enable followups from browser"
-msgstr "Aktivera uppföljningar från webbläsaren"
+msgstr "Avisera i webbläsare"
 
 msgid "Enable followups via email"
-msgstr "Aktivera uppföljningar via e-post"
+msgstr "Avisera via e-Post"
 
 msgid "Enable high contrast"
 msgstr "Använd hög kontrast"
@@ -7402,7 +7402,7 @@ msgid "List of available tags"
 msgstr "Lista över tillämpliga taggar"
 
 msgid "List of not imported emails"
-msgstr "Lista av icke importerade email"
+msgstr "Visa ej hämtad e-post"
 
 msgid "List of the hardware under contract"
 msgstr "Rapport för hårdvara under avtal"
