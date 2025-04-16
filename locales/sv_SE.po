@@ -1887,7 +1887,7 @@ msgid "Approval granted by %s"
 msgstr "Begäran godkänd av %s"
 
 msgid "Approval of the solution"
-msgstr "Godkännande av lösning"
+msgstr "Godkännande av lösningen"
 
 msgid "Approval request"
 msgstr "Begär godkännande av"
@@ -1911,7 +1911,7 @@ msgid "Approvals for the ticket"
 msgstr "Godkännanden för ärendet"
 
 msgid "Approve"
-msgstr "Godkänna"
+msgstr "Godkänn"
 
 msgid "Approve solution and reply to survey for ticket created by me"
 msgstr "Godkänn lösningen och svara på enkäten för ärendet skapat av mig"
@@ -2467,14 +2467,14 @@ msgstr "Svartvita utskrifter"
 
 msgid "Blacklist"
 msgid_plural "Blacklists"
-msgstr[0] "Svartlista"
-msgstr[1] "Svartlistor"
+msgstr[0] "Blockeringslista"
+msgstr[1] "Blockeringslistor"
 
 msgid "Blacklisted for import"
-msgstr "Svartlistad för import"
+msgstr "Blockerad för import"
 
 msgid "Blacklisted mail content"
-msgstr "Svartlistat e-postinnehåll"
+msgstr "Blockerat e-Postinnehåll"
 
 msgid "Blank"
 msgstr "Tom"
@@ -2956,7 +2956,7 @@ msgid "Check certificate"
 msgstr "Kontrollera certifikat"
 
 msgid "Check for new updates"
-msgstr "Kontroll av nya uppdateringar"
+msgstr "Sök efter uppdateringar"
 
 msgid ""
 "Check for schema differences between current database and installation file."
@@ -3157,7 +3157,7 @@ msgid "Close (Esc)"
 msgstr "Stäng (Esc)"
 
 msgid "Close date"
-msgstr "Stängnings datum"
+msgstr "Stängningsdatum"
 
 msgid "Close modal"
 msgstr "Stäng modal"
@@ -3399,7 +3399,7 @@ msgid "Connection by dial line - Dialup Port"
 msgstr "Anslutning via uppringningslinje - Uppringd port"
 
 msgid "Connection errors"
-msgstr "Kopplingsfel"
+msgstr "Anslutningsfel"
 
 msgid "Connection failed"
 msgstr "anslutningen misslyckades"
@@ -4167,7 +4167,7 @@ msgid "Default ticket template"
 msgstr "Standardmall för ärenden"
 
 msgid "Default translation"
-msgstr "Standard-översättning"
+msgstr "Standardöversättning"
 
 msgid "Default url length limit"
 msgstr "Standardlängd på url"
@@ -4265,31 +4265,31 @@ msgid "Deleted user in LDAP directory"
 msgstr "Användare borttagen i LDAP-katalog"
 
 msgid "Deleting a change"
-msgstr "Tar bort en ändring"
+msgstr "Tog bort en ändring"
 
 msgid "Deleting a problem"
-msgstr "Tar bort ett problemärende"
+msgstr "Tog bort ett problemärende"
 
 msgid "Deletion of a followup"
-msgstr "Borttagning av en uppföljning"
+msgstr "Tof bort en uppföljning"
 
 msgid "Deletion of a project"
-msgstr "Borttagning av ett projekt"
+msgstr "Tog bort ett projekt"
 
 msgid "Deletion of a project task"
-msgstr "Borttagning av en projektuppgift"
+msgstr "Tog bort en projektuppgift"
 
 msgid "Deletion of a reservation"
-msgstr "Borttagning av en reservation"
+msgstr "Tog bort en bokning"
 
 msgid "Deletion of a task"
-msgstr "Borttagning av en uppgift"
+msgstr "Tog bort en uppgift"
 
 msgid "Deletion of a ticket"
-msgstr "Borttag av ett ärende"
+msgstr "Tog bort ett ärende"
 
 msgid "Deletion of archived log file: %s"
-msgstr "Borttagning av arkiverad loggfil: %s"
+msgstr "Tog bort en arkiverad loggfil: %s"
 
 msgid "Deletion refused"
 msgstr "Borttagning nekad"
@@ -5014,7 +5014,7 @@ msgid "Email server for authentication"
 msgstr "E-postserver för autentisiering"
 
 msgid "Email signature"
-msgstr "Signatur"
+msgstr "Signatur i e-Postmeddelande"
 
 msgid "Email text body"
 msgstr "Meddelandetext"
@@ -5396,19 +5396,19 @@ msgid "Example:"
 msgstr "Exempel:"
 
 msgid "Exceptions"
-msgstr "Undantag"
+msgstr "Fel"
 
 msgid "Exclude"
 msgstr "Uteslut"
 
 msgid "Execute"
-msgstr "Utför"
+msgstr "Kör"
 
 msgid "Execute all recommended optional migrations."
-msgstr "Utför alla rekommenderade valfria migreringar."
+msgstr "Kör alla rekommenderade valfria migreringar."
 
 msgid "Executing command \"%s\"..."
-msgstr "Utför kommandot \"%s\"..."
+msgstr "Kör kommandot \"%s\"..."
 
 msgid "Execution"
 msgstr "Verkställ"
@@ -5420,14 +5420,14 @@ msgid ""
 "Execution time (in cycles) from which the task is considered as stuck (delay "
 "= task frequency * cycle)"
 msgstr ""
-"Utförandetid (i cykler) från vilken uppgiften anses ha fastnat (fördröjning "
+"Körningstid (i cykler) från vilken uppgiften anses ha fastnat (fördröjning "
 "= uppgiftsfrekvens * cykel)"
 
 msgid ""
 "Execution time (in seconds) from which the task is considered as stuck "
 "(default: 1800)"
 msgstr ""
-"Utförandetid (i sekunder) från vilken uppgiften anses ha fastnat (standard\\:"
+"Körningstid (i sekunder) från vilken uppgiften anses ha fastnat (standard\\:"
 " 1800)"
 
 msgid "Expected send date"
@@ -6022,7 +6022,7 @@ msgid "Get help"
 msgstr "Få hjälp"
 
 msgid "Get information about a plugin"
-msgstr "Hämta information om ett plugin"
+msgstr "Hämta information om ett tillägg"
 
 msgid "Give to"
 msgstr "Tilldela till"
@@ -6387,27 +6387,39 @@ msgid ""
 "If name is a valid email address, it will be automatically added to "
 "blacklisted senders."
 msgstr ""
-"Om namnet är en giltig e-postadress läggs det automatiskt till på "
-"svartlistade avsändare."
+"Om namnet är en giltig e-Postadress kommer det automatiskt att läggas till i listan över "
+"blockerade avsändare."
 
 msgid "If not set, main administrator email will be used."
 msgstr "Om ej satt kommer administratörens e-post användas."
 
 msgid "If not set, main or entity administrator email address will be used."
 msgstr ""
-"Om ej angiven används huvud- eller entitets-administratörens e-postadress."
+"Om ej angivet används huvud- eller entitets-administratörens e-Postadress."
 
 msgid "If not set, main or entity administrator email name will be used."
 msgstr ""
-"Om ej angiven används huvud- eller entitets-administratörens e-postnamn."
+"Om ej angivet används huvud- eller entitets-administratörens e-Postnamn."
 
 msgid "If not set, main or entity administrator name will be used."
-msgstr "Om ej angiven används huvud- eller entitets-administratörens namn."
+msgstr "Om ej angivet används huvud- eller entitets-administratörens namn."
+
+#: src/NotificationMailingSetting.php:167
+msgid "Name to use in from for sent emails."
+msgstr "Namn som används som avsändarens namn."
+
+#: src/NotificationMailingSetting.php:175
+msgid "Optionnal reply to address."
+msgstr "Valfri Svara-Till adress."
+
+#: src/NotificationMailingSetting.php:204
+msgid "Optionnal No-Reply name."
+msgstr "Valfritt No-Reply namn."
 
 msgid ""
 "If option is set, only items having given manufacturer ID will be processed."
 msgstr ""
-"Om alternativet är inställt kommer endast artiklar med tillverkar-ID att "
+"Om alternativet är angivet kommer endast artiklar med tillverkar-ID att "
 "behandlas."
 
 msgid "If phones are no longer used"
@@ -6677,7 +6689,7 @@ msgid "Incoming mail folder (optional, often INBOX)"
 msgstr "Inkommande e-postmapp (valfritt, vanligen INBOX)"
 
 msgid "Incoming tickets"
-msgstr "Inkommande ärenden"
+msgstr "Nya ärenden"
 
 msgid "Incompatible items"
 msgstr "Inkompatibla objekt"
@@ -7261,7 +7273,7 @@ msgid "Latitude"
 msgstr "Latitud"
 
 msgid "Launch"
-msgstr "Starta"
+msgstr "Kör"
 
 msgid "Left"
 msgstr "Vänster"
@@ -8145,7 +8157,7 @@ msgid "No action available"
 msgstr "Ingen handling tillgänglig"
 
 msgid "No action pending"
-msgstr "Ingen väntande aktivitet"
+msgstr "Ingen väntande åtgärd"
 
 msgid "No active LDAP server found."
 msgstr "Ingen aktiv LDAP server funnen."
@@ -8205,7 +8217,7 @@ msgid "No database"
 msgstr "Ingen databas"
 
 msgid "No defined category"
-msgstr "Kategorin är inte definierad"
+msgstr "Ingen kategori"
 
 msgid "No description"
 msgstr "Ingen beskrivning"
@@ -8730,7 +8742,7 @@ msgid "Opposite link"
 msgstr "Motsatt länk"
 
 msgid "Optional when approved"
-msgstr "Valfri vid godkännande"
+msgstr "Detta är valfritt om lösningen godkäns"
 
 msgid "Or complete search"
 msgstr "Eller välj från"
@@ -8996,7 +9008,7 @@ msgstr[0] "Orsak till väntan"
 msgstr[1] "Orsaker till väntan"
 
 msgid "Pending tickets"
-msgstr "Ärenden som väntar"
+msgstr "Väntande ärenden"
 
 msgid "Percent done"
 msgstr "Procent klart"
@@ -9320,7 +9332,7 @@ msgid "Problems on linked items"
 msgstr "Problemärenden på länkade objekt"
 
 msgid "Problems on pending status"
-msgstr "Väntande problemärenden"
+msgstr "Problemärenden med status \"Väntar\""
 
 msgid "Problems to be processed"
 msgstr "Problemärenden att hantera"
@@ -9577,7 +9589,7 @@ msgid "Refresh rate"
 msgstr "Uppdateringsfrekvens"
 
 msgid "Refuse"
-msgstr "Neka"
+msgstr "Avböj"
 
 msgid "Refuse import"
 msgstr "Neka import"
@@ -9982,10 +9994,10 @@ msgid "SMTP host"
 msgstr "SMTP-server"
 
 msgid "SMTP login (optional)"
-msgstr "SMTP konto (valfri)"
+msgstr "SMTP-konto (valfritt)"
 
 msgid "SMTP password (optional)"
-msgstr "SMTP lösenord (valfritt)"
+msgstr "SMTP-lösenord (valfritt)"
 
 msgid "SMTP+SSL"
 msgstr "SMTP+SSL"
@@ -10003,7 +10015,7 @@ msgid "SNMP version"
 msgstr "SNMP-version"
 
 msgid "SQL password"
-msgstr "SQL lösenord"
+msgstr "SQL-lösenord"
 
 msgid "SQL server: %s can't connect to the database"
 msgstr "SQL-server\\: %s kan inte ansluta till databasen"
@@ -10233,7 +10245,7 @@ msgid "Send licenses alert failed"
 msgstr "Varningen för att skicka licenser misslyckades"
 
 msgid "Send mails in queue"
-msgstr "Skicka meddelanden i kö"
+msgstr "Skicka köade meddelanden"
 
 msgid "Sender email"
 msgstr "Avsändarens e-postadress"
@@ -10961,7 +10973,7 @@ msgid "Tickets duration"
 msgstr "Ärendets tidsåtgång"
 
 msgid "Tickets on pending status"
-msgstr "Ärenden med status i väntan på"
+msgstr "Ärenden med status \"Väntar\""
 
 msgid "Tickets status by month"
 msgstr "Ärendestatus per månad"
@@ -11042,10 +11054,10 @@ msgid "To %s"
 msgstr "Till %s"
 
 msgid "To answer by email, write above this line"
-msgstr "För att svara via e-post, skriv över denna linje"
+msgstr "För att svara via e-post, skriv ovanför denna linje"
 
 msgid "To answer by email, write under this line"
-msgstr "För att svara via e-post, skriv under denna linje"
+msgstr "För att svara via e-post, skriv nedanför denna linje"
 
 msgid "To be in charge of a ticket"
 msgstr "Äga ärenden"
@@ -11828,14 +11840,22 @@ msgstr "Bevakaregrupp utan ansvariga användare"
 msgid "Watcher group manager"
 msgstr "Bevakaregrupp ansvarig"
 
+#: src/NotificationMailingSetting.php:280
+msgid "Max. delivery retries"
+msgstr "Max antal försök att skicka"
+
 msgid "Way of sending emails"
-msgstr "Sätt att skicka mejl"
+msgstr "Metod för att skicka e-Post"
+
+#: src/NotificationMailingSetting.php:286
+msgid "Try to deliver again in (minutes)"
+msgstr "Väntetid innan nytt försök att skicka görs (minuter)"
 
 msgid "We inform you that your password has expired."
-msgstr "Ditt lösenord har utgått."
+msgstr "Ditt lösenord har upphört att gälla."
 
 msgid "We inform you that your password will expire soon."
-msgstr "Ditt lösenord kommer snart att utgå."
+msgstr "Ditt lösenord kommer snart bli ogiltigt."
 
 msgid "Web"
 msgstr "Webb"
@@ -12377,7 +12397,7 @@ msgstr "Exportera"
 
 msgctxt "button"
 msgid "Get email tickets now"
-msgstr "Hämta e-postärenden nu"
+msgstr "Hämta e-Postärenden nu"
 
 msgctxt "button"
 msgid "Give"
@@ -12779,7 +12799,7 @@ msgstr[1] "månader"
 
 msgctxt "name"
 msgid "Update"
-msgstr "Beskrivning"
+msgstr "Uppdatering"
 
 msgid "normal/normal for the normal account"
 msgstr "normal/normal för normalanvändarens konto"
@@ -13734,3 +13754,26 @@ msgid "Project team"
 msgid_plural "Project teams"
 msgstr[0] "Projektteam"
 msgstr[1] "Projektteam"
+
+#: src/MailCollector.php:1958
+msgid "Retrieve email (Mails receivers)"
+msgstr "Hämta e-Post (ärendeinsamlare)"
+
+#: src/MailCollector.php:1959
+msgid "Number of emails to process"
+msgstr "Antal meddelande att bearbeta"
+
+#: src/ITILFollowup.php:740 src/NotificationTargetCommonITILObject.php:1851
+msgctxt "quantity"
+msgid "Number of followups"
+msgstr "Antal uppföljningar"
+
+#: templates/components/itilobject/timeline/form_followup.html.twig
+#: templates/components/itilobject/timeline/form_task.html.twig
+msgid "Set the status to pending"
+msgstr "Sätt ärendestatus till \"Väntar\""
+
+#: front/notificationmailingsetting.form.php:56
+#, php-format
+msgid "%1$s edited the emails notifications configuration"
+msgstr "%1$s ändrade inställningar för e-postaviseringar"
