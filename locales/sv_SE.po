@@ -846,7 +846,7 @@ msgid "(U%1$u)"
 msgstr "(U%1$u)"
 
 msgid "(leave the field empty for a generation from HTML)"
-msgstr "(lämna fältet tomt för HTML-generering)"
+msgstr "(lämna fältet tomt för att generera innehåll från HTML)"
 
 msgid "+ %d day"
 msgid_plural "+ %d days"
@@ -2764,7 +2764,7 @@ msgid "Cannot write in \"%s\" directory."
 msgstr "Kan inte skriva i katalogen \"%s\"."
 
 msgid "Can՛t change this attribute. It՛s inherited from its parent."
-msgstr "Det går inte att ändra attributet eftersom det ärvs från överliggande."
+msgstr "Det går inte att ändra attributet eftersom det ärvs från överordnade."
 
 msgid "Capacity"
 msgstr "Kapacitet"
@@ -3065,7 +3065,7 @@ msgid "Choose an existing device"
 msgstr "Välj en befintlig enhet"
 
 msgid "Circular relation found. Parent not updated."
-msgstr "Cirkulär relation hittades. Överliggande blev inte uppdaterad."
+msgstr "Cirkulär relation hittades. Föräldern uppdaterades inte."
 
 msgid "City"
 msgstr "Ort"
@@ -6710,13 +6710,13 @@ msgid "Information about system installation and configuration"
 msgstr "Information om installation"
 
 msgid "Infrastructure (with access point)"
-msgstr "Infrastruktur ( utan accesspunkt)"
+msgstr "Infrastruktur (med accesspunkt)"
 
 msgid "Inheritance of the parent entity"
-msgstr "Arv från överliggande entitet"
+msgstr "Ärv från överordnad entitet"
 
 msgid "Inherits configuration from the parent entity"
-msgstr "Ärver konfiguration från överliggande entitet"
+msgstr "Ärver konfiguration från den överordnade entiteten"
 
 msgid "Initial contract period"
 msgstr "Ursprunglig avtalsperiod"
@@ -13781,3 +13781,7 @@ msgstr "%1$s ändrade inställningar för e-postaviseringar"
 #: src/Marketplace/NotificationTargetController.php:99
 msgid "Some updates are available for your installed plugins!"
 msgstr "Det finns nya uppdateringar för några av tilläggen!"
+
+#: src/Entity.php:3952
+msgid "Value inherited from a parent entity"
+msgstr "Värde som ärvts från överordnad entitet"
