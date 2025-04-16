@@ -1361,10 +1361,10 @@ msgid "Add an escalation level"
 msgstr "Lägg till eskaleringsnivå"
 
 msgid "Add an event"
-msgstr "Lägg till händelse"
+msgstr "Lade till händelse"
 
 msgid "Add an item"
-msgstr "Lägg till objekt"
+msgstr "Lade till"
 
 msgid "Add an item type"
 msgstr "Lägg till en objektstyp"
@@ -1778,10 +1778,10 @@ msgid "An approval request has been submitted by %s"
 msgstr "En begäran om godkännande har skickats av %s"
 
 msgid "An email to %s was added to queue"
-msgstr "Ett meddelande till %s var placerat i kö"
+msgstr "E-postmeddelande till %s lades till i kön"
 
 msgid "An email was sent to %s"
-msgstr "Ett e-postmeddelande skickades till %s"
+msgstr "E-postmeddelande skickades till %s"
 
 msgid "An enclosure is required"
 msgstr "Rackskåp krävs"
@@ -7758,7 +7758,7 @@ msgstr "Slår ihop"
 #: src/NotificationTargetSavedSearch_Alert.php:105 
 #: templates/pages/admin/events_list.html.twig
 msgid "Message"
-msgstr "Beskrivning"
+msgstr "Meddelande"
 
 msgid "Message ID"
 msgstr "Meddelande-ID"
@@ -8055,7 +8055,7 @@ msgid "New comment"
 msgstr "Ny kommentar"
 
 msgid "New followup"
-msgstr "Ny uppföljning"
+msgstr "Ny kommentar i ärende -"
 
 msgid "New group in assignees"
 msgstr "Ny grupp i tilldelade"
@@ -13777,3 +13777,7 @@ msgstr "Sätt ärendestatus till \"Väntar\""
 #, php-format
 msgid "%1$s edited the emails notifications configuration"
 msgstr "%1$s ändrade inställningar för e-postaviseringar"
+
+#: src/Marketplace/NotificationTargetController.php:99
+msgid "Some updates are available for your installed plugins!"
+msgstr "Det finns nya uppdateringar för några av tilläggen!"
