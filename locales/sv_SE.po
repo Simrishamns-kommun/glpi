@@ -2901,7 +2901,7 @@ msgid "Change password storage key and update values in database."
 msgstr "Ändra lösenordslagringsnyckel och uppdatera värden i databasen."
 
 msgid "Change solved"
-msgstr "Ändring utförd"
+msgstr "Ärendet (förändring) löstes -"
 
 msgid "Change task"
 msgid_plural "Change tasks"
@@ -3189,7 +3189,7 @@ msgid "Closing date"
 msgstr "Stängnings datum"
 
 msgid "Closing of the ticket"
-msgstr "Stängning av ärendet"
+msgstr "Ärendet (support) stängdes -"
 
 msgid "Closing time"
 msgstr "Tid för stängning"
@@ -3198,10 +3198,10 @@ msgid "Closure"
 msgstr "Stänger"
 
 msgid "Closure of a change"
-msgstr "Stängning av en förändring"
+msgstr "Ärendet (förändring) stängdes -"
 
 msgid "Closure of a problem"
-msgstr "Stängning av ett problemärende"
+msgstr "Ärendet (problem) stängdes -"
 
 msgid "Cluster"
 msgid_plural "Clusters"
@@ -6467,7 +6467,7 @@ msgstr ""
 "rullgardinsmenyn rensas."
 
 msgid "If you reject the solution, you must specify a reason"
-msgstr "För att kunna avvisa en lösning, måste Du motivera varför"
+msgstr "Om du avvisar lösningen måste du ange en orsak."
 
 msgid ""
 "If you want to ease the plugins download, please check permissions and "
@@ -8742,7 +8742,7 @@ msgid "Opposite link"
 msgstr "Motsatt länk"
 
 msgid "Optional when approved"
-msgstr "Detta är valfritt om lösningen godkäns"
+msgstr "Detta är valfritt om lösningen godkänns"
 
 msgid "Or complete search"
 msgstr "Eller välj från"
@@ -9318,7 +9318,7 @@ msgstr[0] "Problem"
 msgstr[1] "Problem"
 
 msgid "Problem solved"
-msgstr "Problemärende löst"
+msgstr "Ärendet (problem) löstes -"
 
 msgid "Problem task"
 msgid_plural "Problem tasks"
@@ -10681,7 +10681,7 @@ msgstr[0] "Uppgift"
 msgstr[1] "Uppgifter"
 
 msgid "Task %s executed"
-msgstr "Uppgift %s startad"
+msgstr "Aktiviteten \"%s\" kördes"
 
 msgid "Task category"
 msgid_plural "Task categories"
@@ -10689,10 +10689,10 @@ msgstr[0] "Uppgiftskategori"
 msgstr[1] "Uppgiftskategorier"
 
 msgid "Task completed in %s"
-msgstr "Arbetet färdig om %s"
+msgstr "Uppgiften slutfördes på %s"
 
 msgid "Task completed."
-msgstr "Arbetet avslutat."
+msgstr "Uppgiften slutfördes."
 
 msgid "Task template"
 msgid_plural "Task templates"
@@ -10947,7 +10947,7 @@ msgstr[0] "Ärende för länkat objekt"
 msgstr[1] "Ärenden för länkade objekt"
 
 msgid "Ticket solved"
-msgstr "Lösta ärenden"
+msgstr "Ärendet (support) löstes -"
 
 msgid "Ticket template"
 msgid_plural "Ticket templates"
