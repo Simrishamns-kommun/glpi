@@ -2910,8 +2910,8 @@ msgstr[1] "Förändringsuppgifter"
 
 msgid "Change template"
 msgid_plural "Change templates"
-msgstr[0] "Ändra mall"
-msgstr[1] "Ändra mallar"
+msgstr[0] "Förändringsärende-mall"
+msgstr[1] "Förändringsärende-mallar"
 
 msgid "Change the priority"
 msgstr "Ändra prioritet"
@@ -10733,7 +10733,7 @@ msgid "Template for a request"
 msgstr "Mall för en begäran"
 
 msgid "Template for an incident"
-msgstr "Mall för supportärende"
+msgstr "Mall för ett supportärende"
 
 msgid "Template name"
 msgstr "Mallnamn"
@@ -11754,22 +11754,22 @@ msgid "Visibility"
 msgstr "Visning"
 
 msgid "Visibility end date"
-msgstr "Slutdatum för synlighet"
+msgstr "Synlig t.o.m."
 
 msgid "Visibility start date"
-msgstr "Startdatum för synlighet"
+msgstr "Synlig fr.o.m."
 
 msgid "Visible for a change"
-msgstr "Synlig för en förändring"
+msgstr "Synlig för förändringsärende"
 
 msgid "Visible for a problem"
-msgstr "Synlig för ett problemärende"
+msgstr "Synlig för problemärende"
 
 msgid "Visible for a request"
 msgstr "Synlig för en begäran"
 
 msgid "Visible for an incident"
-msgstr "Tillgänglig i supportärende"
+msgstr "Synlig för supportärende"
 
 msgid "Visible in a project"
 msgstr "Tillgänglig i projekt"
@@ -13829,3 +13829,11 @@ msgstr "Intern tid till ägande"
 #: src/RuleTicket.php:1080
 msgid "Take into account delay"
 msgstr "Fördröjning pga. analys"
+
+#: src/ITILCategory.php:136 src/ITILCategory.php:196
+msgid "Template for a change"
+msgstr "Mall för en förändring"
+
+#: src/ITILCategory.php:142 src/ITILCategory.php:205
+msgid "Template for a problem"
+msgstr "Mall för ett problem"
