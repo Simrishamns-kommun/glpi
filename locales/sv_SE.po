@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-29 13:04+0000\n"
-"PO-Revision-Date: 2025-04-11 09:37+0000\n"
+"PO-Revision-Date: 2025-04-23 13:41+0000\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2024\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -1941,10 +1941,8 @@ msgstr "Arkiverar loggfil: %1$s till %2$s"
 
 msgid "Are you sure you want to add this item to transfer list?"
 msgid_plural "Are you sure you want to add these items to transfer list?"
-msgstr[0] ""
-"Är du säker på att du vill flytta detta objekt?"
-msgstr[1] ""
-"Är du säker på att du vill flytta dessa objekt?"
+msgstr[0] "Är du säker på att du vill flytta detta objekt?"
+msgstr[1] "Är du säker på att du vill flytta dessa objekt?"
 
 msgid "Are you sure you want to delete the dashboard %s ?"
 msgstr "Är du säker på att du vill ta bort instrumentpanelen %s?"
@@ -2075,20 +2073,20 @@ msgid_plural "Associated contracts"
 msgstr[0] "Associerat avtal"
 msgstr[1] "Associerade avtal"
 
-#: front/item_ticket.form.php:56 phpunit/functional/RuleTest.php:333
-#: src/Change.php:474 src/CommonITILObject.php:6745 src/Item_Devices.php:174
-#: src/Item_SoftwareLicense.php:98 src/Item_SoftwareVersion.php:79
-#: src/Item_Ticket.php:1175 src/KnowbaseItem.php:1960
-#: src/KnowbaseItem_Item.php:71 src/Lockedfield.php:166
-#: src/NetworkName.php:110 src/NotificationTargetTicket.php:649
-#: src/NotificationTargetTicket.php:654 src/NotificationTargetTicket.php:659
-#: src/NotificationTargetTicket.php:664 src/NotificationTargetTicket.php:669
-#: src/NotificationTargetTicket.php:674 src/NotificationTargetTicket.php:679
-#: src/NotificationTargetTicket.php:684 src/NotificationTargetTicket.php:689
-#: src/NotificationTargetTicket.php:694 src/NotificationTargetTicket.php:699
-#: src/NotificationTargetTicket.php:704 src/Problem.php:454
-#: src/RuleTicket.php:945 src/RuleTicket.php:951 src/Stat.php:1671
-#: src/Ticket.php:3212 src/Ticket.php:5102
+#: front/item_ticket.form.php:56 phpunit/functional/RuleTest.php:333 
+#: src/Change.php:474 src/CommonITILObject.php:6745 src/Item_Devices.php:174 
+#: src/Item_SoftwareLicense.php:98 src/Item_SoftwareVersion.php:79 
+#: src/Item_Ticket.php:1175 src/KnowbaseItem.php:1960 
+#: src/KnowbaseItem_Item.php:71 src/Lockedfield.php:166 
+#: src/NetworkName.php:110 src/NotificationTargetTicket.php:649 
+#: src/NotificationTargetTicket.php:654 src/NotificationTargetTicket.php:659 
+#: src/NotificationTargetTicket.php:664 src/NotificationTargetTicket.php:669 
+#: src/NotificationTargetTicket.php:674 src/NotificationTargetTicket.php:679 
+#: src/NotificationTargetTicket.php:684 src/NotificationTargetTicket.php:689 
+#: src/NotificationTargetTicket.php:694 src/NotificationTargetTicket.php:699 
+#: src/NotificationTargetTicket.php:704 src/Problem.php:454 
+#: src/RuleTicket.php:945 src/RuleTicket.php:951 src/Stat.php:1671 
+#: src/Ticket.php:3212 src/Ticket.php:5102 
 #: templates/components/itilobject/selfservice.html.twig
 msgid "Associated element"
 msgid_plural "Associated elements"
@@ -5140,11 +5138,11 @@ msgstr "Krypteringsverktyg"
 msgid "Encryption type"
 msgstr "Krypteringstyp"
 
-#: src/APIClient.php:142 src/CalendarSegment.php:422
-#: src/CalendarSegment.php:450 src/Calendar_Holiday.php:149
-#: src/Contract.php:1661 src/CronTask.php:1473 src/Holiday.php:60
-#: src/Holiday.php:87 src/Html.php:4115 src/Html.php:4332 src/Planning.php:559
-#: src/Reminder.php:678 templates/components/form/support_hours.html.twig
+#: src/APIClient.php:142 src/CalendarSegment.php:422 
+#: src/CalendarSegment.php:450 src/Calendar_Holiday.php:149 
+#: src/Contract.php:1661 src/CronTask.php:1473 src/Holiday.php:60 
+#: src/Holiday.php:87 src/Html.php:4115 src/Html.php:4332 src/Planning.php:559 
+#: src/Reminder.php:678 templates/components/form/support_hours.html.twig 
 #: templates/components/pager.html.twig
 msgid "End"
 msgstr "Slutar"
@@ -5421,15 +5419,15 @@ msgid ""
 "Execution time (in cycles) from which the task is considered as stuck (delay "
 "= task frequency * cycle)"
 msgstr ""
-"Körningstid (i cykler) från vilken uppgiften anses ha fastnat (fördröjning "
-"= uppgiftsfrekvens * cykel)"
+"Körningstid (i cykler) från vilken uppgiften anses ha fastnat (fördröjning = "
+"uppgiftsfrekvens * cykel)"
 
 msgid ""
 "Execution time (in seconds) from which the task is considered as stuck "
 "(default: 1800)"
 msgstr ""
-"Körningstid (i sekunder) från vilken uppgiften anses ha fastnat (standard\\:"
-" 1800)"
+"Körningstid (i sekunder) från vilken uppgiften anses ha fastnat (standard\\: "
+"1800)"
 
 msgid "Expected send date"
 msgstr "Förväntat sändningsdatum"
@@ -5466,7 +5464,7 @@ msgstr "Exportera"
 msgid "Export to csv"
 msgstr "Exportera till CSV"
 
-#: src/Contract.php:1561 src/Contract.php:1587 src/Contract.php:1608
+#: src/Contract.php:1561 src/Contract.php:1587 src/Contract.php:1608 
 #: templates/pages/management/contract.html.twig
 msgid "Express"
 msgstr "Automatiskt"
@@ -6388,8 +6386,8 @@ msgid ""
 "If name is a valid email address, it will be automatically added to "
 "blacklisted senders."
 msgstr ""
-"Om namnet är en giltig e-Postadress kommer det automatiskt att läggas till i listan över "
-"blockerade avsändare."
+"Om namnet är en giltig e-Postadress kommer det automatiskt att läggas till i "
+"listan över blockerade avsändare."
 
 msgid "If not set, main administrator email will be used."
 msgstr "Om ej satt kommer administratörens e-post användas."
@@ -6911,7 +6909,7 @@ msgstr "Inbjudan att deltaga i undersökningen"
 msgid "Invoice number"
 msgstr "Fakturanummer"
 
-#: src/Contract.php:368 src/Contract.php:632
+#: src/Contract.php:368 src/Contract.php:632 
 #: templates/pages/management/contract.html.twig
 msgid "Invoice period"
 msgstr "Fakturaperiod"
@@ -10510,11 +10508,11 @@ msgstr "Standardvy"
 msgid "Standard interface help link"
 msgstr "Länk till hjälp för standardvy"
 
-#: src/APIClient.php:134 src/CalendarSegment.php:420
-#: src/CalendarSegment.php:449 src/Calendar_Holiday.php:148
-#: src/CronTask.php:1463 src/Holiday.php:56 src/Holiday.php:79
-#: src/Html.php:4091 src/Html.php:4264 src/Planning.php:553
-#: templates/components/form/support_hours.html.twig
+#: src/APIClient.php:134 src/CalendarSegment.php:420 
+#: src/CalendarSegment.php:449 src/Calendar_Holiday.php:148 
+#: src/CronTask.php:1463 src/Holiday.php:56 src/Holiday.php:79 
+#: src/Html.php:4091 src/Html.php:4264 src/Planning.php:553 
+#: templates/components/form/support_hours.html.twig 
 #: templates/components/pager.html.twig
 msgid "Start"
 msgstr "Startar"
@@ -10730,7 +10728,7 @@ msgstr[0] "Mall"
 msgstr[1] "Mallar"
 
 msgid "Template for a request"
-msgstr "Mall för en begäran"
+msgstr "Mall för en beställning"
 
 msgid "Template for an incident"
 msgstr "Mall för ett supportärende"
@@ -10949,7 +10947,7 @@ msgstr[0] "Ärendekostnad"
 msgstr[1] "Ärendekostnader"
 
 msgid "Ticket creation form on login"
-msgstr "Vid inloggning - landa i formuläret \Skapa ärende\""
+msgstr "Vid inloggning - landa i formuläret Skapa ärende\""
 
 msgid "Ticket on linked items"
 msgid_plural "Tickets on linked items"
@@ -11064,10 +11062,12 @@ msgid "To %s"
 msgstr "Till %s"
 
 msgid "To answer by email, write above this line"
-msgstr "Om du besvarar det här meddelandet, tänk på att skriva ovanför denna linje"
+msgstr ""
+"Om du besvarar det här meddelandet, tänk på att skriva ovanför denna linje"
 
 msgid "To answer by email, write under this line"
-msgstr "Om du besvarar det här meddelandet, tänk på att skriva nedanför denna linje"
+msgstr ""
+"Om du besvarar det här meddelandet, tänk på att skriva nedanför denna linje"
 
 msgid "To be in charge of a ticket"
 msgstr "Äga ärenden"
@@ -11766,7 +11766,7 @@ msgid "Visible for a problem"
 msgstr "Synlig för problemärende"
 
 msgid "Visible for a request"
-msgstr "Synlig för en begäran"
+msgstr "Synlig för en beställning"
 
 msgid "Visible for an incident"
 msgstr "Synlig för supportärende"
@@ -12704,7 +12704,7 @@ msgctxt "impact"
 msgid "Very low"
 msgstr "Mycket liten"
 
-#: src/Contact.php:413 src/Entity.php:871 src/Entity.php:1569
+#: src/Contact.php:413 src/Entity.php:871 src/Entity.php:1569 
 #: src/Supplier.php:348 templates/generic_show_form.html.twig
 msgctxt "infocom"
 msgid "Administrative number"
@@ -13227,7 +13227,7 @@ msgstr "Mycket låg"
 msgid "usage of initSession resource with credentials is disabled"
 msgstr "användning av initSession resurs med resurser är inaktiverat"
 
-#: src/Auth.php:1750 src/AuthLDAP.php:945 src/User.php:2899 src/User.php:3381
+#: src/Auth.php:1750 src/AuthLDAP.php:945 src/User.php:2899 src/User.php:3381 
 #: src/User.php:3941 templates/generic_show_form.html.twig
 msgctxt "user"
 msgid "Administrative number"
@@ -13778,7 +13778,7 @@ msgctxt "quantity"
 msgid "Number of followups"
 msgstr "Antal uppföljningar"
 
-#: templates/components/itilobject/timeline/form_followup.html.twig
+#: templates/components/itilobject/timeline/form_followup.html.twig 
 #: templates/components/itilobject/timeline/form_task.html.twig
 msgid "Set the status to pending"
 msgstr "Sätt ärendestatus till \"Väntar\""
@@ -13821,7 +13821,7 @@ msgstr "Hoppa över återstående regler"
 msgid "Ticket category from code"
 msgstr "Ärendekategori från kod"
 
-#: src/RuleTicket.php:1022
+#: src/RuleTicket.php:1022 
 #: templates/components/itilobject/service_levels.html.twig
 msgid "Internal Time to own"
 msgstr "Intern tid till ägande"
