@@ -30,3 +30,4 @@ $LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][0]="verksamhetssy
 $LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][1]="Systemägare";
 $LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][2]="Systemförvaltare";
 $LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][3]="Leverantör";
+$LANG['genericobject']['PluginGenericobjectVerksamhetssystem'][4]="Måste riskbedömas";

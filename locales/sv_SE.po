@@ -2028,7 +2028,7 @@ msgid "Assigned to"
 msgstr "Tilldelad"
 
 msgid "Assigned to a supplier"
-msgstr "Tilldelad en leverantör"
+msgstr "Tilldelad till en leverantör"
 
 msgid "Assigned to groups"
 msgstr "Tilldelad till grupper"
@@ -2346,7 +2346,7 @@ msgid "Average time to resolution"
 msgstr "Genomsnittlig tid till lösning"
 
 msgid "Average time to take into account"
-msgstr "Genomsnittlig tid att ta hänsyn till"
+msgstr "Genomsnittlig tid för analys"
 
 msgid "BNC"
 msgstr "BNC"
@@ -3189,7 +3189,7 @@ msgid "Closing date"
 msgstr "Stängnings datum"
 
 msgid "Closing of the ticket"
-msgstr "Ärendet (support) stängdes -"
+msgstr "Ärendet (support) stängs -"
 
 msgid "Closing time"
 msgstr "Tid för stängning"
@@ -3198,10 +3198,10 @@ msgid "Closure"
 msgstr "Stänger"
 
 msgid "Closure of a change"
-msgstr "Ärendet (förändring) stängdes -"
+msgstr "Ärendet (förändring) stängs -"
 
 msgid "Closure of a problem"
-msgstr "Ärendet (problem) stängdes -"
+msgstr "Ärendet (problem) stängs -"
 
 msgid "Cluster"
 msgid_plural "Clusters"
@@ -4271,22 +4271,22 @@ msgid "Deleting a problem"
 msgstr "Tog bort ett problemärende"
 
 msgid "Deletion of a followup"
-msgstr "Tof bort en uppföljning"
+msgstr "Kommentar tas bort"
 
 msgid "Deletion of a project"
-msgstr "Tog bort ett projekt"
+msgstr "Projekt tas bort"
 
 msgid "Deletion of a project task"
 msgstr "Tog bort en projektuppgift"
 
 msgid "Deletion of a reservation"
-msgstr "Tog bort en bokning"
+msgstr "Bokning tas bort"
 
 msgid "Deletion of a task"
-msgstr "Tog bort en uppgift"
+msgstr "Uppgift tas bort"
 
 msgid "Deletion of a ticket"
-msgstr "Tog bort ett ärende"
+msgstr "Ärende tas bort"
 
 msgid "Deletion of archived log file: %s"
 msgstr "Tog bort en arkiverad loggfil: %s"
@@ -9986,7 +9986,7 @@ msgid "SLA"
 msgstr "SLA"
 
 msgid "SLA level for Ticket"
-msgstr "SLA nivå för Ärende"
+msgstr "SLA-nivå för ärende"
 
 msgid "SMTP"
 msgstr "SMTP"
@@ -10949,7 +10949,7 @@ msgstr[0] "Ärendekostnad"
 msgstr[1] "Ärendekostnader"
 
 msgid "Ticket creation form on login"
-msgstr "Formulär för att skapa ärenden vid inloggning"
+msgstr "Vid inloggning - landa i formuläret \Skapa ärende\""
 
 msgid "Ticket on linked items"
 msgid_plural "Tickets on linked items"
@@ -13800,3 +13800,32 @@ msgstr "Värde som ärvts från överordnad entitet"
 msgctxt "button"
 msgid "Remove from a rack"
 msgstr "Ta bort från ett rack"
+
+#: src/NotificationTargetTicket.php:138
+msgid "Update of a ticket"
+msgstr "Ärende uppdateras"
+
+#: src/NotificationTargetCommonITILObject.php:136
+msgid "Update of a followup"
+msgstr "Kommentar uppdateras"
+
+#: src/NotificationTargetTicket.php:140
+msgid "Solution rejected"
+msgstr "Lösning avfärdas"
+
+#: src/Rule.php:3018
+msgid "Skip remaining rules"
+msgstr "Hoppa över återstående regler"
+
+#: src/RuleTicket.php:867
+msgid "Ticket category from code"
+msgstr "Ärendekategori från kod"
+
+#: src/RuleTicket.php:1022
+#: templates/components/itilobject/service_levels.html.twig
+msgid "Internal Time to own"
+msgstr "Intern tid till ägande"
+
+#: src/RuleTicket.php:1080
+msgid "Take into account delay"
+msgstr "Fördröjning pga. analys"

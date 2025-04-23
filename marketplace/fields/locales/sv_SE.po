@@ -205,7 +205,7 @@ msgstr "Åsidosätt via status"
 #: templates/forms/status_override.html.twig inc/field.class.php:625 
 #: inc/field.class.php:805
 msgid "Read only"
-msgstr "Läsa"
+msgstr "Endast läsrättighet"
 
 #: inc/container.class.php:52
 msgid "Regenerate container files"
