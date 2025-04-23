@@ -13837,3 +13837,7 @@ msgstr "Mall för en förändring"
 #: src/ITILCategory.php:142 src/ITILCategory.php:205
 msgid "Template for a problem"
 msgstr "Mall för ett problem"
+
+#: src/Knowbase.php:350
+msgid "Root category"
+msgstr "Hem"
