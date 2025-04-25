@@ -1,0 +1,27 @@
+<mjml>
+  <mj-head>
+    <mj-title>Hello world</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,500"></mj-font>
+    <mj-breakpoint width="320px" />
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, sans-serif"></mj-all>
+      <mj-text font-weight="300" font-size="16px" color="#616161" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-divider border-width="1px" border-color="#E0E0E0"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="75%">
+        <mj-text font-size="10px">Detta meddelande har skapats automatiskt av GLPI</mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-image href="https://glpi.simrishamn.int" src="https://glpi.simrishamn.int/pics/logos/logo-GLPI-250-black.png"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

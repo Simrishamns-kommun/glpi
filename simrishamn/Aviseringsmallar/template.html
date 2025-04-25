@@ -1,0 +1,87 @@
+<table width="100%">
+    <tbody>
+    <tr>
+    <td align="center"><br>
+    <table style="margin-left: auto; margin-right: auto; text-align: center; width: 600px;" width="600" cellpadding="15" align="center">
+    <tbody>
+    <tr>
+    <td align="center"><img src="https://www.simrishamn.se/images/18.17f76b1d185fe62c44b8e9db/1676445792061/simrishamn-logo-kvadratisk.svg" alt="GLPI: Logo" width="90" height="90"></td>
+    </tr>
+    <tr>
+    <td valign="top"><br>
+    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;">En biljett som involverar dig har blivit ##lang.ticket.isdeleted##. Biljettnumret är <strong>###ticket.id##</strong> med ämnet <strong>##ticket.title##</strong>##IFticket.category## under kategorin <strong>##ticket.category##</strong>##ENDIFticket.category##. En ny biljett med ämnet <strong>##ticket.title##</strong> (###ticket.id##)##IFticket.category## under kategorin <strong>##ticket.category##</strong>##ENDIFticket.category####IFticket.authors## har framgångsrikt begärts av <strong>##ticket.authors##</strong>##ENDIFticket.authors##. Din biljett har betraktats som löst av agenten ##ticket.assigntousers## eller av användaren. Biljettnumret är <strong>###ticket.id##</strong> med ämnet <strong>##ticket.title##</strong>##IFticket.category## under kategorin <strong>##ticket.category##</strong>##ENDIFticket.category##. En biljett som involverar dig har uppdaterats. Biljettnumret är <strong>###ticket.id##</strong> med ämnet <strong>##ticket.title##</strong>##IFticket.category## under kategorin <strong>##ticket.category##</strong>##ENDIFticket.category##.</div>
+    </td>
+    </tr>
+    <tr>
+    <td style="background: #9FD6ED;" valign="middle">
+    <blockquote style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;">
+    <div><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: left;"><strong>##lang.ticket.solvedate##</strong>: ##ticket.solvedate##.</span> <br>##ticket.solution.description##</div>
+    </blockquote>
+    </td>
+    </tr>
+    <tr>
+    <td align="center">
+    <table border="0" cellspacing="5" cellpadding="5">
+    <tbody>
+    <tr>
+    <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #cf142b; border: 1px solid #cf142b;" align="center" valign="middle" height="33"><a style="color: #cf142b; font-weight: bold; text-decoration: none;" href="##ticket.urlapprove##">Avvisa lösningen</a></td>
+    <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #2c729e; border: 1px solid #2C729E;" align="center" valign="middle" height="33"><a style="color: #2c729e; font-weight: bold; text-decoration: none;" href="##ticket.urlapprove##">Godkänn lösningen</a></td>
+    </tr>
+    </tbody>
+    </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="background: #E0E0E0;" valign="middle">
+    <blockquote style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;">
+    <div><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;"><strong>##lang.followup.author##</strong>: ##followup.author##. <br><strong>##lang.followup.date##</strong>: ##followup.date##.</span> <br>##IFfollowup.isprivate=No## ##followup.description## ##ENDIFfollowup.isprivate## ##ELSEfollowup.isprivate## <br><em>Detta meddelande är privat, konfidentiellt och riktat enbart till mottagaren.</em> ##ENDELSEfollowup.isprivate##</div>
+    </blockquote>
+    </td>
+    </tr>
+    <tr>
+    <td style="background: #E0E0E0;" valign="middle">
+    <blockquote style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;">
+    <div><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;"><strong>##lang.followup.author##</strong>: ##followup.author##. <br><strong>##lang.followup.date##</strong>: ##followup.date##.</span> <br>##IFfollowup.isprivate=no## ##followup.description## ##ENDIFfollowup.isprivate## ##ELSEfollowup.isprivate## <br><em>Detta meddelande är privat, konfidentiellt och riktat enbart till mottagaren.</em> ##ENDELSEfollowup.isprivate##</div>
+    </blockquote>
+    </td>
+    </tr>
+    <tr>
+    <td style="background: #FEDA90;" valign="middle">
+    <blockquote style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;">
+    <div><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: left;"><strong>##lang.task.author##</strong>: ##task.author##. <br><strong>##lang.task.date##</strong>: ##task.date##. <br><strong>##lang.task.status##</strong>: ##task.status##.</span> <br>##IFtask.isprivate=No## <img src="https://www.glpi.example.com/imgs/##IFtask.status=done##check-##ENDIFtask.status##square-o.png" alt="##task.status##" width="16" height="16"> ##task.description## ##ENDIFtask.isprivate## ##ELSEtask.isprivate## <br><em>Detta meddelande är privat, konfidentiellt och riktat enbart till mottagaren.</em> ##ENDELSEtask.isprivate##</div>
+    </blockquote>
+    </td>
+    </tr>
+    <tr>
+    <td style="background: #FEDA90;" valign="middle">
+    <blockquote style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;">
+    <div><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: left;"><strong>##lang.task.author##</strong>: ##task.author##. <br><strong>##lang.task.date##</strong>: ##task.date##. <br><strong>##lang.task.status##</strong>: ##task.status##.</span> <br>##IFtask.isprivate=No## <img src="https://www.glpi.example.com/imgs/##IFtask.status=done##check-##ENDIFtask.status##square-o.png" alt="##task.status##" width="16" height="16"> ##task.description## ##ENDIFtask.isprivate## ##ELSEtask.isprivate## <br><em>Detta meddelande är privat, konfidentiellt och riktat enbart till mottagaren.</em> ##ENDELSEtask.isprivate##</div>
+    </blockquote>
+    </td>
+    </tr>
+    <tr>
+    <td valign="bottom">
+    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;">Du bör få ett svar inom kort angående denna biljett. Håll utkik efter ditt e-postmeddelande och följ biljetten om vi behöver begära ytterligare information från dig. <strong>##lang.ticket.autoclosewarning##</strong>. Den aktuella statusen för denna biljett är <strong>##ticket.status##</strong>.</div>
+    </td>
+    </tr>
+    <tr>
+    <td valign="bottom">
+    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;">Om du vill öppna denna supportbiljett igen, vänligen kontakta supportagenten. Om du vill svara på detta meddelande, vänligen svara på detta e-postmeddelande eller svara genom att klicka på följande länk: <strong><a href="##ticket.url##">##ticket.url##</a></strong></div>
+    </td>
+    </tr>
+    <tr>
+    <td valign="bottom">
+    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; text-align: left;">Om du vill öppna denna supportbiljett igen, vänligen kontakta supportagenten.</div>
+    </td>
+    </tr>
+    <tr>
+    <td align="center" valign="bottom">
+    <div style="color: #494949; font-family: Arial, Helvetica, sans-serif; font-size: 11px;"><a style="border: 0;" href="https://www.glpi.example.com/" target="_blank" rel="noopener"><img src="https://www.simrishamn.se/images/18.17f76b1d185fe62c44b8e9db/1676445792061/simrishamn-logo-kvadratisk.svg" alt="Logotipo da empresa" width="90" height="90"></a></div>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    </td>
+    </tr>
+    </tbody>
+    </table>

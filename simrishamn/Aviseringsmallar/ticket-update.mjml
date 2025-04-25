@@ -1,0 +1,54 @@
+<mjml>
+  <mj-head>
+    <mj-title>Hello world</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, sans-serif"></mj-all>
+      <mj-text font-weight="300" font-size="16px" color="#616161" line-height="24px"></mj-text>
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column width="30%">
+        <mj-image src="https://www.simrishamn.se/images/18.17f76b1d185fe62c44b8e9db/1676445792061/simrishamn-logo-kvadratisk.svg"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px">
+      <mj-column width="100%">
+        <mj-text align="center" font-weight="500" padding="0px" font-size="18px">Ditt ärende har uppdaterats</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="70%">
+        <mj-divider border-width="2px" border-color="#616161"></mj-divider>
+        <mj-text align="center" font-weight="500" padding="0px" font-size="18px">Ärendenummer - ##ticket.id##</mj-text>
+        <mj-divider border-width="2px" border-color="#616161"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px">
+      <mj-column width="100%">
+        <mj-text >
+          <p>Meddelande</p>
+        </mj-text>
+        <mj-text>
+          <p style="font-style: italic">"##ticket.title##"</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px">
+      <mj-column width="100%">
+        <mj-text>
+          <p style="font-weight: 500">Vad gör jag nu?</p>
+          <p>Om du ombeds komplettera ditt ärende med ytterligare information kan du antingen besvara det här meddelandet, eller <a href="##ticket.url##" style="color: #3498db">klicka här för att se ditt ärende i helpdesken</a>.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="0 25px">
+          <p style="color: #bdbdbd; line-height: 9px">Vänligen - <a href="https://glpi.simrishamn.int" style="color: #3498db"> Helpdesken </a></p>
+          <p style="font-style: italic; color: #bdbdbd; line-height: 9px">Simrishamns kommun</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

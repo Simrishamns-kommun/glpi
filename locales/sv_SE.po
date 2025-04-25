@@ -7643,8 +7643,8 @@ msgstr "Hanteringstyp"
 #: src/NotificationTargetProject.php:657
 msgid "Manager"
 msgid_plural "Managers"
-msgstr[0] "Ansvarig"
-msgstr[1] "Ansvariga"
+msgstr[0] "Chef"
+msgstr[1] "Chefer"
 
 msgid "Manager group"
 msgstr "Chefsgrupp"
@@ -7662,7 +7662,7 @@ msgid "Manager of manager group"
 msgstr "Ansvarig för chefsgruppen"
 
 msgid "Manager of the group in charge of the ticket"
-msgstr "Ansvarig för gruppen som ansvarar för ärendet"
+msgstr "Chef för gruppen som ansvarar för ärendet"
 
 msgid "Mandatory field"
 msgid_plural "Mandatory fields"
@@ -13790,7 +13790,7 @@ msgstr "%1$s ändrade inställningar för e-postaviseringar"
 
 #: src/Marketplace/NotificationTargetController.php:99
 msgid "Some updates are available for your installed plugins!"
-msgstr "Det finns nya uppdateringar för några av tilläggen!"
+msgstr "Det finns nya uppdateringar för några av tilläggen"
 
 #: src/Entity.php:3952
 msgid "Value inherited from a parent entity"
@@ -13841,3 +13841,7 @@ msgstr "Mall för ett problem"
 #: src/Knowbase.php:350
 msgid "Root category"
 msgstr "Hem"
+
+#: src/Marketplace/NotificationTargetController.php:131
+msgid "URL of GLPI marketplace"
+msgstr "Länk till marknadsplatsen"
