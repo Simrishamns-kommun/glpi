@@ -5467,7 +5467,7 @@ msgstr "Exportera till CSV"
 #: src/Contract.php:1561 src/Contract.php:1587 src/Contract.php:1608 
 #: templates/pages/management/contract.html.twig
 msgid "Express"
-msgstr "Automatiskt"
+msgstr "Manuellt"
 
 msgid "Extension"
 msgstr "Filändelse"
@@ -10661,7 +10661,7 @@ msgid "TLS"
 msgstr "TLS"
 
 msgid "Tacit"
-msgstr "Automatiskt (om det inte sägs upp)"
+msgstr "Automatiskt (dock som längst enligt förlängningsvillkoren)"
 
 msgid "Tag"
 msgstr "Etikett"
