@@ -5148,7 +5148,7 @@ msgid "End"
 msgstr "Slutar"
 
 msgid "End + Notice"
-msgstr "Slut + meddelande"
+msgstr "Slutar + Uppsägningsperiod"
 
 msgid "End at %s"
 msgstr "Sluta vid %s"
@@ -8463,7 +8463,7 @@ msgid "Nothing to launch"
 msgstr "Inget att starta"
 
 msgid "Notice"
-msgstr "Påminnelse om att avtalet upphör"
+msgstr "Uppsägningsperiod"
 
 msgid "Notification"
 msgid_plural "Notifications"
@@ -9019,7 +9019,11 @@ msgid "Period"
 msgstr "Period"
 
 msgid "Period end"
-msgstr "Slut på period"
+msgstr "Avtalsperiod slut"
+
+#: src/Contract.php:1665
+msgid "Period end + Notice"
+msgstr "Avtalsperiod slut + Uppsägningsperiod"
 
 msgid "Periodicity"
 msgstr "Periodicitet"
