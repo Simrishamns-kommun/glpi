@@ -993,8 +993,8 @@ msgid ""
 "A personal dashboard is not visible by other administrators unless you "
 "explicitly share the dashboard"
 msgstr ""
-"En personlig dashboard är inte synlig av andra administratörer om du inte "
-"delad ut dashboarden"
+"En privat instrumentpanel är inte synlig för andra administratörer såvida du inte "
+"uttryckligen delar ut den"
 
 msgid "A position is required"
 msgstr "Plats krävs"
@@ -3146,7 +3146,7 @@ msgid "Clone"
 msgstr "Skapa kopia"
 
 msgid "Clone this dashboard"
-msgstr "Skapa kopia av instrumentpanelel"
+msgstr "Kopiera den här instrumentpanelen"
 
 msgid "Close"
 msgstr "Stäng"
@@ -8210,7 +8210,7 @@ msgid "No data available on the web site"
 msgstr "Ingen information tillgänglig på webb-platsen"
 
 msgid "No data found"
-msgstr "Ingen data funnen"
+msgstr "Inga data"
 
 msgid "No database"
 msgstr "Ingen databas"
@@ -9045,7 +9045,7 @@ msgstr[0] "Typ"
 msgstr[1] "Typer"
 
 msgid "Personal"
-msgstr "Personal"
+msgstr "Privat"
 
 msgid "Personal View"
 msgstr "Min vy"
@@ -13869,3 +13869,17 @@ msgstr "Är halv-rack"
 #: templates/dropdown_form.html.twig
 msgid "Rack pictures"
 msgstr "Rackbilder"
+
+#: js/dashboard.js:191 src/Dashboard/Grid.php:285
+msgid "Share or embed this dashboard"
+msgstr "Dela instrumentpanel"
+
+#: src/Dashboard/Grid.php:836
+msgid "Or share the dashboard to these target objects:"
+msgstr "Eller dela ut instrumentpanelen till dessa objekt:"
+
+#: src/Dashboard/Grid.php:1124 src/Dashboard/Grid.php:1153
+#: src/Dashboard/Grid.php:1222
+#, php-format
+msgid "Number of %s"
+msgstr "Antal %s"
