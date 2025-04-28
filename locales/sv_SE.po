@@ -6924,7 +6924,7 @@ msgid "Is dynamic"
 msgstr "Är dynamisk"
 
 msgid "Is on backup"
-msgstr "Finns på backup"
+msgstr "Säkerhetskopieras"
 
 msgid "Is private"
 msgstr "Är privat"
@@ -13845,3 +13845,23 @@ msgstr "Hem"
 #: src/Marketplace/NotificationTargetController.php:131
 msgid "URL of GLPI marketplace"
 msgstr "Länk till marknadsplatsen"
+
+#: src/CommonDropdown.php:159
+msgid "Product Number"
+msgstr "Produktnummer"
+
+#: src/CommonDCModelDropdown.php:77 src/CommonDCModelDropdown.php:151
+msgid "Required units"
+msgstr "Nödvändigt antal enheter"
+
+#: src/CommonDCModelDropdown.php:93 src/CommonDCModelDropdown.php:170
+msgid "Power connections"
+msgstr "Strömanslutningar"
+
+#: src/CommonDCModelDropdown.php:122 src/CommonDCModelDropdown.php:190
+msgid "Is half rack"
+msgstr "Är halv-rack"
+
+#: templates/dropdown_form.html.twig
+msgid "Rack pictures"
+msgstr "Rackbilder"
