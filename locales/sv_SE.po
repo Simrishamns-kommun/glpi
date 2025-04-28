@@ -10661,7 +10661,7 @@ msgid "TLS"
 msgstr "TLS"
 
 msgid "Tacit"
-msgstr "Automatiskt (dock som längst enligt förlängningsvillkoren)"
+msgstr "Automatiskt (dock ej mer än maximalt antal perioder)"
 
 msgid "Tag"
 msgstr "Etikett"
