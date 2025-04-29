@@ -2139,7 +2139,7 @@ msgid "Authentication on GLPI database"
 msgstr "GLPI"
 
 msgid "Authentication on a LDAP directory"
-msgstr "Autentisiering i en LDAP katalog "
+msgstr "LDAP-autentisering"
 
 msgid "Authentication on mail server"
 msgstr "Autentisering på mail server"
@@ -3566,7 +3566,7 @@ msgid "Copies"
 msgstr "Kopior"
 
 msgid "Copy"
-msgstr "Kopiera"
+msgstr "Kopia"
 
 msgid "Copy CalDAV URL to clipboard"
 msgstr "Kopiera CalDAV URL till urklipp"
@@ -4303,7 +4303,7 @@ msgid "Depends"
 msgstr "Beroroende av"
 
 msgid "Deployment plan"
-msgstr "Plan för utrullning"
+msgstr "Införandeplanering"
 
 msgid "Depth"
 msgstr "Djup"
@@ -4516,7 +4516,7 @@ msgstr ""
 "Inaktivera GLPI plugins (såvida inte kommandon tvingar plugins att ladda)"
 
 msgid "Disable filtering by date"
-msgstr "Av-aktivera filtrering på datum"
+msgstr "Inaktivera datumfilter"
 
 msgid "Disable maintenance mode"
 msgstr "Inaktivera underhållsläge"
@@ -4591,7 +4591,7 @@ msgid "DisplayPort"
 msgstr "Displayport"
 
 msgid "Dissociate"
-msgstr "Åtskilja"
+msgstr "Ta bort koppling"
 
 msgid "Dissociate a VLAN"
 msgstr "Dissociera ett VLAN"
@@ -5043,7 +5043,7 @@ msgid "Enable email sending using SSL/TLS."
 msgstr "Aktivera e-postsändning med SSL/TLS."
 
 msgid "Enable filtering by date"
-msgstr "Aktivera filtrering efter datum"
+msgstr "Aktivera datumfilter"
 
 msgid "Enable followup"
 msgstr "Använd aviseringar"
@@ -5219,7 +5219,7 @@ msgid "Entity based on user's profile"
 msgstr "Entitet baserad på användarens profil"
 
 msgid "Entity for software creation"
-msgstr "Entitet för att skapa programvara"
+msgstr "Entitet för att skapad programvara"
 
 msgid "Entity from TAG"
 msgstr "Entitet från TAG"
@@ -6520,7 +6520,7 @@ msgid "Immobilization number"
 msgstr "Immobiliseringsnummer"
 
 msgid "Impact"
-msgstr "Påverkar"
+msgstr "Påverkan"
 
 msgid "Impact analysis"
 msgstr "Påverkansanalys"
@@ -7116,7 +7116,7 @@ msgid "LDAP directory information attribute representing the entity"
 msgstr "LDAP-katalogens informationsattribut som representerar entiteten"
 
 msgid "LDAP directory link"
-msgstr "LDAP kataloglänk"
+msgstr "LDAP-katalog"
 
 msgid "LDAP directory of an entity"
 msgstr "LDAP-katalog för en entitet"
@@ -8169,9 +8169,6 @@ msgstr "Inget associerat objekt"
 
 msgid "No autofill"
 msgstr "Ingen automatisk ifyllnad"
-
-msgid "No automatic transfer"
-msgstr "Ingen automatisk överföring"
 
 msgid "No cartridge"
 msgstr "Ingen skrivarpatron"
@@ -13883,3 +13880,30 @@ msgstr "Eller dela ut instrumentpanelen till dessa objekt:"
 #, php-format
 msgid "Number of %s"
 msgstr "Antal %s"
+
+#: src/AuthLDAP.php:967 src/AuthLDAP.php:1158 src/AuthLDAP.php:4028
+msgctxt "ldap"
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/Entity.php:1940
+msgid "Model for automatic entity transfer on inventories"
+msgstr "Modell för automatisk flytt av inventarier till entitet"
+
+#: src/Entity.php:1949 src/Entity.php:3776 src/Entity.php:3781
+msgid "No automatic transfer"
+msgstr "Flytta ej automatiskt"
+
+#: src/RuleImportAsset.php:89
+msgid "Target entity for the asset"
+msgstr "Målentitet för tillgången"
+
+#: src/RuleImportAsset.php:177
+msgid "Linked asset"
+msgid_plural "Linked assets"
+msgstr[0] "Länkad tillgång"
+msgstr[1] "Länkade tillgångar"
+
+#: src/Inventory/Conf.php:553
+msgid "Do not change"
+msgstr "Ändra inte"
