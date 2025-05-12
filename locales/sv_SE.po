@@ -13273,7 +13273,7 @@ msgstr "⌥ (option) + ⌘ (command) + E"
 
 #: src/Session.php:482 src/Session.php:487
 msgid "full structure"
-msgstr "hela trädet"
+msgstr "alla enheter"
 
 #: src/Config.php:1408
 msgid "Action button layout"
@@ -13907,3 +13907,7 @@ msgstr[1] "Länkade tillgångar"
 #: src/Inventory/Conf.php:553
 msgid "Do not change"
 msgstr "Ändra inte"
+
+#: src/User.php:2977 src/User.php:3368
+msgid "Full structure"
+msgstr "Alla enheter"
