@@ -283,7 +283,7 @@ msgid "%1$s value"
 msgstr "%1$s värde"
 
 msgid "%1$s will be added in entity %2$s"
-msgstr "%1$s kommer att läggas till i entitet %2$s"
+msgstr "%1$s kommer att läggas till i enhet %2$s"
 
 msgid "%1$s%2$d days %3$d hours %4$d minutes"
 msgstr "%1$s%2$d dagar %3$d timmar %4$d minuter"
@@ -472,7 +472,7 @@ msgid "%s adds a user to a group"
 msgstr "%s lade till en användare till en grupp"
 
 msgid "%s adds a user to an entity"
-msgstr "%s lade till en användare till en entitet"
+msgstr "%s lade till en användare till en enhet"
 
 msgid "%s adds a virtual machine"
 msgstr "%s lade till en virtuell maskin"
@@ -2549,7 +2549,7 @@ msgid "Business rules for tickets"
 msgstr "Affärsregler för ärenden"
 
 msgid "Business rules for tickets (entity)"
-msgstr "Affärsregler för ärenden (entitet)"
+msgstr "Affärsregler för ärenden (enhet)"
 
 msgid "By"
 msgstr "Skapat av"
@@ -2570,7 +2570,7 @@ msgid "By default, a software may be linked to a ticket"
 msgstr "Som standard kan en programvara vara länkad till ett ärende"
 
 msgid "By entity"
-msgstr "Efter entitet"
+msgstr "Efter enhet"
 
 msgid "By hardware"
 msgstr "Efter hårdvara"
@@ -2851,7 +2851,7 @@ msgid "Certificate %1$s expired on %2$s"
 msgstr "Certifikatet %1$s gick ut den %2$s"
 
 msgid "Certificate alerts sending failed for entity %1$s"
-msgstr "Det gick inte att skicka certifikatvarningar för entitet %1$s"
+msgstr "Det gick inte att skicka certifikatvarningar för enhet %1$s"
 
 msgid "Certificate request (CSR)"
 msgstr "Certifikatbegäran (CSR)"
@@ -2921,7 +2921,7 @@ msgid "Change visibility"
 msgstr "Ändra synlighet"
 
 msgid "Change visibility in child entities."
-msgstr "Tillgänglig i underliggande entiteter"
+msgstr "Tillgänglig i underliggande enheter"
 
 msgid "Changelog"
 msgstr "Ändringslogg"
@@ -3042,7 +3042,7 @@ msgid "Checksum"
 msgstr "Kontrollsumma"
 
 msgid "Child entities"
-msgstr "Visa i underentiteter"
+msgstr "Visa i underenheter"
 
 msgid "Child groups"
 msgstr "Undergrupper"
@@ -3497,7 +3497,7 @@ msgid "Contract expired since the"
 msgstr "Avtalet upphörde"
 
 msgid "Contract in ticket entity"
-msgstr "Avtal i ärende-entitet"
+msgstr "Avtal i ärende-enhet"
 
 msgid "Contract period ended"
 msgstr "Slut på avtalsperiod"
@@ -4084,7 +4084,7 @@ msgid "Default email"
 msgstr "Standard e-post"
 
 msgid "Default entity"
-msgstr "Standardentitet"
+msgstr "Standardenhet"
 
 msgid "Default file size limit imported by the mails receiver"
 msgstr "Standardgräns för filstorlek importerad av e-postmottagaren"
@@ -4743,7 +4743,7 @@ msgstr[0] "Domäntyp"
 msgstr[1] "Domäntyper"
 
 msgid "Domains alerts sending failed for entity %1$s"
-msgstr "Det gick inte att skicka domänvarningar för entiteten %1$s"
+msgstr "Det gick inte att skicka domänvarningar för enheten %1$s"
 
 msgid "Domains closes expiries"
 msgstr "Antal dagar innan domän förfaller som larm ska skickas"
@@ -4814,7 +4814,7 @@ msgstr[0] "Menyalternativ"
 msgstr[1] "Menyalternativ"
 
 msgid "Dropdown with entity management"
-msgstr "Dropdown med entitetshantering"
+msgstr "Dropdown med enhetshantering"
 
 msgid "Dropdowns dictionary"
 msgstr "Menyalternativ"
@@ -5202,42 +5202,42 @@ msgstr ""
 "nummer)"
 
 msgid "Entities assignment"
-msgstr "Tilldelning av entiteter"
+msgstr "Enhetstilldelningar"
 
 msgid "Entity"
 msgid_plural "Entities"
-msgstr[0] "Entitet"
-msgstr[1] "Entiteter"
+msgstr[0] "Enhet"
+msgstr[1] "Enheter"
 
 msgid "Entity administrator"
-msgstr "Entitetsadministratör"
+msgstr "Enhetsadministratör"
 
 msgid "Entity based on LDAP information"
-msgstr "Entitet baserad på LDAP-information"
+msgstr "Enhet baserad på LDAP-information"
 
 msgid "Entity based on user's profile"
-msgstr "Entitet baserad på användarens profil"
+msgstr "Enhet baserad på användarens profil"
 
 msgid "Entity for software creation"
-msgstr "Entitet för att skapad programvara"
+msgstr "Enhet för att skapa programvara"
 
 msgid "Entity from TAG"
-msgstr "Entitet från TAG"
+msgstr "Enhet från TAG"
 
 msgid "Entity from complete name"
-msgstr "Entitet från fullständigt namn"
+msgstr "Enhet från fullständigt namn"
 
 msgid "Entity from domain"
-msgstr "Entitet från domän"
+msgstr "Enhet från domän"
 
 msgid "Entity from mail domain"
-msgstr "Entity från maildomän"
+msgstr "Enhet från E-postdomän"
 
 msgid "Entity not found"
-msgstr "Entiteten kunde inte hittas"
+msgstr "Enheten kunde inte hittas"
 
 msgid "Entity right"
-msgstr "Rättighet på entitetsnivå"
+msgstr "Rättighet på enhetsnivå"
 
 msgid "Entry translations list"
 msgstr "Lista över översättningar av poster"
@@ -6394,14 +6394,14 @@ msgstr "Om ej satt kommer administratörens e-post användas."
 
 msgid "If not set, main or entity administrator email address will be used."
 msgstr ""
-"Om ej angivet används huvud- eller entitets-administratörens e-Postadress."
+"Om ej angivet används huvud- eller enhets-administratörens e-Postadress."
 
 msgid "If not set, main or entity administrator email name will be used."
 msgstr ""
-"Om ej angivet används huvud- eller entitets-administratörens e-Postnamn."
+"Om ej angivet används huvud- eller enhets-administratörens e-postnamn."
 
 msgid "If not set, main or entity administrator name will be used."
-msgstr "Om ej angivet används huvud- eller entitets-administratörens namn."
+msgstr "Om ej angivet används huvud- eller enhets-administratörens namn."
 
 #: src/NotificationMailingSetting.php:167
 msgid "Name to use in from for sent emails."
@@ -6553,10 +6553,10 @@ msgid "Import category from inventory tool"
 msgstr "Importera kategori från inventeringsverktyg"
 
 msgid "Import denied (no log)"
-msgstr "Importering nekades (ingen logg)"
+msgstr "Import nekades (ingen logg)"
 
 msgid "Import entities from LDAP directory"
-msgstr "Importera entiteter från LDAP"
+msgstr "Importera enheter från LDAP"
 
 msgid "Import from directories"
 msgstr "Importera från register (directories)"
@@ -6712,10 +6712,10 @@ msgid "Infrastructure (with access point)"
 msgstr "Infrastruktur (med accesspunkt)"
 
 msgid "Inheritance of the parent entity"
-msgstr "Ärv från överordnad entitet"
+msgstr "Ärv från överordnad enhet"
 
 msgid "Inherits configuration from the parent entity"
-msgstr "Ärver konfiguration från den överordnade entiteten"
+msgstr "Ärver konfiguration från den överordnade enheten"
 
 msgid "Initial contract period"
 msgstr "Ursprunglig avtalsperiod"
@@ -7113,13 +7113,13 @@ msgid "LDAP directory for authentication"
 msgstr "LDAP-katalog för autentisering"
 
 msgid "LDAP directory information attribute representing the entity"
-msgstr "LDAP-katalogens informationsattribut som representerar entiteten"
+msgstr "LDAP-katalogens informationsattribut som representerar enheten"
 
 msgid "LDAP directory link"
 msgstr "LDAP-katalog"
 
 msgid "LDAP directory of an entity"
-msgstr "LDAP-katalog för en entitet"
+msgstr "LDAP-katalog för en enhet"
 
 msgid "LDAP directory time zone"
 msgstr "LDAP-katalogens tidszon"
@@ -7128,7 +7128,7 @@ msgid "LDAP filter"
 msgstr "LDAP-filter"
 
 msgid "LDAP filter associated to the entity (if necessary)"
-msgstr "LDAP-filter associerat med entiteten (om nödvändigt)"
+msgstr "LDAP-filter associerat med enheten (om nödvändigt)"
 
 msgid "LDAP server"
 msgstr "LDAP-server"
@@ -7917,7 +7917,7 @@ msgstr[0] "Nätverksalias"
 msgstr[1] "Nätverksalias"
 
 msgid "Network already defined in visible entities"
-msgstr "Nätverket redan definierat bland de synliga entiteterna"
+msgstr "Nätverket är redan definierat bland de synliga enheterna"
 
 msgid "Network card"
 msgid_plural "Network cards"
@@ -8183,7 +8183,7 @@ msgid "No change found."
 msgstr "Ingen förändring hittad"
 
 msgid "No change of entity"
-msgstr "Ingen ändring av entitet"
+msgstr "Ingen ändring av enhet"
 
 msgid "No child found for folder '%s'."
 msgstr "Ingen underkatalog hittad för '%s'."
@@ -8219,7 +8219,7 @@ msgid "No description"
 msgstr "Ingen beskrivning"
 
 msgid "No directory associated to entity: impossible search"
-msgstr "Ingen katalog associerad till entitet: sökning ej möjlig"
+msgstr "Ingen katalog associerad till enhet - sökning ej möjlig"
 
 msgid "No directory selected"
 msgstr "Ingen katalog vald"
@@ -8231,7 +8231,7 @@ msgid "No elements found."
 msgstr "Inga element funna."
 
 msgid "No entity found"
-msgstr "Hittade ingen entitet"
+msgstr "Hittade ingen enhet"
 
 msgid "No file available"
 msgstr "Ingen fil tillgänglig"
@@ -9852,7 +9852,7 @@ msgid "Restrict printer management"
 msgstr "Begränsa skrivarhantering"
 
 msgid "Restrict search in defined entity"
-msgstr "Begränsa sökning i angiven entitet"
+msgstr "Begränsa sökning i angiven enhet"
 
 msgid "Result details"
 msgstr "Detaljer"
@@ -9881,7 +9881,7 @@ msgid "Right"
 msgstr "Höger"
 
 msgid "Rights and entities assignment"
-msgstr "Tilldelning av entiteter och rättigheter"
+msgstr "Tilldelning av enheter och rättigheter"
 
 msgid "Rights assignment"
 msgstr "Rättighetstilldelning"
@@ -9893,7 +9893,7 @@ msgid "Root directory (optional)"
 msgstr "Rotkatalog (valfritt)"
 
 msgid "Root entity"
-msgstr "Rot-entitet"
+msgstr "Rot-enhet"
 
 msgid "RootDN (for non anonymous binds)"
 msgstr "RootDN (för icke anonyma bindningar)"
@@ -9934,10 +9934,10 @@ msgid "Rules for assigning a computer to a location"
 msgstr "Regler för tilldelning av dator till plats"
 
 msgid "Rules for assigning a computer to an entity"
-msgstr "Regler för tilldelning av dator till entitet"
+msgstr "Regler för tilldelning av dator till enhet"
 
 msgid "Rules for assigning an item to an entity"
-msgstr "Regler för tilldelning av objekt till entitet"
+msgstr "Regler för tilldelning av objekt till enhet"
 
 msgid "Rules for import and link computers"
 msgstr "Regler för import och länkning av datorer"
@@ -10091,7 +10091,7 @@ msgid "Search filter (if needed)"
 msgstr "Sök-filter (om nödvändigt)"
 
 msgid "Search filter for entities"
-msgstr "Sökfilter för entiteter"
+msgstr "Sökfilter för enheter"
 
 msgid "Search filter for users"
 msgstr "Sökfilter för användare"
@@ -10193,7 +10193,7 @@ msgid "Select statistics to be displayed"
 msgstr "Vilken statistik skall visas"
 
 msgid "Select the desired entity"
-msgstr "Välj önskad entitet"
+msgstr "Välj önskad enhet"
 
 msgid "Select the field that you want to update"
 msgstr "Välj det fält du vill uppdatera"
@@ -10903,7 +10903,7 @@ msgid ""
 "entities"
 msgstr ""
 "Dessa parametrar används som aktiviteter i generella regler för tilldelning "
-"till entiteter"
+"till enheter"
 
 msgid "Think of making a backup before transferring items."
 msgstr "Gör gärna en säkerhetskopiering innan du flyttar objekten"
@@ -11152,7 +11152,7 @@ msgid "Top ticket's categories"
 msgstr "Topplista kategorier"
 
 msgid "Top ticket's entities"
-msgstr "Topplista entiteter"
+msgstr "Topplista enheter"
 
 msgid "Top ticket's locations"
 msgstr "Topplista platser"
@@ -11287,7 +11287,7 @@ msgid "Unable to add. The user already exists."
 msgstr "Kunde inte skapa. Användaren finns redan."
 
 msgid "Unable to affect the email to an entity"
-msgstr "Kan inte skicka e-postmeddelandet till entitet"
+msgstr "Kan inte skicka e-postmeddelandet till enhet"
 
 msgid ""
 "Unable to archive log file: %1$s. %2$s already exists. Wait till next day."
@@ -11598,7 +11598,7 @@ msgid "User not authorized to connect in GLPI"
 msgstr "Användaren är ej auktoriserad att ansluta till GLPI"
 
 msgid "User not found or several users found"
-msgstr "Ingen, eller flera icke-unika identiteter hittades"
+msgstr "Ingen, eller flera användare hittades"
 
 msgid ""
 "User or group updated. The connected items have been moved in the same "
@@ -13511,11 +13511,11 @@ msgstr "Begärdes %s"
 
 #: src/Entity.php:884 src/Entity.php:1679
 msgid "Information in inventory tool (TAG) representing the entity"
-msgstr "Information i inventeringsverktyget (TAG) som representerar entiteten"
+msgstr "Information i inventeringsverktyget (TAG) som representerar enheten"
 
 #: src/Entity.php:1693
 msgid "Mail domain surrogates entity"
-msgstr "Ersättningsentitet för e-postdomäner"
+msgstr "Ersättningsenhet för e-postdomäner"
 
 #: src/CommonTreeDropdown.php:656
 msgctxt "button"
@@ -13795,7 +13795,7 @@ msgstr "Det finns nya uppdateringar för några av tilläggen"
 
 #: src/Entity.php:3952
 msgid "Value inherited from a parent entity"
-msgstr "Värde som ärvts från överordnad entitet"
+msgstr "Värde som ärvts från överordnad enhet"
 
 #: src/CommonDBTM.php:4141
 msgctxt "button"
@@ -13888,7 +13888,7 @@ msgstr "Telefon"
 
 #: src/Entity.php:1940
 msgid "Model for automatic entity transfer on inventories"
-msgstr "Modell för automatisk flytt av inventarier till entitet"
+msgstr "Modell för automatisk flytt av inventarier till enhet"
 
 #: src/Entity.php:1949 src/Entity.php:3776 src/Entity.php:3781
 msgid "No automatic transfer"
@@ -13896,7 +13896,7 @@ msgstr "Flytta ej automatiskt"
 
 #: src/RuleImportAsset.php:89
 msgid "Target entity for the asset"
-msgstr "Målentitet för tillgången"
+msgstr "Målenhet för tillgången"
 
 #: src/RuleImportAsset.php:177
 msgid "Linked asset"
