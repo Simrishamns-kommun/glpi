@@ -4,6 +4,8 @@
 !/marketplace/.gitkeep
 /plugins/*
 !/plugins/.gitkeep
+!/plugins/notificationhubs/
+!/plugins/notificationhubs/**
 /files/*/*
 !/files/*/.gitkeep
 /.buildpath
