@@ -1,27 +1,36 @@
 <?php
 // glpi/plugins/notificationhubs/setup.php
 
-define('PLUGIN_NOTIFICATIONHUBS_VERSION', '1.0.2');
+define('PLUGIN_NOTIFICATIONHUBS_VERSION', '1.0.4');
 
 require_once __DIR__ . '/inc/profile.class.php';
-require_once __DIR__ . '/inc/menu.class.php';
+// OBS: ingen menu.class.php behövs längre
 
 function plugin_init_notificationhubs() {
    global $PLUGIN_HOOKS;
 
    $PLUGIN_HOOKS['csrf_compliant']['notificationhubs'] = true;
+
+   // Config-sidan nås via kugghjulet i Plugins-listan
    $PLUGIN_HOOKS['config_page']['notificationhubs'] = 'front/config.form.php';
 
-   // Rätt sätt: ange en menyklass, inte filvägar
-   $PLUGIN_HOOKS['menu_entry']['notificationhubs'] = 'PluginNotificationhubsMenu';
+   // Visa "Push notifications" under Helpdesk
+   $PLUGIN_HOOKS['menu_toadd']['notificationhubs'] = [
+      'helpdesk' => '/plugins/notificationhubs/front/send.form.php'
+   ];
+   // Sätt explicit länktext
+   $PLUGIN_HOOKS['submenu_entry']['notificationhubs']['helpdesk'] = [
+      'title' => 'Push notifications',
+      'page'  => '/plugins/notificationhubs/front/send.form.php'
+   ];
 }
 
 function plugin_version_notificationhubs() {
    return [
       'name'           => 'NotificationHubs Sender',
       'version'        => PLUGIN_NOTIFICATIONHUBS_VERSION,
-      'author'         => 'YourTeam',
-      'homepage'       => 'https://intra.example',
+      'author'         => 'Simrishamns kommun',
+      'homepage'       => 'https://simrishamn.se',
       'license'        => 'AGPLv3+',
       'minGlpiVersion' => '10.0.0'
    ];

@@ -7,13 +7,13 @@ if (!function_exists('esc')) {
    function esc($s) { return htmlspecialchars((string)$s, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); }
 }
 
+// Rättighet för att skicka
 Session::checkRight(PluginNotificationhubsProfile::RIGHT_SEND, READ);
 
 $config = PluginNotificationhubsConfig::getConfig();
 $errors = [];
 
 if (isset($_POST['send'])) {
-   // Skicka in token-strängen istället för hela $_POST
    $token = $_POST['_glpi_csrf_token'] ?? '';
    Session::checkCSRF($token);
 
@@ -67,7 +67,7 @@ if (isset($_POST['send'])) {
          }
       }
 
-      // Logga alltid
+      // Logg
       PluginNotificationhubsLog::record([
          'title'         => $title,
          'message'       => $message,
@@ -95,13 +95,14 @@ if (isset($_POST['send'])) {
    }
 }
 
-Html::header('Skicka incidentnotis', $_SERVER['PHP_SELF'], 'tools', 'plugins');
+// Viktigt: sätt huvudmeny-spårning till "helpdesk" så sidan hamnar under Assistance
+Html::header('Push notifications', $_SERVER['PHP_SELF'], 'helpdesk', '');
 
 echo '<form method="post" action="'.esc($_SERVER['PHP_SELF']).'">';
 echo Html::hidden('_glpi_csrf_token', ['value' => Session::getNewCSRFToken()]);
 
 echo '<table class="tab_cadre_fixe">';
-echo '<tr><th colspan="2">Skicka meddelande via Notification Hubs</th></tr>';
+echo '<tr><th colspan="2">Push notifications</th></tr>';
 
 if ($errors) {
    echo '<tr class="tab_bg_1"><td colspan="2"><div class="b">'.implode('<br>', array_map(
