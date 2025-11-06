@@ -3,7 +3,6 @@
 
 include('../../../inc/includes.php');
 
-// Hjälpfunktion för HTML-escaping
 if (!function_exists('esc')) {
    function esc($s) { return htmlspecialchars((string)$s, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); }
 }
@@ -12,11 +11,11 @@ Session::checkRight(PluginNotificationhubsProfile::RIGHT_SEND, READ);
 
 $config = PluginNotificationhubsConfig::getConfig();
 $errors = [];
-$okmsg  = null;
 
 if (isset($_POST['send'])) {
-   // CSRF-validering kräver post-datan i denna GLPI-signatur
-   Session::checkCSRF($_POST);
+   // Skicka in token-strängen istället för hela $_POST
+   $token = $_POST['_glpi_csrf_token'] ?? '';
+   Session::checkCSRF($token);
 
    $title    = trim($_POST['title'] ?? '');
    $message  = trim($_POST['message'] ?? '');
@@ -56,22 +55,20 @@ if (isset($_POST['send'])) {
       $parsed = null;
       if ($http >= 200 && $http <= 299) {
          $parsed = json_decode($resp, true);
-         $okmsg  = 'Utskick skickat.';
       }
 
-      // Hämta aktuell användare
+      // Avsändare
       $sentById   = Session::getLoginUserID();
       $sentByName = '';
       if ($sentById) {
          $u = new User();
          if ($u->getFromDB($sentById)) {
-            // getFriendlyName ger "Efternamn Förnamn (inloggnamn)" beroende på inställning
             $sentByName = method_exists($u, 'getFriendlyName') ? $u->getFriendlyName() : $u->getName();
          }
       }
 
       // Logga alltid
-      PluginNotificationhubsLog::add([
+      PluginNotificationhubsLog::record([
          'title'         => $title,
          'message'       => $message,
          'severity'      => $severity,
@@ -89,6 +86,11 @@ if (isset($_POST['send'])) {
          $errors[] = 'cURL error: '.$err;
       } elseif ($http < 200 || $http > 299) {
          $errors[] = 'API svarade HTTP '.$http.'; kropp: '.esc($resp);
+      } else {
+         Session::addMessageAfterRedirect('Utskick skickat', false, INFO);
+         global $CFG_GLPI;
+         Html::redirect($CFG_GLPI['root_doc'].'/plugins/notificationhubs/front/send.form.php');
+         exit;
       }
    }
 }
@@ -96,7 +98,6 @@ if (isset($_POST['send'])) {
 Html::header('Skicka incidentnotis', $_SERVER['PHP_SELF'], 'tools', 'plugins');
 
 echo '<form method="post" action="'.esc($_SERVER['PHP_SELF']).'">';
-// CSRF-token
 echo Html::hidden('_glpi_csrf_token', ['value' => Session::getNewCSRFToken()]);
 
 echo '<table class="tab_cadre_fixe">';
@@ -107,9 +108,6 @@ if ($errors) {
       fn($e) => esc($e),
       $errors
    )).'</div></td></tr>';
-}
-if ($okmsg) {
-   echo '<tr class="tab_bg_1"><td colspan="2"><div class="b">'.esc($okmsg).'</div></td></tr>';
 }
 
 echo '<tr class="tab_bg_1"><td>Titel</td><td><input type="text" name="title" size="80" required></td></tr>';
