@@ -2,7 +2,10 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/php-mariadb
 {
     "name": "GLPI docker devcontainer",
-    "dockerComposeFile": "../docker-compose.yaml",
+    "dockerComposeFile": [
+        "../docker-compose.yaml",
+        "../docker-compose.override.yaml"
+    ],
     "service": "app",
     "workspaceFolder": "/var/www/glpi",
 

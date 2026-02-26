@@ -1,0 +1,4 @@
+services:
+  app:
+    volumes:
+      - ${GLPI_PLUGIN_PATH}:/var/www/glpi/plugins/${GLPI_PLUGIN_NAME}:rw

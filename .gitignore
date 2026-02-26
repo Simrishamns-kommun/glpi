@@ -41,13 +41,10 @@ phpunit.xml
 /inventory-vendors/*.json
 /locales/*.mo
 /inc/downstream.php
-/docker-compose.override.yaml
-/.devcontainer/docker-compose.override.yaml
 /.devcontainer/custom
 phpstan.neon
 /.phpunit.result.cache
 *.phar
-.env
 /resources/.illustrations_translations.php
 /.dump/
 /tests/js/coverage/
