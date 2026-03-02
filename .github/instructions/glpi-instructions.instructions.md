@@ -12,7 +12,8 @@ applyTo: '**/*.php'
 - Do not use GLPI code or APIs older than version 11.0. 
 - Never create .md or .txt files to explain changes. 
 - Never explain what you did.
-- Do not add unnecessary comments or TODO notes.-
+- Do not add unnecessary comments or TODO notes.
+- DO add comments only when the code is not self-explanatory or when it adds value to the understanding of the code. The comments should be concise and relevant and be targeted to developers who are unfamiliar with the codebase.
 - Follow the MVC pattern, routing, and controllers wherever possible.
 - Do not create /front/ files — always use controllers and routes if possible.
 - Never output raw HTML with echo; always use Twig templates.
