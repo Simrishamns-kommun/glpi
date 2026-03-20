@@ -1501,7 +1501,8 @@ class Ticket extends CommonITILObject implements DefaultSearchRequestInterface
 
             // Read again ticket to be sure that all data are up to date
             $this->getFromDB($this->fields['id']);
-            NotificationEvent::raiseEvent($mailtype, $this);
+            $trigger = $this->input['_trigger'] ?? null;
+            NotificationEvent::raiseEvent($mailtype, $this, [], $trigger);
         }
 
         $this->handleSatisfactionSurveyOnUpdate();
@@ -1571,9 +1572,6 @@ class Ticket extends CommonITILObject implements DefaultSearchRequestInterface
                                  'glpi_businesscriticities',
                                  $infocom->fields['businesscriticities_id']
                              );
-                        }
-                        if (isset($item->fields['groups_id'])) {
-                            $input['_groups_id_of_item'] = $item->fields['groups_id'];
                         }
                         break(2);
                     }
